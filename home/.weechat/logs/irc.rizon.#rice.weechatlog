@@ -9152,3 +9152,135 @@
 2015-11-11 13:53:16	◀▬▬	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has quit (Ping timeout: 240 seconds)
 2015-11-11 13:53:47	◀▬▬	Extra (~r0flx@B1BB3091.59B6D40A.EF995393.IP) has quit (Read error: Connection reset by peer)
 2015-11-11 13:55:25	▬▬▶	Extra (~r0flx@B1BB3091.59B6D40A.EF995393.IP) has joined #rice
+2015-11-11 13:57:57	▬▬▶	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has joined #rice
+2015-11-11 13:58:04	me0wmix	are there images of #rice through the years
+2015-11-11 13:58:20	me0wmix	like rices 4/5 years old
+2015-11-11 13:58:24	me0wmix	7/8
+2015-11-11 13:58:25	me0wmix	etc
+2015-11-11 13:58:36	&Leliana	#rice never changes
+2015-11-11 13:58:38	&Leliana	only the people
+2015-11-11 13:59:00	me0wmix	so, the style has been pretty static of FOTM dtops?
+2015-11-11 13:59:22	Dragoon	http://newhive.com/allmymovies does this work for you guys
+2015-11-11 13:59:22	Aigis	URL: #ALLMYMOVIES
+2015-11-11 13:59:24	Dragoon	?
+2015-11-11 14:00:20	&Leliana	#rice. #rice never changes.
+2015-11-11 14:00:51	+neeasade	Leliana: : -(
+2015-11-11 14:01:01	me0wmix	so bspwm has always been popular? gapped WM's have always been the style people went for?
+2015-11-11 14:01:24	+neeasade	me0wmix: if you look through the archives to ~2011 ish you will see very similar styles.
+2015-11-11 14:01:33	+neeasade	https://archive.rebeccablacktech.com/g/
+2015-11-11 14:01:39	Aigis	URL: /g/ - Technology (Full Images)
+2015-11-11 14:02:56	me0wmix	that seems so odd to me
+2015-11-11 14:02:58	+neeasade	second oldest thread with 'desktop thread' in op subject: 
+2015-11-11 14:03:01	+neeasade	https://archive.rebeccablacktech.com/g/thread/S21147995
+2015-11-11 14:03:03	Aigis	URL: /g/ - Technology (Full Images)
+2015-11-11 14:04:40	kyubiko	the image links don't work
+2015-11-11 14:04:41	kyubiko	rip
+2015-11-11 14:05:03	+neeasade	yeah I noticed that- guessing they didn't save full images then? but you can tell from the thumbnails
+2015-11-11 14:05:17	kyubiko	aneisf was still posting back then
+2015-11-11 14:05:18	kyubiko	wow
+2015-11-11 14:06:11	+neeasade	wow, so many early desktop ops started with this image
+2015-11-11 14:06:13	+neeasade	https://rbt.asia/boards/g/img/0376/50/1382943219834.jpg
+2015-11-11 14:07:08	Plez	rice has changed a bit
+2015-11-11 14:07:13	Plez	mostly itterative though
+2015-11-11 14:07:24	Plez	you can see sharp changes when new tools come out to make it easier
+2015-11-11 14:07:25	◀▬▬	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has quit (Read error: Connection reset by peer)
+2015-11-11 14:07:30	+neeasade	yepp. smoother, more consistency 
+2015-11-11 14:07:33	Plez	ie every cunt switching to i3 hardcore when i3 gaps
+2015-11-11 14:07:37	+neeasade	heh
+2015-11-11 14:07:46	▬▬▶	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has joined #rice
+2015-11-11 14:08:25	Plez	im fine w/ that tho ive been preaching i3 for ages
+2015-11-11 14:08:33	+neeasade	indeed you have
+2015-11-11 14:08:44	+neeasade	https://rbt.asia/boards/g/img/0264/77/1343508878776.png
+2015-11-11 14:09:13	Plez	dark n edgy as ever
+2015-11-11 14:09:21	Plez	I wonder if I could make pretty dark rice again
+2015-11-11 14:09:25	Plez	all my shit has been light for ages
+2015-11-11 14:09:34	+neeasade	your shit was like, dark comfy
+2015-11-11 14:09:37	+neeasade	coffee
+2015-11-11 14:09:43	Plez	Yeah that theme was nice
+2015-11-11 14:09:54	Plez	my first actual rice, even if it would be easy to imitate now
+2015-11-11 14:10:05	Plez	before that i was just doing xfce + w/e that panel is
+2015-11-11 14:10:07	Plez	w/ numix or moka
+2015-11-11 14:10:18	Plez	which hey looked nice, but i'd call myself a pleb for it now
+2015-11-11 14:10:25	me0wmix	I feel like gapped wm's by far are the most popular now
+2015-11-11 14:10:39	Plez	gapped as in tiles w/ gaps?
+2015-11-11 14:10:42	me0wmix	windows seems to have changed so much in comparison
+2015-11-11 14:10:47	me0wmix	Plez: yeah
+2015-11-11 14:11:13	Plez	Idk
+2015-11-11 14:11:21	Plez	whatever wm i use i miss the other one
+2015-11-11 14:11:32	Plez	so I guess thats why i like i3 even if it doesnt have as much ricing opportunities
+2015-11-11 14:11:33	@Lynn	Hi me0wmix, neeasade, Plez!
+2015-11-11 14:11:35	Plez	since you can just float
+2015-11-11 14:11:37	Plez	hello Lynn 
+2015-11-11 14:11:37	+neeasade	hi Lynn 
+2015-11-11 14:11:52	me0wmix	whadup home slice
+2015-11-11 14:12:21	◀▬▬	Matoro (~Thunderbi@57D9B066.D5163F0B.4E3EB565.IP) has quit (Ping timeout: 240 seconds)
+2015-11-11 14:12:24	@Lynn	nm mah nigg
+2015-11-11 14:12:32	+neeasade	:o
+2015-11-11 14:12:32	me0wmix	word
+2015-11-11 14:12:35	Plez	i wish i saved my first rice, that black n red XP theme
+2015-11-11 14:12:39	 *	me0wmix fist bumps Lynn
+2015-11-11 14:12:40	Plez	or the rainmeter windows 7 shit
+2015-11-11 14:12:47	Plez	if only i knew i'd find a place full of other ricers
+2015-11-11 14:12:51	Plez	to laugh at it w/ me
+2015-11-11 14:12:52	&lunarmage	my first rice was shit
+2015-11-11 14:12:58	&lunarmage	half-assed bbLean shit
+2015-11-11 14:12:59	Plez	everyones was
+2015-11-11 14:13:01	me0wmix	Plez: oh man the memories, 7 widgets and xp toolbars
+2015-11-11 14:13:05	Plez	if ur here with ur first rice ur rice is shit
+2015-11-11 14:13:13	Plez	i never into the win7 default widgets
+2015-11-11 14:13:18	Plez	but i was all about them rainmeter widgets
+2015-11-11 14:13:25	me0wmix	mine was a WoW startbar theme ;_;
+2015-11-11 14:13:30	Plez	with xp i just did dark and edgy themes that even at the time i didnt like
+2015-11-11 14:13:31	me0wmix	babby's first
+2015-11-11 14:13:34	Plez	but i just wanted it to be different
+2015-11-11 14:13:35	+neeasade	I discovered rainmeter at the same time I found out rss feeds
+2015-11-11 14:13:37	+neeasade	so many rss widgets
+2015-11-11 14:13:38	Plez	they were very gaudy
+2015-11-11 14:13:40	&lunarmage	I was here for my first leenucks rice
+2015-11-11 14:13:42	Plez	hahahah
+2015-11-11 14:13:44	Plez	neeasade me too
+2015-11-11 14:13:49	Plez	i didnt even read the websites i had ticking
+2015-11-11 14:13:51	Plez	but it was soo cool
+2015-11-11 14:13:54	+neeasade	Plez: I was so hyped too and yeah didn't read XD
+2015-11-11 14:13:55	&lunarmage	except it was an okay rice
+2015-11-11 14:14:12	+neeasade	first linux rice http://i.imgur.com/wHWSgKk.png
+2015-11-11 14:14:23	Plez	i dont ahve scrots of my first rice
+2015-11-11 14:14:25	Plez	but it was unity
+2015-11-11 14:14:33	Plez	except it didnt look ncie like oneesamas does
+2015-11-11 14:14:43	me0wmix	neeasade: awww snap #! was the shiznit
+2015-11-11 14:14:48	Plez	i cant really remember what i did, but i remember being finished and thinking 'it looked better stock'
+2015-11-11 14:14:58	Plez	I miss le distro hopping days
+2015-11-11 14:14:59	Plez	;-;
+2015-11-11 14:15:01	Plez	rip crunchbang
+2015-11-11 14:15:05	+neeasade	rip
+2015-11-11 14:15:14	Plez	i thought crunchbang was so cool
+2015-11-11 14:15:18	+neeasade	same
+2015-11-11 14:15:23	Plez	in hindsight it did nothing 5mins couldnt copy
+2015-11-11 14:15:32	Plez	idk i think they had different repos, but that probably just means older repos
+2015-11-11 14:15:35	+neeasade	I borked my windows install and lost files and told myself it was okay becuase #! was cool
+2015-11-11 14:15:43	+neeasade	I was naive.
+2015-11-11 14:15:47	Plez	hahaha
+2015-11-11 14:15:56	Plez	ive fucked so many windows installs trying to rice it
+2015-11-11 14:16:01	Plez	messing with the registry and removing services
+2015-11-11 14:16:04	Plez	only for it to never work again
+2015-11-11 14:16:24	Plez	then i started ricing/customizing phones when smart phones started to exist
+2015-11-11 14:16:32	Plez	i had something like an.. LG i think chocolate
+2015-11-11 14:16:41	Plez	that was my first foray into custom roms and alternate software
+2015-11-11 14:16:43	me0wmix	>lg chocolate
+2015-11-11 14:16:49	Plez	me0wmix was that the phone?
+2015-11-11 14:16:51	me0wmix	oh man memory lane
+2015-11-11 14:16:55	&lunarmage	chocolate?
+2015-11-11 14:17:00	&lunarmage	was that an Android version?
+2015-11-11 14:17:00	Plez	.g lg chocolate
+2015-11-11 14:17:01	deskbot	Title: LG Chocolate (VX8500) - Wikipedia, the free encyclopedia
+2015-11-11 14:17:01	deskbot	URL: https://en.wikipedia.org/wiki/LG_Chocolate_(VX8500)
+2015-11-11 14:17:01	me0wmix	that was the slide-up cellphone
+2015-11-11 14:17:03	&lunarmage	oh
+2015-11-11 14:17:04	Plez	it wasnt
+2015-11-11 14:17:14	Plez	hmm
+2015-11-11 14:17:16	◀▬▬	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has quit (Ping timeout: 240 seconds)
+2015-11-11 14:17:17	Plez	thats not the right one
+2015-11-11 14:17:41	me0wmix	wasnt the lg chocolate all the craze after the Razer came out
+2015-11-11 14:17:51	Plez	it was for me
+2015-11-11 14:17:54	Plez	but it didnt really catch on here
+2015-11-11 14:18:00	Plez	we went straight from razr to iphone
