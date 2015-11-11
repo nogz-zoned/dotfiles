@@ -9020,3 +9020,132 @@
 2015-11-11 12:57:07	+neeasade	LambdaComplex: https://bbs.archlinux.org/viewtopic.php?pid=1577897
 2015-11-11 12:57:08	Aigis	URL: [solved] error: GPGME error: Invalid crypto engine / Pacman & Package Upgrade Issues / Arch Linux Forums
 2015-11-11 12:58:06	LambdaComplex	oh okay
+2015-11-11 12:58:19	LambdaComplex	i still need to figure out how to mimic yaourt's package selection 
+2015-11-11 12:58:46	+neeasade	mimic it for what? o.o
+2015-11-11 12:59:02	LambdaComplex	neeasade: i'm writing a cower wrapper for fun
+2015-11-11 12:59:11	Plez	I wish I liked RTS games
+2015-11-11 12:59:18	Plez	they look so sweet, the idea is so great to me
+2015-11-11 12:59:24	Plez	then i go to play them and i find them tedious
+2015-11-11 12:59:25	Plez	;-;
+2015-11-11 12:59:28	+neeasade	I love rts games
+2015-11-11 12:59:33	LambdaComplex	neeasade: but i think doing it yaourt's way would be nicer than a y/n prompt for each package
+2015-11-11 12:59:33	▬▬▶	BeefEats (~BeefEats@Beef.Eating.Robot) has joined #rice
+2015-11-11 12:59:43	+neeasade	LambdaComplex: I see, have fun
+2015-11-11 13:00:07	Plez	neeasade i love the idea of rts games
+2015-11-11 13:00:08	LambdaComplex	neeasade: oh, i'm sure i will. it gives me an excuse to query Lynn ;)
+2015-11-11 13:00:16	Plez	i think its just cause i like a low barrier of entry
+2015-11-11 13:00:26	Plez	and i cant be arsed to learn all the different units and their counters
+2015-11-11 13:00:30	@Lynn	LambdaComplex: ._____.
+2015-11-11 13:00:31	Plez	and i fail at controlling the armies in fights
+2015-11-11 13:00:40	LambdaComplex	Lynn: y-you t-too
+2015-11-11 13:00:40	▬▬▶	apt-get_ (~apt-get@Rizon-634140D3.adsl196-12.iam.net.ma) has joined #rice
+2015-11-11 13:00:54	DANtheBEASTman	pacaur >>> yaourt
+2015-11-11 13:00:58	+neeasade	yeah I can't micro.
+2015-11-11 13:01:02	LambdaComplex	cower >>>>>>>>>>>>>>>>>>>>>>>>> everything else
+2015-11-11 13:01:09	+neeasade	but I'll macro the shit out of you, woo zerg.
+2015-11-11 13:01:10	Plez	i use yaourt instead of pacaur
+2015-11-11 13:01:12	 *	LambdaComplex is gonna go have lunch now 
+2015-11-11 13:01:12	Plez	but i cant remember why
+2015-11-11 13:01:24	Plez	neeasade i watch sc2 sometimes
+2015-11-11 13:01:32	Plez	sc2 is weird its the only esport people really watch w/out playing
+2015-11-11 13:01:52	DANtheBEASTman	fuck yaourt for pausing every step of the way to ask me questions. get that shit out of the way first
+2015-11-11 13:01:59	Plez	I saw some stat that seemed hard to verify that said the majority of viewers play less than 5 games  a month
+2015-11-11 13:02:11	Plez	DANtheBEASTman oh damn
+2015-11-11 13:02:16	Plez	thats a reason to use pacaur right there
+2015-11-11 13:02:24	Plez	does it stop to ask you whenthings need dependancies?
+2015-11-11 13:02:28	◀▬▬	FLHerne (~flh@st.ives.cambs) has quit (Quit: There's a real world out here!)
+2015-11-11 13:02:34	▬▬▶	FLHerne (~flh@st.ives.cambs) has joined #rice
+2015-11-11 13:02:35	Plez	like program X needs dependancy Y which needs Z
+2015-11-11 13:02:39	DANtheBEASTman	it gets that done first
+2015-11-11 13:02:42	Plez	wicked
+2015-11-11 13:02:50	Plez	I'll give it a go when i boot back into arch
+2015-11-11 13:03:07	+neeasade	yaourt can be configued to /not/ ask every step of the way, but yeah pacaur doesn't by default and to my understanding is a bit lighter.
+2015-11-11 13:03:07	Plez	though its kinda late now, you get to the point where you have just about every package you're going to install
+2015-11-11 13:03:54	◀▬▬	apt-get (~apt-get@ore.katana.bake.kizu.genji.monogatari) has quit (Ping timeout: 240 seconds)
+2015-11-11 13:04:11	◀▬▬	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has quit (Ping timeout: 240 seconds)
+2015-11-11 13:04:30	▬▬▶	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has joined #rice
+2015-11-11 13:04:41	DANtheBEASTman	i also like that pacaur -Syu will check for aur package updates
+2015-11-11 13:06:51	Plez	o neat
+2015-11-11 13:07:03	Plez	damn just got a low battery notification after 2 days moderate use
+2015-11-11 13:07:06	Plez	pretty ballin
+2015-11-11 13:07:13	Plez	ty based steve jobs ghost
+2015-11-11 13:07:45	Plez	do any of you subscribe to linus kek tips?
+2015-11-11 13:08:41	Plez	well anyway, i think this is a really nice idea for linux/windows implementation
+2015-11-11 13:08:41	Plez	https://www.youtube.com/watch?v=LuJYMCbIbPk
+2015-11-11 13:08:42	Aigis	YouTube: 2 Gaming Rigs, 1 Tower - Virtualized Gaming Build Log [19min 18sec]
+2015-11-11 13:08:58	Plez	Esepcially on newer cpus with shitloads of cores
+2015-11-11 13:09:11	Plez	you could have the system send say, windows over dvi, linux over hdmi
+2015-11-11 13:09:17	Plez	then you change input on your monitor to change os
+2015-11-11 13:09:19	Plez	instead of rebooting
+2015-11-11 13:10:40	◀▬▬	sdothum_ (~sdothum@E739DAD7.E501256C.AB3B670E.IP) has quit (Read error: Connection reset by peer)
+2015-11-11 13:13:55	▬▬▶	sdothum_ (~sdothum@E739DAD7.E501256C.AB3B670E.IP) has joined #rice
+2015-11-11 13:14:49	Hexarei	heh, linus kek tips. 
+2015-11-11 13:14:51	◀▬▬	Pr0Wolf29 (~Pr0Wolf29@mvp.irc.hero.pr0wolf29.meow) has quit (Ping timeout: 240 seconds)
+2015-11-11 13:15:00	@Lynn	hehe
+2015-11-11 13:15:08	Plez	the channel is growing on me
+2015-11-11 13:15:15	Plez	ironically since they started doing less reviews
+2015-11-11 13:15:27	Plez	the over the top builds and random tech shit is more interesting
+2015-11-11 13:15:46	Plez	like that 2 windows running on one pc thing
+2015-11-11 13:15:53	▬▬▶	Matoro (~Thunderbi@57D9B066.D5163F0B.4E3EB565.IP) has joined #rice
+2015-11-11 13:15:59	Plez	so you can play games w/ ur friends or only have one computer in a study or soemthing
+2015-11-11 13:16:07	Plez	just a neat idea
+2015-11-11 13:16:43	Plez	does anyone thats played fo3 and foNV remember if the feral ghouls used to sprint?
+2015-11-11 13:17:51	Hexarei	I did something similar, actually. I have a USB -> HDMI adapter that I passed through to a Windows 10 machine. I hooked a USB mouse/keyboard and my wife used that as her main computer for quite some time
+2015-11-11 13:17:54	◀▬▬	yungstorm (~storm@BAKA.MEMES.dog) has quit (Read error: Connection reset by peer)
+2015-11-11 13:17:59	smus	i remember them bein fast but i dont remember them sprinting
+2015-11-11 13:18:22	Plez	Hexarei its really neat, when i was younger i thought itd be cool to do, nice to see theres software to implement it well
+2015-11-11 13:18:37	smus	Now Playing: Acid King - Electric Machine
+2015-11-11 13:18:41	Plez	though i wonder if you need specific hardware like the kvm passthrough stuff, since its just virtual machines
+2015-11-11 13:18:50	Plez	smus well i really hate zombies, and theyre close enough to zombies
+2015-11-11 13:19:01	Plez	in fo4 they walk slowly at first, then they fucking sprint flat out
+2015-11-11 13:19:06	Plez	like so fast it may as well be a teleport
+2015-11-11 13:19:12	Plez	it scares the shit out of me every fucking time
+2015-11-11 13:19:13	smus	yeah its weird
+2015-11-11 13:19:17	smus	probs on purpose tho
+2015-11-11 13:19:26	Plez	i'd say it is
+2015-11-11 13:19:37	Plez	since melee enemies are basically free exp for the most part
+2015-11-11 13:19:46	Plez	but when they get up nice and close and start molesting you, less so
+2015-11-11 13:20:39	Plez	but lord do i hate zombie and zombie esque things, even though im loving this game, everytime i get to a ghoul section im half tempted to just abandon that quest
+2015-11-11 13:20:43	&Leliana	Plez: wait until they start playing dead
+2015-11-11 13:20:50	Plez	Leliana they have been ;-;
+2015-11-11 13:20:52	&Leliana	that shit is messed up
+2015-11-11 13:20:56	Plez	my heart cant take it
+2015-11-11 13:21:12	Plez	idk what it is man, idk why zombies terrify me so much
+2015-11-11 13:21:22	Plez	animalistic humans i guess
+2015-11-11 13:21:24	Plez	sp00ky
+2015-11-11 13:21:33	▬▬▶	XV9 (~XV8@for.the.greater.good) has joined #rice
+2015-11-11 13:21:43	Plez	cflag
+2015-11-11 13:21:47	Plez	sweet i got the right name
+2015-11-11 13:22:05	Plez	sorry i got distracted by another convo then forgot to check fps, im sitting at 55-60 fps atm, there might be vsync
+2015-11-11 13:22:17	Plez	but since its not pegged at 60 ill call it 55fps
+2015-11-11 13:22:24	▬▬▶	Pr0Wolf29 (~Pr0Wolf29@mvp.irc.hero.pr0wolf29.meow) has joined #rice
+2015-11-11 13:23:05	Plez	actually its pegged at 60 now, but ive felt it dip before, so i'd say i get from 40-60 possibly higher if i could be arsed to mess with the ini
+2015-11-11 13:23:17	Plez	so i'd say you could expect 30-50 if not pegged at 60 at times as well
+2015-11-11 13:23:23	Plez	maybe 35-50
+2015-11-11 13:27:37	◀▬▬	FLHerne (~flh@st.ives.cambs) has quit (Ping timeout: 240 seconds)
+2015-11-11 13:30:53	◀▬▬	GabbaGandalf (~GabbaGand@Rizon-EDF365B5.dynamic.mnet-online.de) has quit (Quit: WeeChat 1.3)
+2015-11-11 13:33:37	Plez	smus you got f04?
+2015-11-11 13:34:02	smus	stepbro does
+2015-11-11 13:34:08	Plez	ahh
+2015-11-11 13:34:11	@Lynn	Dinnertime.
+2015-11-11 13:34:24	smus	Now Playing: Capo - Chiraq
+2015-11-11 13:34:31	Plez	Lynn ill look after the place, gimme op real quick
+2015-11-11 13:39:22	Dragoon	.decide pepperoni, not pepperoni
+2015-11-11 13:39:22	deskbot	Dragoon: not pepperoni
+2015-11-11 13:39:27	Dragoon	.decide pepperoni, not pepperoni
+2015-11-11 13:39:27	deskbot	Dragoon: Neither.
+2015-11-11 13:39:34	Dragoon	wait wot
+2015-11-11 13:39:37	Dragoon	>neither
+2015-11-11 13:40:32	Dragoon	.decide pepperoni, not pepperoni
+2015-11-11 13:40:32	deskbot	Dragoon: not pepperoni
+2015-11-11 13:41:00	Plez	you're not getting pepperoni mate
+2015-11-11 13:41:10	Plez	.decide can i have pepperoni?
+2015-11-11 13:41:10	deskbot	Plez: No.
+2015-11-11 13:41:12	Plez	damn
+2015-11-11 13:41:17	Plez	tf wrong with this bot and pepperoni
+2015-11-11 13:41:28	Dragoon	lol
+2015-11-11 13:41:37	Plez	.decide did a pepperoni vendor touch you deskbot?
+2015-11-11 13:41:37	deskbot	Plez: No.
+2015-11-11 13:45:11	◀▬▬	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has quit (Ping timeout: 240 seconds)
+2015-11-11 13:45:20	▬▬▶	daft (~daft@2351F8B7.72F42C08.1C397F81.IP) has joined #rice
+2015-11-11 13:45:21	▬▬▶	pathOs (~david@503C4200.7C7D8BB8.CC065038.IP) has joined #rice
