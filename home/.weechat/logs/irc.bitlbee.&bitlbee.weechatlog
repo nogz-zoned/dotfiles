@@ -1,0 +1,829 @@
+2015-11-08 08:06:11	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 08:06:11	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 08:06:11	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 08:06:11
+2015-11-08 08:06:11	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 08:06:11	@root	Welcome to the BitlBee gateway!
+2015-11-08 08:06:11	@root	 
+2015-11-08 08:06:11	@root	Running BitlBee 3.4.1
+2015-11-08 08:06:11	@root	 
+2015-11-08 08:06:11	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 08:06:11	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 08:06:24	@nogz	identify hi90PO!@
+2015-11-08 08:06:24	@root	Error loading user config: Permission denied
+2015-11-08 08:06:24	@root	Unknown error while loading configuration
+2015-11-08 08:06:28	@nogz	help
+2015-11-08 08:06:28	@root	These are the available help subjects:
+2015-11-08 08:06:28	@root	 
+2015-11-08 08:06:28	@root	 quickstart - A short introduction into BitlBee
+2015-11-08 08:06:28	@root	 commands - All available commands and settings
+2015-11-08 08:06:28	@root	 channels - About creating and customizing channels
+2015-11-08 08:06:28	@root	 away - About setting away states
+2015-11-08 08:06:28	@root	 groupchats - How to work with groupchats on BitlBee
+2015-11-08 08:06:28	@root	 nick_changes - Changing your nickname without losing any settings
+2015-11-08 08:06:28	@root	 smileys - A summary of some non-standard smileys you might find and fail to understand
+2015-11-08 08:06:28	@root	 
+2015-11-08 08:06:28	@root	You can read more about them with help <subject>
+2015-11-08 08:06:28	@root	 
+2015-11-08 08:06:28	@root	Some more help can be found on http://wiki.bitlbee.org/. Bugs can be reported at http://bugs.bitlbee.org/.
+2015-11-08 08:06:28	@root	 
+2015-11-08 08:06:28	@root	For other things than bug reports, you can join #BitlBee on OFTC (irc.oftc.net) (OFTC, *not* FreeNode!) and flame us right in the face. :-)
+2015-11-08 08:06:45	@nogz	help quickstart
+2015-11-08 08:06:45	@root	Welcome to BitlBee, your IRC gateway to ICQ, MSN, AOL, Jabber, Yahoo! and Twitter.
+2015-11-08 08:06:45	@root	 
+2015-11-08 08:06:45	@root	The center of BitlBee is the control channel, &bitlbee. Two users will always be there, you (where "you" is the nickname you are using) and the system user, root.
+2015-11-08 08:06:45	@root	 
+2015-11-08 08:06:45	@root	You need register so that all your IM settings (passwords, contacts, etc) can be saved on the BitlBee server. It's important that you pick a good password so no one else can access your account. Register with this password using the register command: register <password> (without the brackets!).
+2015-11-08 08:06:45	@root	 
+2015-11-08 08:06:45	@root	Be sure to remember your password. The next time you connect to the BitlBee server you will need to identify <password> so that you will be recognised and logged in to all the IM services automatically.
+2015-11-08 08:06:45	@root	 
+2015-11-08 08:06:45	@root	When finished, type help quickstart2 to continue.
+2015-11-08 08:07:45	@nogz	register hi90PO!@
+2015-11-08 08:07:45	@root	Write error: Permission denied
+2015-11-08 08:07:45	@root	Error registering
+2015-11-08 08:08:31	@nogz	help quickstart2
+2015-11-08 08:08:31	@root	Step Two: Add and Connect To your IM Account(s).
+2015-11-08 08:08:31	@root	 
+2015-11-08 08:08:31	@root	To add an account to the account list you will need to use the account add command: account add <protocol> <username> <password> [<server>].
+2015-11-08 08:08:31	@root	 
+2015-11-08 08:08:31	@root	For instance, suppose you have a Jabber account at jabber.org with handle bitlbee@jabber.org with password QuickStart, you would:
+2015-11-08 08:08:31	@root	 
+2015-11-08 08:08:31	@root	<you> account add jabber bitlbee@jabber.org QuickStart
+2015-11-08 08:08:31	@root	<root> Account successfully added
+2015-11-08 08:08:31	@root	 
+2015-11-08 08:08:31	@root	Other available IM protocols are msn, oscar, yahoo and twitter. OSCAR is the protocol used by ICQ and AOL. For more information about the account add command, see help account add.
+2015-11-08 08:08:31	@root	 
+2015-11-08 08:08:31	@root	When you are finished adding your account(s) use the account on command to enable all your accounts, type help quickstart3 to continue.
+2015-11-08 08:08:47	@nogz	account add jabber lookinoji@gmail.com
+2015-11-08 08:08:47	@root	Account successfully added with tag gtalk
+2015-11-08 08:08:47	@root	You can now use the /OPER command to enter the password
+2015-11-08 08:08:47	@root	Alternatively, enable OAuth if the account supports it: account gtalk set oauth on
+2015-11-08 08:09:32	@root	Password added to IM account gtalk
+2015-11-08 08:09:43	@nogz	ac list
+2015-11-08 08:09:43	@root	 0 (gtalk): jabber, lookinoji@gmail.com
+2015-11-08 08:09:43	@root	End of account list
+2015-11-08 08:10:18	@nogz	help quickstart3
+2015-11-08 08:10:18	@root	Now you might want to add some contacts, to do this we will use the add command. It needs two arguments: a connection ID (which can be a number (try account list), protocol name or (part of) the screenname) and the user's handle. It is used in the following way: add <connection> <handle>
+2015-11-08 08:10:18	@root	 
+2015-11-08 08:10:18	@root	<you> add 0 r2d2@example.com
+2015-11-08 08:10:18	@root	* r2d2  has joined &bitlbee
+2015-11-08 08:10:18	@root	 
+2015-11-08 08:10:18	@root	In this case r2d2 is online, since he/she joins the channel immediately. If the user is not online you will not see them join until they log on.
+2015-11-08 08:10:18	@root	 
+2015-11-08 08:10:18	@root	Lets say you accidentally added r2d3@example.com rather than r2d2@example.com, or maybe you just want to remove a user from your list because you never talk to them. To remove a name you will want to use the remove command: remove r2d3
+2015-11-08 08:10:18	@root	 
+2015-11-08 08:10:18	@root	Finally, if you have multiple users with similar names you may use the rename command to make it easier to remember: rename r2d2_ r2d2_aim
+2015-11-08 08:10:18	@root	 
+2015-11-08 08:10:18	@root	When finished, type help quickstart4 to continue.
+2015-11-08 08:10:58	@nogz	add 0 matt.gaudin@gmail.com
+2015-11-08 08:10:58	@root	That account is not on-line
+2015-11-08 08:11:48	@nogz	add 0 kmgelfand88@gmail.com
+2015-11-08 08:11:48	@root	That account is not on-line
+2015-11-08 08:12:00	@nogz	help quickstart4
+2015-11-08 08:12:00	@root	Step Five: Chatting.
+2015-11-08 08:12:00	@root	 
+2015-11-08 08:12:00	@root	First of all, a person must be on your contact list for you to chat with them (unless it's a group chat, help groupchats for more). If someone not on your contact list sends you a message, simply add them to the proper account with the add command. Once they are on your list and online, you can chat with them in &bitlbee:
+2015-11-08 08:12:00	@root	 
+2015-11-08 08:12:00	@root	<you> tux: hey, how's the weather down there?
+2015-11-08 08:12:00	@root	<tux> you: a bit chilly!
+2015-11-08 08:12:00	@root	 
+2015-11-08 08:12:00	@root	Note that, although all contacts are in the &bitlbee channel, only tux will actually receive this message. The &bitlbee channel shouldn't be confused with a real IRC channel.
+2015-11-08 08:12:00	@root	 
+2015-11-08 08:12:00	@root	If you prefer chatting in a separate window, use the /msg or /query command, just like on real IRC. BitlBee will remember how you talk to someone and show his/her responses the same way. If you want to change the default behaviour (for people you haven't talked to yet), see help set private.
+2015-11-08 08:12:00	@root	 
+2015-11-08 08:12:00	@root	You know the basics. If you want to know about some of the neat features BitlBee offers, please type help quickstart5.
+2015-11-08 08:13:46	@nogz	account add steam lookinoji hi90po12
+2015-11-08 08:13:46	@root	Account successfully added with tag steam
+2015-11-08 08:14:03	@nogz	account steam on
+2015-11-08 08:14:03	@root	steam - Logging in: Connecting
+2015-11-08 08:14:03	@root	steam - Logging in: Requesting authentication key
+2015-11-08 08:14:04	@root	steam - Logging in: Requesting authentication token
+2015-11-08 08:14:04	@root	steam - Login error: 
+2015-11-08 08:14:04	@root	steam - Logging in: Run: account steam set authcode <code>
+2015-11-08 08:14:04	@root	steam - Logging in: Signing off..
+2015-11-08 08:14:48	@nogz	account steam set authcode JHKKY
+2015-11-08 08:14:48	@root	steam - Logging in: Connecting
+2015-11-08 08:14:48	@root	steam - Logging in: Requesting authentication key
+2015-11-08 08:14:48	@root	authcode = `JHKKY'
+2015-11-08 08:14:48	@root	steam - Logging in: Requesting authentication token
+2015-11-08 08:14:50	@root	steam - Logging in: Authentication finished
+2015-11-08 08:14:50	@root	steam - Logging in: Signing off..
+2015-11-08 08:14:50	@root	steam - Logging in: Connecting
+2015-11-08 08:14:50	@root	steam - Logging in: Sending logon request
+2015-11-08 08:14:51	@root	steam - Logging in: Requesting friends list
+2015-11-08 08:14:53	@root	steam - Logging in: Logged in
+2015-11-08 08:14:53	-->	NullMyndZ (76561197991980547@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-08 08:14:53	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 08:14:53	-->	pwrofveto (76561198024672396@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	paull2824 (76561198058486041@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	Oxll (76561198062564331@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	sincitysouljah (76561198075685265@steam) has joined &bitlbee
+2015-11-08 08:14:53	-->	BigOTheSlayer (76561198089189484@steam) has joined &bitlbee
+2015-11-08 08:14:59	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 08:16:47	@nogz	register hi90PO!@
+2015-11-08 08:16:47	@root	Write error: Permission denied
+2015-11-08 08:16:47	@root	Error registering
+2015-11-08 08:17:17	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 08:18:52	@nogz	register hi90PO!@
+2015-11-08 08:18:52	@root	Account successfully created
+2015-11-08 08:19:33	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 08:26:04	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 08:35:46	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 08:39:22	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-08 08:44:29	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 08:54:19	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 08:57:38	-->	Gaijin (76561198005505333@steam) has joined &bitlbee
+2015-11-08 08:57:38	--	Mode &bitlbee [+v Gaijin] by localhost.localdomain
+2015-11-08 08:59:23	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 09:00:38	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 09:04:13	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 09:05:20	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 09:05:40	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 09:08:41	--	Mode &bitlbee [+h-v Gaijin Gaijin] by localhost.localdomain
+2015-11-08 09:11:53	-->	[nWo]Mim (76561198066581121@steam) has joined &bitlbee
+2015-11-08 09:11:53	--	Mode &bitlbee [+v [nWo]Mim] by localhost.localdomain
+2015-11-08 09:12:49	--	Mode &bitlbee [+v paull2824] by localhost.localdomain
+2015-11-08 09:12:50	--	Mode &bitlbee [+h-v paull2824 paull2824] by localhost.localdomain
+2015-11-08 09:20:48	--	Mode &bitlbee [-h paull2824] by localhost.localdomain
+2015-11-08 09:23:07	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-08 09:29:57	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 09:37:29	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 09:40:56	<--	[nWo]Mim (76561198066581121@steam) has quit (Leaving...)
+2015-11-08 09:44:05	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 09:45:05	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-08 09:47:30	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 09:52:38	--	Mode &bitlbee [-v Gus] by localhost.localdomain
+2015-11-08 09:52:50	-->	[nWo]Mim (76561198066581121@steam) has joined &bitlbee
+2015-11-08 09:52:50	--	Mode &bitlbee [+v [nWo]Mim] by localhost.localdomain
+2015-11-08 09:53:11	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 09:54:40	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 09:56:55	<--	[nWo]Mim (76561198066581121@steam) has quit (Leaving...)
+2015-11-08 09:57:54	--	Mode &bitlbee [+h-v Gus Gus] by localhost.localdomain
+2015-11-08 09:58:21	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 10:01:05	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 10:09:06	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 10:12:45	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 10:20:17	--	Mode &bitlbee [+h-v Firestrike Firestrike] by localhost.localdomain
+2015-11-08 10:20:53	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-08 10:22:45	-->	[nWo]Mim (76561198066581121@steam) has joined &bitlbee
+2015-11-08 10:22:45	--	Mode &bitlbee [+v [nWo]Mim] by localhost.localdomain
+2015-11-08 10:28:18	--	Mode &bitlbee [+h paull2824] by localhost.localdomain
+2015-11-08 10:28:38	--	Mode &bitlbee [-h+v paull2824 paull2824] by localhost.localdomain
+2015-11-08 10:28:43	--	Mode &bitlbee [-h+v Firestrike Firestrike] by localhost.localdomain
+2015-11-08 10:28:47	<--	Firestrike (76561198039864555@steam) has quit (Leaving...)
+2015-11-08 10:29:02	-->	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-08 10:29:02	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 10:29:19	--	Mode &bitlbee [+h-v Firestrike Firestrike] by localhost.localdomain
+2015-11-08 10:34:38	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-08 10:38:16	-->	Byerlie (76561197972284485@steam) has joined &bitlbee
+2015-11-08 10:39:35	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-08 10:42:26	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-08 10:43:16	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-08 10:46:23	<--	Gus (76561198000946731@steam) has quit (Leaving...)
+2015-11-08 10:47:01	-->	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-08 10:47:01	--	Mode &bitlbee [+h Gus] by localhost.localdomain
+2015-11-08 10:53:14	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-08 10:55:50	--	Mode &bitlbee [-v pwrofveto] by localhost.localdomain
+2015-11-08 10:56:51	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-08 11:00:57	-->	Realizer (76561198042649053@steam) has joined &bitlbee
+2015-11-08 11:00:57	--	Mode &bitlbee [+v Realizer] by localhost.localdomain
+2015-11-08 11:01:54	--	Mode &bitlbee [-v pwrofveto] by localhost.localdomain
+2015-11-08 11:03:12	--	Mode &bitlbee [-v [nWo]Mim] by localhost.localdomain
+2015-11-08 11:06:54	--	Mode &bitlbee [+v [nWo]Mim] by localhost.localdomain
+2015-11-08 11:07:07	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-08 11:11:56	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-08 11:12:04	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-08 11:17:07	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-08 11:19:05	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-08 11:21:54	--	Mode &bitlbee [-v pwrofveto] by localhost.localdomain
+2015-11-08 11:22:19	<--	paull2824 (76561198058486041@steam) has quit (Leaving...)
+2015-11-08 11:25:31	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-08 11:35:50	--	Mode &bitlbee [-h+v Firestrike Firestrike] by localhost.localdomain
+2015-11-08 11:41:49	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-08 11:46:39	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-08 11:59:43	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 12:07:19	<--	Byerlie (76561197972284485@steam) has quit (Leaving...)
+2015-11-08 12:11:19	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 12:15:11	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-08 12:15:17	-->	NotStarofDavid (76561198020778791@steam) has joined &bitlbee
+2015-11-08 12:15:17	--	Mode &bitlbee [+v NotStarofDavid] by localhost.localdomain
+2015-11-08 12:17:17	--	Mode &bitlbee [-h Gaijin] by localhost.localdomain
+2015-11-08 12:17:19	--	Mode &bitlbee [+h Gaijin] by localhost.localdomain
+2015-11-08 12:21:25	<--	NotStarofDavid (76561198020778791@steam) has quit (Leaving...)
+2015-11-08 12:22:48	-->	NotStarofDavid (76561198020778791@steam) has joined &bitlbee
+2015-11-08 12:22:48	--	Mode &bitlbee [+v NotStarofDavid] by localhost.localdomain
+2015-11-08 12:27:59	--	Mode &bitlbee [-h+v Gaijin Gaijin] by localhost.localdomain
+2015-11-08 12:29:54	--	Mode &bitlbee [+h-v Gaijin Gaijin] by localhost.localdomain
+2015-11-08 12:35:09	--	Mode &bitlbee [-h+v Gus Gus] by localhost.localdomain
+2015-11-08 12:35:10	--	Mode &bitlbee [+h-v Gus Gus] by localhost.localdomain
+2015-11-08 12:39:04	--	Mode &bitlbee [+h-v Realizer Realizer] by localhost.localdomain
+2015-11-08 12:47:23	<--	Gus (76561198000946731@steam) has quit (Leaving...)
+2015-11-08 12:47:35	-->	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-08 12:47:35	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-08 12:47:55	--	Mode &bitlbee [+h-v Gus Gus] by localhost.localdomain
+2015-11-08 12:52:46	--	irc: disconnected from server
+2015-11-08 12:52:50	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 12:52:50	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 12:52:50	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 12:52:50
+2015-11-08 12:52:50	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 12:52:50	@root	Welcome to the BitlBee gateway!
+2015-11-08 12:52:50	@root	 
+2015-11-08 12:52:50	@root	Running BitlBee 3.4.1
+2015-11-08 12:52:50	@root	 
+2015-11-08 12:52:50	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 12:52:50	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 12:56:50	--	irc: disconnected from server
+2015-11-08 12:56:54	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 12:56:54	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 12:56:54	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 12:56:54
+2015-11-08 12:56:54	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 12:56:54	@root	Welcome to the BitlBee gateway!
+2015-11-08 12:56:54	@root	 
+2015-11-08 12:56:54	@root	Running BitlBee 3.4.1
+2015-11-08 12:56:54	@root	 
+2015-11-08 12:56:54	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 12:56:54	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 12:58:41	--	irc: disconnected from server
+2015-11-08 12:58:45	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 12:58:45	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 12:58:45	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 12:58:45
+2015-11-08 12:58:45	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 12:58:45	@root	Welcome to the BitlBee gateway!
+2015-11-08 12:58:45	@root	 
+2015-11-08 12:58:45	@root	Running BitlBee 3.4.1
+2015-11-08 12:58:45	@root	 
+2015-11-08 12:58:45	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 12:58:45	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:00:18	--	irc: disconnected from server
+2015-11-08 13:04:42	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:04:42	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:04:42	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:04:42
+2015-11-08 13:04:42	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:04:42	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:04:42	@root	 
+2015-11-08 13:04:42	@root	Running BitlBee 3.4.1
+2015-11-08 13:04:42	@root	 
+2015-11-08 13:04:42	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:04:42	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:04:45	--	irc: disconnected from server
+2015-11-08 13:08:39	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:08:39	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:08:39	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:08:39
+2015-11-08 13:08:39	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:08:39	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:08:39	@root	 
+2015-11-08 13:08:39	@root	Running BitlBee 3.4.1
+2015-11-08 13:08:39	@root	 
+2015-11-08 13:08:39	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:08:39	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:09:34	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:09:34	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:09:34	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:09:34
+2015-11-08 13:09:34	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:09:34	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:09:34	@root	 
+2015-11-08 13:09:34	@root	Running BitlBee 3.4.1
+2015-11-08 13:09:34	@root	 
+2015-11-08 13:09:34	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:09:34	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:11:18	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:11:18	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:11:18	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:11:18
+2015-11-08 13:11:18	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:11:18	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:11:18	@root	 
+2015-11-08 13:11:18	@root	Running BitlBee 3.4.1
+2015-11-08 13:11:18	@root	 
+2015-11-08 13:11:18	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:11:18	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:15:55	--	irc: disconnected from server
+2015-11-08 13:15:56	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:15:56	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:15:56	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:15:56
+2015-11-08 13:15:56	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:15:56	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:15:56	@root	 
+2015-11-08 13:15:56	@root	Running BitlBee 3.4.1
+2015-11-08 13:15:56	@root	 
+2015-11-08 13:15:56	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:15:56	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:16:53	--	irc: disconnected from server
+2015-11-08 13:17:06	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:17:06	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:17:06	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:17:06
+2015-11-08 13:17:06	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:17:06	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:17:06	@root	 
+2015-11-08 13:17:06	@root	Running BitlBee 3.4.1
+2015-11-08 13:17:06	@root	 
+2015-11-08 13:17:06	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:17:06	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:17:16	--	irc: disconnected from server
+2015-11-08 13:17:22	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:17:22	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:17:22	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:17:22
+2015-11-08 13:17:22	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:17:22	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:17:22	@root	 
+2015-11-08 13:17:22	@root	Running BitlBee 3.4.1
+2015-11-08 13:17:22	@root	 
+2015-11-08 13:17:22	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:17:22	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 13:21:54	--	irc: disconnected from server
+2015-11-08 13:22:18	-->	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-08 13:22:18	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-08 13:22:18	--	Topic set by root (root@localhost.localdomain) on Sun, 08 Nov 2015 13:22:18
+2015-11-08 13:22:18	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-08 13:22:18	@root	Welcome to the BitlBee gateway!
+2015-11-08 13:22:18	@root	 
+2015-11-08 13:22:18	@root	Running BitlBee 3.4.1
+2015-11-08 13:22:18	@root	 
+2015-11-08 13:22:18	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-08 13:22:18	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-08 18:27:28	@nogz	connect steam
+2015-11-08 18:27:28	@root	Unknown command: connect. Please use help commands to get a list of available commands.
+2015-11-08 18:27:31	@nogz	help commands
+2015-11-08 18:27:31	@root	These are all root commands. See help <command name> for more details on each command.
+2015-11-08 18:27:31	@root	 
+2015-11-08 18:27:31	@root	 * account - IM-account list maintenance
+2015-11-08 18:27:31	@root	 * channel - Channel list maintenance
+2015-11-08 18:27:31	@root	 * chat - Chatroom list maintenance
+2015-11-08 18:27:31	@root	 * add - Add a buddy to your contact list
+2015-11-08 18:27:31	@root	 * info - Request user information
+2015-11-08 18:27:31	@root	 * remove - Remove a buddy from your contact list
+2015-11-08 18:27:31	@root	 * block - Block someone
+2015-11-08 18:27:31	@root	 * allow - Unblock someone
+2015-11-08 18:27:31	@root	 * otr - Off-the-Record encryption control
+2015-11-08 18:27:31	@root	 * set - Miscellaneous settings
+2015-11-08 18:27:31	@root	 * help - BitlBee help system
+2015-11-08 18:27:31	@root	 * save - Save your account data
+2015-11-08 18:27:31	@root	 * rename - Rename (renick) a buddy
+2015-11-08 18:27:31	@root	 * yes - Accept a request
+2015-11-08 18:27:31	@root	 * no - Deny a request
+2015-11-08 18:27:31	@root	 * qlist - List all the unanswered questions root asked
+2015-11-08 18:27:31	@root	 * register - Register yourself
+2015-11-08 18:27:31	@root	 * identify - Identify yourself with your password
+2015-11-08 18:27:31	@root	 * drop - Drop your account
+2015-11-08 18:27:31	@root	 * blist - List all the buddies in the current channel
+2015-11-08 18:27:31	@root	 * group - Contact group management
+2015-11-08 18:27:31	@root	 * transfer - Monitor, cancel, or reject file transfers
+2015-11-08 18:27:31	@root	 
+2015-11-08 18:27:31	@root	Most commands can be shortened. For example instead of account list, try ac l.
+2015-11-08 18:27:47	@nogz	identify hi90po12
+2015-11-08 18:27:47	@root	Incorrect password
+2015-11-08 18:27:51	@nogz	identify hi90PO!@
+2015-11-08 18:27:51	--	Mode &bitlbee [-C] by root
+2015-11-08 18:27:51	--	Mode &bitlbee [+C] by root
+2015-11-08 18:27:51	@root	Password accepted, settings and accounts loaded
+2015-11-08 18:27:52	@root	Trying to get all accounts connected...
+2015-11-08 18:27:52	@root	jabber - Logging in: Connecting
+2015-11-08 18:27:52	@root	steam - Logging in: Connecting
+2015-11-08 18:27:52	@root	steam - Logging in: Sending logon request
+2015-11-08 18:27:52	@root	jabber - Logging in: Connected to server, logging in
+2015-11-08 18:27:52	@root	jabber - Logging in: Converting stream to TLS
+2015-11-08 18:27:52	@root	jabber - Logging in: Connected to server, logging in
+2015-11-08 18:27:52	@root	jabber - Logging in: Authentication finished
+2015-11-08 18:27:53	@root	jabber - Logging in: Server changed session resource string to `BitlBee9BD343E6'
+2015-11-08 18:27:53	@root	steam - Logging in: Requesting friends list
+2015-11-08 18:27:53	@root	jabber - Logging in: Authenticated, requesting buddy list
+2015-11-08 18:27:53	@root	jabber - Logging in: Logged in
+2015-11-08 18:27:53	▬▬▶	_2horgobl459al2qm5pw60b (2horgobl459al2qm5pw60b26z3@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:53	▬▬▶	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has joined &bitlbee
+2015-11-08 18:27:54	@root	steam - Logging in: Logged in
+2015-11-08 18:27:54	▬▬▶	Bladoww (76561197970509912@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+v Bladoww] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	NullMyndZ (76561197991980547@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-08 18:27:54	▬▬▶	Gaijin (76561198005505333@steam) has joined &bitlbee
+2015-11-08 18:27:54	▬▬▶	NotStarofDavid (76561198020778791@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+h NotStarofDavid] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	pwrofveto (76561198024672396@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	Realizer (76561198042649053@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	Oxll (76561198062564331@steam) has joined &bitlbee
+2015-11-08 18:27:54	▬▬▶	StagnantPoon (76561198066099997@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+h StagnantPoon] by localhost.localdomain
+2015-11-08 18:27:54	▬▬▶	[nWo]Mim (76561198066581121@steam) has joined &bitlbee
+2015-11-08 18:27:54	▬▬▶	sincitysouljah (76561198075685265@steam) has joined &bitlbee
+2015-11-08 18:27:54	▬▬▶	BigOTheSlayer (76561198089189484@steam) has joined &bitlbee
+2015-11-08 18:27:54	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-08 18:34:23	--	Mode &bitlbee [-v Bladoww] by localhost.localdomain
+2015-11-08 18:36:30	--	Mode &bitlbee [-v NullMyndZ] by localhost.localdomain
+2015-11-08 18:36:55	▬▬▶	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-08 18:36:55	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-08 18:38:28	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-08 18:41:16	--	Mode &bitlbee [-h+v NotStarofDavid NotStarofDavid] by localhost.localdomain
+2015-11-08 18:41:51	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-08 18:43:34	--	Mode &bitlbee [-v NullMyndZ] by localhost.localdomain
+2015-11-08 18:47:00	--	Mode &bitlbee [-v NotStarofDavid] by localhost.localdomain
+2015-11-08 18:49:03	--	Mode &bitlbee [+v NotStarofDavid] by localhost.localdomain
+2015-11-10 22:59:10	▬▬▶	nogz (nogz@localhost.localdomain) has joined &bitlbee
+2015-11-10 22:59:10	--	Topic for &bitlbee is "Welcome to the control channel. Type help for help information."
+2015-11-10 22:59:10	--	Topic set by root (root@localhost.localdomain) on Tue, 10 Nov 2015 22:59:10
+2015-11-10 22:59:10	--	Channel &bitlbee: 2 nicks (2 ops, 0 halfops, 0 voices, 0 normals)
+2015-11-10 22:59:10	@root	Welcome to the BitlBee gateway!
+2015-11-10 22:59:10	@root	 
+2015-11-10 22:59:10	@root	Running BitlBee 3.4.1
+2015-11-10 22:59:10	@root	 
+2015-11-10 22:59:10	@root	If you've never used BitlBee before, please do read the help information using the help command. Lots of FAQs are answered there.
+2015-11-10 22:59:10	@root	If you already have an account on this server, just use the identify command to identify yourself.
+2015-11-10 22:59:20	@nogz	identify hi90po12
+2015-11-10 22:59:20	@root	Incorrect password
+2015-11-10 22:59:25	@nogz	identify hi90PO!@
+2015-11-10 22:59:25	--	Mode &bitlbee [-C] by root
+2015-11-10 22:59:25	--	Mode &bitlbee [+C] by root
+2015-11-10 22:59:25	@root	Password accepted, settings and accounts loaded
+2015-11-10 22:59:25	@root	Trying to get all accounts connected...
+2015-11-10 22:59:25	@root	jabber - Logging in: Connecting
+2015-11-10 22:59:25	@root	steam - Logging in: Connecting
+2015-11-10 22:59:25	@root	steam - Logging in: Sending logon request
+2015-11-10 22:59:25	@root	jabber - Logging in: Connected to server, logging in
+2015-11-10 22:59:25	@root	jabber - Logging in: Converting stream to TLS
+2015-11-10 22:59:26	@root	jabber - Logging in: Connected to server, logging in
+2015-11-10 22:59:26	@root	jabber - Logging in: Authentication finished
+2015-11-10 22:59:26	@root	jabber - Logging in: Server changed session resource string to `BitlBeeCE84E138'
+2015-11-10 22:59:26	@root	steam - Logging in: Requesting friends list
+2015-11-10 22:59:26	@root	jabber - Logging in: Authenticated, requesting buddy list
+2015-11-10 22:59:26	@root	jabber - Logging in: Logged in
+2015-11-10 22:59:27	▬▬▶	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:27	▬▬▶	_2horgobl459al2qm5pw60b (2horgobl459al2qm5pw60b26z3@public.talk.google.com) has joined &bitlbee
+2015-11-10 22:59:28	@root	steam - Logging in: Logged in
+2015-11-10 22:59:28	▬▬▶	DaftSkunk (76561197962974598@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	Wut (76561197965442311@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+v Wut] by localhost.localdomain
+2015-11-10 22:59:28	▬▬▶	Byerlie (76561197972284485@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-10 22:59:28	▬▬▶	NullMyndZ (76561197991980547@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	Gaijin (76561198005505333@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	pwrofveto (76561198024672396@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-10 22:59:28	▬▬▶	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	Realizer (76561198042649053@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-10 22:59:28	▬▬▶	paull2824 (76561198058486041@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	Oxll (76561198062564331@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	StagnantPoon (76561198066099997@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+h StagnantPoon] by localhost.localdomain
+2015-11-10 22:59:28	▬▬▶	sincitysouljah (76561198075685265@steam) has joined &bitlbee
+2015-11-10 22:59:28	▬▬▶	BigOTheSlayer (76561198089189484@steam) has joined &bitlbee
+2015-11-10 22:59:28	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-10 22:59:40	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-10 23:00:17	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-10 23:03:15	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-10 23:07:39	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-10 23:10:47	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-10 23:14:52	--	Mode &bitlbee [+v Gaijin] by localhost.localdomain
+2015-11-10 23:22:54	--	Mode &bitlbee [-v Gaijin] by localhost.localdomain
+2015-11-10 23:24:24	--	Mode &bitlbee [+v DaftSkunk] by localhost.localdomain
+2015-11-10 23:24:29	◀▬▬	DaftSkunk (76561197962974598@steam) has quit (Leaving...)
+2015-11-10 23:24:34	◀▬▬	_2horgobl459al2qm5pw60b (2horgobl459al2qm5pw60b26z3@public.talk.google.com) has quit (Leaving...)
+2015-11-10 23:31:47	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-10 23:33:26	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-10 23:35:25	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-10 23:40:28	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-10 23:45:25	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-10 23:51:02	--	Mode &bitlbee [-v pwrofveto] by localhost.localdomain
+2015-11-10 23:51:09	--	Mode &bitlbee [+v pwrofveto] by localhost.localdomain
+2015-11-10 23:51:24	◀▬▬	sincitysouljah (76561198075685265@steam) has quit (Leaving...)
+2015-11-10 23:52:16	▬▬▶	sincitysouljah (76561198075685265@steam) has joined &bitlbee
+2015-11-10 23:52:17	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-10 23:52:19	--	Mode &bitlbee [-v sincitysouljah] by localhost.localdomain
+2015-11-10 23:56:11	--	Mode &bitlbee [-v pwrofveto] by localhost.localdomain
+2015-11-11 00:13:54	◀▬▬	Firestrike (76561198039864555@steam) has quit (Leaving...)
+2015-11-11 00:23:59	◀▬▬	sincitysouljah (76561198075685265@steam) has quit (Leaving...)
+2015-11-11 00:26:53	▬▬▶	sincitysouljah (76561198075685265@steam) has joined &bitlbee
+2015-11-11 00:27:05	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-11 00:31:16	▬▬▶	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-11 00:31:16	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 00:34:50	▬▬▶	Bladoww (76561197970509912@steam) has joined &bitlbee
+2015-11-11 00:34:50	--	Mode &bitlbee [+v Bladoww] by localhost.localdomain
+2015-11-11 00:36:11	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 00:43:07	--	Mode &bitlbee [-v sincitysouljah] by localhost.localdomain
+2015-11-11 00:51:17	@root	jabber - Error: Error while reading from server
+2015-11-11 00:51:17	@root	jabber - Signing off..
+2015-11-11 00:51:17	◀▬▬	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	◀▬▬	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 00:51:17	@root	jabber - Reconnecting in 5 seconds..
+2015-11-11 00:51:22	@root	jabber - Logging in: Connecting
+2015-11-11 00:51:23	@root	jabber - Logging in: Connected to server, logging in
+2015-11-11 00:51:23	@root	jabber - Logging in: Converting stream to TLS
+2015-11-11 00:51:23	@root	jabber - Logging in: Connected to server, logging in
+2015-11-11 00:51:23	@root	jabber - Logging in: Authentication finished
+2015-11-11 00:51:24	@root	jabber - Logging in: Server changed session resource string to `BitlBeeE62248F3'
+2015-11-11 00:51:24	@root	jabber - Logging in: Authenticated, requesting buddy list
+2015-11-11 00:51:24	@root	jabber - Logging in: Logged in
+2015-11-11 00:51:24	▬▬▶	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	--	Mode &bitlbee [+v _0o2pqoift6szr1q4sya02o] by localhost.localdomain
+2015-11-11 00:51:24	▬▬▶	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:51:24	▬▬▶	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has joined &bitlbee
+2015-11-11 00:53:42	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-11 00:56:18	--	Mode &bitlbee [-v _0o2pqoift6szr1q4sya02o] by localhost.localdomain
+2015-11-11 00:56:31	◀▬▬	Byerlie (76561197972284485@steam) has quit (Leaving...)
+2015-11-11 01:00:38	▬▬▶	Byerlie (76561197972284485@steam) has joined &bitlbee
+2015-11-11 01:00:38	--	Mode &bitlbee [+v Byerlie] by localhost.localdomain
+2015-11-11 01:04:11	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 01:05:15	--	Mode &bitlbee [-v Byerlie] by localhost.localdomain
+2015-11-11 01:05:45	◀▬▬	Byerlie (76561197972284485@steam) has quit (Leaving...)
+2015-11-11 01:06:22	▬▬▶	Pyramys (76561198019524370@steam) has joined &bitlbee
+2015-11-11 01:06:22	--	Mode &bitlbee [+v Pyramys] by localhost.localdomain
+2015-11-11 01:09:51	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-11 01:10:06	--	Mode &bitlbee [+h-v Pyramys Pyramys] by localhost.localdomain
+2015-11-11 01:20:06	◀▬▬	Firestrike (76561198039864555@steam) has quit (Leaving...)
+2015-11-11 01:23:31	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-11 01:27:44	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-11 01:29:12	--	Mode &bitlbee [-v sincitysouljah] by localhost.localdomain
+2015-11-11 01:29:39	▬▬▶	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-11 01:29:39	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 01:29:44	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-11 01:32:23	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-11 01:34:36	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 01:38:04	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 01:42:25	--	Mode &bitlbee [+h-v Oxll Oxll] by localhost.localdomain
+2015-11-11 01:45:55	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 01:48:57	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 01:53:53	◀▬▬	Gaijin (76561198005505333@steam) has quit (Leaving...)
+2015-11-11 01:53:59	▬▬▶	Gaijin (76561198005505333@steam) has joined &bitlbee
+2015-11-11 01:54:27	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 01:57:18	--	Mode &bitlbee [-v Wut] by localhost.localdomain
+2015-11-11 02:01:42	--	Mode &bitlbee [-v sincitysouljah] by localhost.localdomain
+2015-11-11 02:01:46	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-11 02:23:38	--	Mode &bitlbee [-h+v StagnantPoon StagnantPoon] by localhost.localdomain
+2015-11-11 02:25:22	◀▬▬	StagnantPoon (76561198066099997@steam) has quit (Leaving...)
+2015-11-11 02:36:36	--	Mode &bitlbee [-v sincitysouljah] by localhost.localdomain
+2015-11-11 02:38:36	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-11 02:43:38	--	Mode &bitlbee [-v NullMyndZ] by localhost.localdomain
+2015-11-11 02:43:42	--	Mode &bitlbee [+v Wut] by localhost.localdomain
+2015-11-11 02:44:41	◀▬▬	Wut (76561197965442311@steam) has quit (Leaving...)
+2015-11-11 03:13:20	--	Mode &bitlbee [-v Bladoww] by localhost.localdomain
+2015-11-11 03:15:49	--	Mode &bitlbee [-h Oxll] by localhost.localdomain
+2015-11-11 03:17:43	--	Mode &bitlbee [+h Oxll] by localhost.localdomain
+2015-11-11 03:23:19	--	Mode &bitlbee [+v Bladoww] by localhost.localdomain
+2015-11-11 03:26:50	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-11 03:41:46	--	Mode &bitlbee [-v NullMyndZ] by localhost.localdomain
+2015-11-11 03:48:42	--	Mode &bitlbee [-h+v Pyramys Pyramys] by localhost.localdomain
+2015-11-11 03:51:29	◀▬▬	Pyramys (76561198019524370@steam) has quit (Leaving...)
+2015-11-11 03:51:42	▬▬▶	Pyramys (76561198019524370@steam) has joined &bitlbee
+2015-11-11 03:51:42	--	Mode &bitlbee [+v Pyramys] by localhost.localdomain
+2015-11-11 03:52:06	◀▬▬	Pyramys (76561198019524370@steam) has quit (Leaving...)
+2015-11-11 03:55:08	◀▬▬	Bladoww (76561197970509912@steam) has quit (Leaving...)
+2015-11-11 04:02:09	--	Mode &bitlbee [-h+v Oxll Oxll] by localhost.localdomain
+2015-11-11 04:08:41	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-11 04:17:18	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-11 04:27:34	▬▬▶	porrelli94 (76561198005656286@steam) has joined &bitlbee
+2015-11-11 04:27:34	--	Mode &bitlbee [+v porrelli94] by localhost.localdomain
+2015-11-11 04:33:23	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 04:34:53	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 04:39:55	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 04:40:11	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 04:46:44	--	Mode &bitlbee [-v porrelli94] by localhost.localdomain
+2015-11-11 04:48:31	--	Mode &bitlbee [+v porrelli94] by localhost.localdomain
+2015-11-11 05:02:58	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 05:19:48	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-11 05:21:58	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-11 05:28:12	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-11 05:46:17	--	Mode &bitlbee [+v Oxll] by localhost.localdomain
+2015-11-11 05:46:32	--	Mode &bitlbee [+h-v Oxll Oxll] by localhost.localdomain
+2015-11-11 05:56:01	--	Mode &bitlbee [-h+v Realizer Realizer] by localhost.localdomain
+2015-11-11 06:02:00	--	Mode &bitlbee [-v Realizer] by localhost.localdomain
+2015-11-11 06:03:06	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 06:11:33	--	Mode &bitlbee [+v Realizer] by localhost.localdomain
+2015-11-11 06:13:07	--	Mode &bitlbee [+h-v Realizer Realizer] by localhost.localdomain
+2015-11-11 06:14:59	--	Mode &bitlbee [-h+v Realizer Realizer] by localhost.localdomain
+2015-11-11 06:15:20	--	Mode &bitlbee [+h-v Realizer Realizer] by localhost.localdomain
+2015-11-11 06:19:23	◀▬▬	pwrofveto (76561198024672396@steam) has quit (Leaving...)
+2015-11-11 06:20:01	◀▬▬	Firestrike (76561198039864555@steam) has quit (Leaving...)
+2015-11-11 06:20:27	▬▬▶	pwrofveto (76561198024672396@steam) has joined &bitlbee
+2015-11-11 06:22:44	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-11 06:25:16	◀▬▬	Gus (76561198000946731@steam) has quit (Leaving...)
+2015-11-11 06:25:33	▬▬▶	Gus (76561198000946731@steam) has joined &bitlbee
+2015-11-11 06:25:33	--	Mode &bitlbee [+v Gus] by localhost.localdomain
+2015-11-11 06:25:54	--	Mode &bitlbee [+h-v porrelli94 porrelli94] by localhost.localdomain
+2015-11-11 06:28:40	--	Mode &bitlbee [+h-v Gus Gus] by localhost.localdomain
+2015-11-11 06:32:53	▬▬▶	Firestrike (76561198039864555@steam) has joined &bitlbee
+2015-11-11 06:32:53	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 06:56:29	◀▬▬	NullMyndZ (76561197991980547@steam) has quit (Leaving...)
+2015-11-11 06:56:31	◀▬▬	BigOTheSlayer (76561198089189484@steam) has quit (Leaving...)
+2015-11-11 06:56:53	▬▬▶	BigOTheSlayer (76561198089189484@steam) has joined &bitlbee
+2015-11-11 06:56:56	▬▬▶	NullMyndZ (76561197991980547@steam) has joined &bitlbee
+2015-11-11 07:15:13	--	Mode &bitlbee [+v Gaijin] by localhost.localdomain
+2015-11-11 07:19:50	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 07:22:17	--	Mode &bitlbee [-h Oxll] by localhost.localdomain
+2015-11-11 07:24:11	--	Mode &bitlbee [+h Oxll] by localhost.localdomain
+2015-11-11 07:27:48	▬▬▶	sltmfn (76561198044557613@steam) has joined &bitlbee
+2015-11-11 07:27:48	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 07:30:07	--	Mode &bitlbee [+v sincitysouljah] by localhost.localdomain
+2015-11-11 07:30:14	◀▬▬	sincitysouljah (76561198075685265@steam) has quit (Leaving...)
+2015-11-11 07:31:00	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 07:37:49	◀▬▬	paull2824 (76561198058486041@steam) has quit (Leaving...)
+2015-11-11 07:37:54	◀▬▬	NullMyndZ (76561197991980547@steam) has quit (Leaving...)
+2015-11-11 07:37:55	◀▬▬	Oxll (76561198062564331@steam) has quit (Leaving...)
+2015-11-11 07:37:59	▬▬▶	paull2824 (76561198058486041@steam) has joined &bitlbee
+2015-11-11 07:38:02	▬▬▶	Oxll (76561198062564331@steam) has joined &bitlbee
+2015-11-11 07:38:02	--	Mode &bitlbee [+h Oxll] by localhost.localdomain
+2015-11-11 07:38:10	▬▬▶	NullMyndZ (76561197991980547@steam) has joined &bitlbee
+2015-11-11 07:38:47	--	Mode &bitlbee [+h-v Gaijin Gaijin] by localhost.localdomain
+2015-11-11 07:42:13	--	Mode &bitlbee [-h+v porrelli94 porrelli94] by localhost.localdomain
+2015-11-11 07:44:07	--	Mode &bitlbee [+h-v porrelli94 porrelli94] by localhost.localdomain
+2015-11-11 07:56:48	--	Mode &bitlbee [-h+v porrelli94 porrelli94] by localhost.localdomain
+2015-11-11 07:57:04	◀▬▬	sltmfn (76561198044557613@steam) has quit (Leaving...)
+2015-11-11 07:57:12	▬▬▶	sltmfn (76561198044557613@steam) has joined &bitlbee
+2015-11-11 07:57:12	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 08:01:13	--	Mode &bitlbee [-h Oxll] by localhost.localdomain
+2015-11-11 08:03:11	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 08:03:42	--	Mode &bitlbee [+h Oxll] by localhost.localdomain
+2015-11-11 08:08:09	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 08:08:34	--	Mode &bitlbee [-h+v Oxll Oxll] by localhost.localdomain
+2015-11-11 08:17:23	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 08:17:51	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 08:20:19	▬▬▶	Wut (76561197965442311@steam) has joined &bitlbee
+2015-11-11 08:20:19	--	Mode &bitlbee [+v Wut] by localhost.localdomain
+2015-11-11 08:25:33	◀▬▬	Wut (76561197965442311@steam) has quit (Leaving...)
+2015-11-11 08:27:01	▬▬▶	MAKA (76561198039096100@steam) has joined &bitlbee
+2015-11-11 08:27:01	--	Mode &bitlbee [+v MAKA] by localhost.localdomain
+2015-11-11 08:37:14	--	Mode &bitlbee [-v Oxll] by localhost.localdomain
+2015-11-11 08:42:48	@root	jabber - Error: Error while reading from server
+2015-11-11 08:42:48	@root	jabber - Signing off..
+2015-11-11 08:42:48	◀▬▬	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	◀▬▬	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has quit (localhost.localdomain gmail.com)
+2015-11-11 08:42:48	@root	jabber - Reconnecting in 5 seconds..
+2015-11-11 08:42:53	@root	jabber - Logging in: Connecting
+2015-11-11 08:42:53	@root	jabber - Logging in: Connected to server, logging in
+2015-11-11 08:42:54	@root	jabber - Logging in: Converting stream to TLS
+2015-11-11 08:42:54	@root	jabber - Logging in: Connected to server, logging in
+2015-11-11 08:42:54	@root	jabber - Logging in: Authentication finished
+2015-11-11 08:42:54	@root	jabber - Logging in: Server changed session resource string to `BitlBee663F2C91'
+2015-11-11 08:42:54	@root	jabber - Logging in: Authenticated, requesting buddy list
+2015-11-11 08:42:54	@root	jabber - Logging in: Logged in
+2015-11-11 08:42:55	▬▬▶	_0ga4izfdrdlqo22xgjt5db (0ga4izfdrdlqo22xgjt5dbosct@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_3cov7fh7hx7xd2magyzzer (3cov7fh7hx7xd2magyzzer8tdp@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_02j7pqxewraj92vghma4ew (02j7pqxewraj92vghma4ewt4y1@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_1tgmnpqe1u9n11r7xp3tch (1tgmnpqe1u9n11r7xp3tchh89z@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_2h8ej0hj9s8xc2ziqriip8 (2h8ej0hj9s8xc2ziqriip8asqh@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_0ek4t07w0t3sn1tzdip6rl (0ek4t07w0t3sn1tzdip6rlbna4@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_0o2pqoift6szr1q4sya02o (0o2pqoift6szr1q4sya02oxny6@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_1w1byiwcf792g37uclxph0 (1w1byiwcf792g37uclxph0yt12@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_09dpfp40y9avn0mjloadth (09dpfp40y9avn0mjloadthk0ak@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_22zwrydl5qr252rnwz16lz (22zwrydl5qr252rnwz16lztfqo@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_1uk6t6uyohkfo1cyhejnym (1uk6t6uyohkfo1cyhejnymuc8x@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_0tmi7nzo1fqh03dajb0lxp (0tmi7nzo1fqh03dajb0lxplwdj@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_36yobicvbk2lp0kvaq1cdj (36yobicvbk2lp0kvaq1cdjiz1c@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:42:55	▬▬▶	_2bkzdf1llykch1o4y86y63 (2bkzdf1llykch1o4y86y63rz2i@public.talk.google.com) has joined &bitlbee
+2015-11-11 08:43:04	--	Mode &bitlbee [+h-v MAKA MAKA] by localhost.localdomain
+2015-11-11 08:43:47	◀▬▬	pwrofveto (76561198024672396@steam) has quit (Leaving...)
+2015-11-11 08:43:55	▬▬▶	pwrofveto (76561198024672396@steam) has joined &bitlbee
+2015-11-11 08:46:23	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 08:48:24	◀▬▬	porrelli94 (76561198005656286@steam) has quit (Leaving...)
+2015-11-11 08:53:32	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 08:54:34	--	Mode &bitlbee [-h Gaijin] by localhost.localdomain
+2015-11-11 08:55:12	--	Mode &bitlbee [+h Gaijin] by localhost.localdomain
+2015-11-11 08:55:35	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 09:00:37	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 09:02:35	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 09:06:56	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 09:11:43	▬▬▶	[TAWP]Squeeps (76561198095813679@steam) has joined &bitlbee
+2015-11-11 09:11:43	--	Mode &bitlbee [+v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 09:13:48	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 09:15:04	--	Mode &bitlbee [-h+v MAKA MAKA] by localhost.localdomain
+2015-11-11 09:18:17	◀▬▬	[TAWP]Squeeps (76561198095813679@steam) has quit (Leaving...)
+2015-11-11 09:18:39	▬▬▶	[TAWP]Squeeps (76561198095813679@steam) has joined &bitlbee
+2015-11-11 09:18:39	--	Mode &bitlbee [+v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 09:25:01	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 09:28:02	▬▬▶	StagnantPoon (76561198066099997@steam) has joined &bitlbee
+2015-11-11 09:28:02	--	Mode &bitlbee [+v StagnantPoon] by localhost.localdomain
+2015-11-11 09:29:02	--	Mode &bitlbee [+h-v StagnantPoon StagnantPoon] by localhost.localdomain
+2015-11-11 09:29:24	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 09:31:20	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 09:33:57	--	Mode &bitlbee [-h+v Gaijin Gaijin] by localhost.localdomain
+2015-11-11 09:34:48	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 09:41:30	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 09:41:48	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 09:43:00	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 09:43:42	--	Mode &bitlbee [-v Gaijin] by localhost.localdomain
+2015-11-11 09:44:00	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 09:44:01	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 09:48:10	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 09:48:26	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 09:49:02	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 09:56:09	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 09:56:34	--	Mode &bitlbee [+v paull2824] by localhost.localdomain
+2015-11-11 10:01:10	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 10:07:09	--	Mode &bitlbee [+v Gaijin] by localhost.localdomain
+2015-11-11 10:07:28	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 10:10:25	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 10:10:56	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 10:12:14	--	Mode &bitlbee [-v paull2824] by localhost.localdomain
+2015-11-11 10:12:19	◀▬▬	MAKA (76561198039096100@steam) has quit (Leaving...)
+2015-11-11 10:14:53	--	Mode &bitlbee [-v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 10:22:41	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 10:24:06	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 10:27:13	--	Mode &bitlbee [+v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 10:36:44	--	Mode &bitlbee [-h+v StagnantPoon StagnantPoon] by localhost.localdomain
+2015-11-11 10:38:42	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 10:40:54	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-11 10:42:15	--	Mode &bitlbee [-v StagnantPoon] by localhost.localdomain
+2015-11-11 10:43:14	--	Mode &bitlbee [+v paull2824] by localhost.localdomain
+2015-11-11 10:43:39	◀▬▬	paull2824 (76561198058486041@steam) has quit (Leaving...)
+2015-11-11 10:44:08	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 10:44:42	▬▬▶	paull2824 (76561198058486041@steam) has joined &bitlbee
+2015-11-11 10:44:42	--	Mode &bitlbee [+v paull2824] by localhost.localdomain
+2015-11-11 10:44:53	--	Mode &bitlbee [+h-v paull2824 paull2824] by localhost.localdomain
+2015-11-11 10:45:50	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 10:59:30	--	Mode &bitlbee [-h+v paull2824 paull2824] by localhost.localdomain
+2015-11-11 11:01:16	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 11:04:17	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-11 11:04:34	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-11 11:08:04	--	Mode &bitlbee [-h Realizer] by localhost.localdomain
+2015-11-11 11:08:09	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 11:09:07	--	Mode &bitlbee [-v paull2824] by localhost.localdomain
+2015-11-11 11:10:15	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 11:13:24	--	Mode &bitlbee [+h Realizer] by localhost.localdomain
+2015-11-11 11:20:19	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 11:24:16	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-11 11:24:54	--	Mode &bitlbee [+v paull2824] by localhost.localdomain
+2015-11-11 11:25:02	◀▬▬	paull2824 (76561198058486041@steam) has quit (Leaving...)
+2015-11-11 11:25:11	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 11:36:40	--	Mode &bitlbee [-v Firestrike] by localhost.localdomain
+2015-11-11 11:43:07	--	Mode &bitlbee [+v NullMyndZ] by localhost.localdomain
+2015-11-11 11:48:11	--	Mode &bitlbee [-v NullMyndZ] by localhost.localdomain
+2015-11-11 11:49:31	--	Mode &bitlbee [+v Firestrike] by localhost.localdomain
+2015-11-11 12:06:24	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 12:24:28	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-11 12:29:21	--	Mode &bitlbee [+v sltmfn] by localhost.localdomain
+2015-11-11 12:40:10	--	Mode &bitlbee [-v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 12:40:40	--	Mode &bitlbee [-h+v Realizer Realizer] by localhost.localdomain
+2015-11-11 12:42:11	--	Mode &bitlbee [+v [TAWP]Squeeps] by localhost.localdomain
+2015-11-11 12:42:17	▬▬▶	NotStarofDavid (76561198020778791@steam) has joined &bitlbee
+2015-11-11 12:42:17	--	Mode &bitlbee [+v NotStarofDavid] by localhost.localdomain
+2015-11-11 12:42:28	▬▬▶	Daniel (76561198053130039@steam) has joined &bitlbee
+2015-11-11 12:42:28	--	Mode &bitlbee [+v Daniel] by localhost.localdomain
+2015-11-11 12:45:51	--	Mode &bitlbee [-v BigOTheSlayer] by localhost.localdomain
+2015-11-11 12:46:13	--	Mode &bitlbee [-v sltmfn] by localhost.localdomain
+2015-11-11 12:46:43	--	Mode &bitlbee [-v Realizer] by localhost.localdomain
+2015-11-11 12:47:09	--	Mode &bitlbee [+v BigOTheSlayer] by localhost.localdomain
+2015-11-11 12:47:48	--	Mode &bitlbee [+v Realizer] by localhost.localdomain
+2015-11-11 12:47:51	--	Mode &bitlbee [+h-v Realizer Realizer] by localhost.localdomain

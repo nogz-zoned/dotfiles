@@ -1,0 +1,382 @@
+2015-10-31 10:49:16	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 10:49:16	--	irc: connected to irc.twitch.tv/6667 (192.16.64.178)
+2015-10-31 10:49:16	--	Welcome, GLHF!
+2015-10-31 10:49:16	--	Your host is tmi.twitch.tv
+2015-10-31 10:49:16	--	This server is rather new
+2015-10-31 10:49:16	--	-
+2015-10-31 10:49:16	--	-
+2015-10-31 10:49:16	--	You are in a maze of twisty passages, all alike.
+2015-10-31 10:49:16	--	>
+2015-10-31 10:49:28	 *	LAUNCHING: livestreamer http://www.twitch.tv/twitch best
+2015-10-31 10:49:29		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/twitch
+2015-10-31 10:49:29		error: No streams found on this URL: http://www.twitch.tv/twitch
+2015-10-31 10:50:47	 *	LAUNCHING: livestreamer http://www.twitch.tv/twitch best
+2015-10-31 10:50:47		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/twitch
+2015-10-31 10:50:47		error: No streams found on this URL: http://www.twitch.tv/twitch
+2015-10-31 10:51:04	 *	LAUNCHING: livestreamer http://www.twitch.tv/dreamhacks best
+2015-10-31 10:51:05		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/dreamhacks
+2015-10-31 10:51:05		error: No streams found on this URL: http://www.twitch.tv/dreamhacks
+2015-10-31 10:51:10	 *	LAUNCHING: livestreamer http://www.twitch.tv/dreamhack best
+2015-10-31 10:51:11		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/dreamhack
+2015-10-31 10:51:11		error: No streams found on this URL: http://www.twitch.tv/dreamhack
+2015-10-31 10:51:27	 *	LAUNCHING: livestreamer http://www.twitch.tv/dreamhackcs best
+2015-10-31 11:16:41		[cli][info] Found matching plugin twitch for URL http://www.twitch.tv/dreamhackcs
+2015-10-31 11:16:41		[cli][info] Available streams: audio, high, low, medium, mobile (worst), source (best)
+2015-10-31 11:16:41		[cli][info] Opening stream: source (hls)
+2015-10-31 11:16:41		[cli][info] Starting player: /usr/bin/vlc
+2015-10-31 11:16:41		[cli][info] Player closed
+2015-10-31 11:16:41		[cli][info] Stream ended
+2015-10-31 11:26:34	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 11:26:35	--	irc: connected to irc.twitch.tv/6667 (192.16.64.176)
+2015-10-31 11:26:35	--	Welcome, GLHF!
+2015-10-31 11:26:35	--	Your host is tmi.twitch.tv
+2015-10-31 11:26:35	--	This server is rather new
+2015-10-31 11:26:35	--	-
+2015-10-31 11:26:35	--	-
+2015-10-31 11:26:35	--	You are in a maze of twisty passages, all alike.
+2015-10-31 11:26:35	--	>
+2015-10-31 11:29:43	--	MSG(dansgaming): i love your dickhead
+2015-10-31 11:32:23	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 11:32:23	--	irc: connected to irc.twitch.tv/6667 (192.16.64.175)
+2015-10-31 11:32:23	--	Welcome, GLHF!
+2015-10-31 11:32:23	--	Your host is tmi.twitch.tv
+2015-10-31 11:32:23	--	This server is rather new
+2015-10-31 11:32:23	--	-
+2015-10-31 11:32:23	--	-
+2015-10-31 11:32:23	--	You are in a maze of twisty passages, all alike.
+2015-10-31 11:32:23	--	>
+2015-10-31 11:38:32	--	irc: disconnected from server
+2015-10-31 11:38:43	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 11:38:43	--	irc: connected to irc.twitch.tv/6667 (192.16.64.175)
+2015-10-31 11:38:43	--	Welcome, GLHF!
+2015-10-31 11:38:43	--	Your host is tmi.twitch.tv
+2015-10-31 11:38:43	--	This server is rather new
+2015-10-31 11:38:43	--	-
+2015-10-31 11:38:43	--	-
+2015-10-31 11:38:43	--	You are in a maze of twisty passages, all alike.
+2015-10-31 11:38:43	--	>
+2015-10-31 12:39:33	--	irc: disconnected from server
+2015-10-31 12:39:36	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 12:39:36	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-10-31 12:39:36	--	Welcome, GLHF!
+2015-10-31 12:39:36	--	Your host is tmi.twitch.tv
+2015-10-31 12:39:36	--	This server is rather new
+2015-10-31 12:39:36	--	-
+2015-10-31 12:39:36	--	-
+2015-10-31 12:39:36	--	You are in a maze of twisty passages, all alike.
+2015-10-31 12:39:36	--	>
+2015-10-31 13:22:16	--	irc: disconnected from server
+2015-10-31 13:22:18	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 13:22:18	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-10-31 13:22:18	--	Welcome, GLHF!
+2015-10-31 13:22:18	--	Your host is tmi.twitch.tv
+2015-10-31 13:22:18	--	This server is rather new
+2015-10-31 13:22:18	--	-
+2015-10-31 13:22:18	--	-
+2015-10-31 13:22:18	--	You are in a maze of twisty passages, all alike.
+2015-10-31 13:22:18	--	>
+2015-10-31 13:32:01	--	irc: disconnected from server
+2015-10-31 13:32:07	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 13:32:08	--	irc: connected to irc.twitch.tv/6667 (192.16.64.206)
+2015-10-31 13:32:08	--	Welcome, GLHF!
+2015-10-31 13:32:08	--	Your host is tmi.twitch.tv
+2015-10-31 13:32:08	--	This server is rather new
+2015-10-31 13:32:08	--	-
+2015-10-31 13:32:08	--	-
+2015-10-31 13:32:08	--	You are in a maze of twisty passages, all alike.
+2015-10-31 13:32:08	--	>
+2015-10-31 13:38:59	--	irc: disconnected from server
+2015-10-31 13:39:17	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 13:39:17	--	irc: connected to irc.twitch.tv/6667 (192.16.64.178)
+2015-10-31 13:39:17	--	Welcome, GLHF!
+2015-10-31 13:39:17	--	Your host is tmi.twitch.tv
+2015-10-31 13:39:17	--	This server is rather new
+2015-10-31 13:39:17	--	-
+2015-10-31 13:39:17	--	-
+2015-10-31 13:39:17	--	You are in a maze of twisty passages, all alike.
+2015-10-31 13:39:17	--	>
+2015-10-31 13:47:10	--	irc: disconnected from server
+2015-10-31 13:47:35	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 13:47:35	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-10-31 13:47:35	--	Welcome, GLHF!
+2015-10-31 13:47:35	--	Your host is tmi.twitch.tv
+2015-10-31 13:47:35	--	This server is rather new
+2015-10-31 13:47:35	--	-
+2015-10-31 13:47:35	--	-
+2015-10-31 13:47:35	--	You are in a maze of twisty passages, all alike.
+2015-10-31 13:47:35	--	>
+2015-10-31 13:48:04	--	irc: disconnected from server
+2015-10-31 13:48:08	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 13:48:08	--	irc: connected to irc.twitch.tv/6667 (192.16.64.207)
+2015-10-31 13:48:08	--	Welcome, GLHF!
+2015-10-31 13:48:08	--	Your host is tmi.twitch.tv
+2015-10-31 13:48:08	--	This server is rather new
+2015-10-31 13:48:08	--	-
+2015-10-31 13:48:08	--	-
+2015-10-31 13:48:08	--	You are in a maze of twisty passages, all alike.
+2015-10-31 13:48:08	--	>
+2015-10-31 14:24:51	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 14:24:51	--	irc: connected to irc.twitch.tv/6667 (192.16.64.210)
+2015-10-31 14:24:52	--	Welcome, GLHF!
+2015-10-31 14:24:52	--	Your host is tmi.twitch.tv
+2015-10-31 14:24:52	--	This server is rather new
+2015-10-31 14:24:52	--	-
+2015-10-31 14:24:52	--	-
+2015-10-31 14:24:52	--	You are in a maze of twisty passages, all alike.
+2015-10-31 14:24:52	--	>
+2015-10-31 14:28:43	--	irc: disconnected from server
+2015-10-31 14:29:18	--	irc: connecting to server irc.twitch.tv/6667...
+2015-10-31 14:29:18	--	irc: connected to irc.twitch.tv/6667 (192.16.64.207)
+2015-10-31 14:29:18	--	Welcome, GLHF!
+2015-10-31 14:29:18	--	Your host is tmi.twitch.tv
+2015-10-31 14:29:18	--	This server is rather new
+2015-10-31 14:29:18	--	-
+2015-10-31 14:29:18	--	-
+2015-10-31 14:29:18	--	You are in a maze of twisty passages, all alike.
+2015-10-31 14:29:18	--	>
+2015-11-01 10:00:34	--	irc: disconnected from server
+2015-11-01 10:03:21	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-01 10:03:21	--	irc: connected to irc.twitch.tv/6667 (192.16.64.174)
+2015-11-01 10:03:21	--	Welcome, GLHF!
+2015-11-01 10:03:21	--	Your host is tmi.twitch.tv
+2015-11-01 10:03:21	--	This server is rather new
+2015-11-01 10:03:21	--	-
+2015-11-01 10:03:21	--	-
+2015-11-01 10:03:21	--	You are in a maze of twisty passages, all alike.
+2015-11-01 10:03:21	--	>
+2015-11-01 10:03:29	--	irc: disconnected from server
+2015-11-01 10:03:32	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-01 10:03:32	--	irc: connected to irc.twitch.tv/6667 (192.16.64.205)
+2015-11-01 10:03:32	--	Welcome, GLHF!
+2015-11-01 10:03:32	--	Your host is tmi.twitch.tv
+2015-11-01 10:03:32	--	This server is rather new
+2015-11-01 10:03:32	--	-
+2015-11-01 10:03:32	--	-
+2015-11-01 10:03:32	--	You are in a maze of twisty passages, all alike.
+2015-11-01 10:03:32	--	>
+2015-11-01 10:22:53	--	irc: disconnected from server
+2015-11-01 10:33:04	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-01 10:33:05	--	irc: connected to irc.twitch.tv/6667 (192.16.64.210)
+2015-11-01 10:33:05	--	Welcome, GLHF!
+2015-11-01 10:33:05	--	Your host is tmi.twitch.tv
+2015-11-01 10:33:05	--	This server is rather new
+2015-11-01 10:33:05	--	-
+2015-11-01 10:33:05	--	-
+2015-11-01 10:33:05	--	You are in a maze of twisty passages, all alike.
+2015-11-01 10:33:05	--	>
+2015-11-01 12:01:59	--	irc: disconnected from server
+2015-11-01 12:02:10	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-01 12:02:11	--	irc: connected to irc.twitch.tv/6667 (192.16.64.179)
+2015-11-01 12:02:11	--	Welcome, GLHF!
+2015-11-01 12:02:11	--	Your host is tmi.twitch.tv
+2015-11-01 12:02:11	--	This server is rather new
+2015-11-01 12:02:11	--	-
+2015-11-01 12:02:11	--	-
+2015-11-01 12:02:11	--	You are in a maze of twisty passages, all alike.
+2015-11-01 12:02:11	--	>
+2015-11-01 17:41:25	--	irc: disconnected from server
+2015-11-01 19:05:52	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-01 19:05:52	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-11-01 19:05:52	--	Welcome, GLHF!
+2015-11-01 19:05:52	--	Your host is tmi.twitch.tv
+2015-11-01 19:05:52	--	This server is rather new
+2015-11-01 19:05:52	--	-
+2015-11-01 19:05:52	--	-
+2015-11-01 19:05:52	--	You are in a maze of twisty passages, all alike.
+2015-11-01 19:05:52	--	>
+2015-11-02 00:00:11	--	irc: disconnected from server
+2015-11-02 23:08:32	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-02 23:08:32	--	irc: connected to irc.twitch.tv/6667 (192.16.64.174)
+2015-11-02 23:08:32	--	Welcome, GLHF!
+2015-11-02 23:08:32	--	Your host is tmi.twitch.tv
+2015-11-02 23:08:32	--	This server is rather new
+2015-11-02 23:08:32	--	-
+2015-11-02 23:08:32	--	-
+2015-11-02 23:08:32	--	You are in a maze of twisty passages, all alike.
+2015-11-02 23:08:32	--	>
+2015-11-04 06:19:25	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-04 06:19:25	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-11-04 06:19:25	--	Welcome, GLHF!
+2015-11-04 06:19:25	--	Your host is tmi.twitch.tv
+2015-11-04 06:19:25	--	This server is rather new
+2015-11-04 06:19:25	--	-
+2015-11-04 06:19:25	--	-
+2015-11-04 06:19:25	--	You are in a maze of twisty passages, all alike.
+2015-11-04 06:19:25	--	>
+2015-11-04 20:17:53	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-04 20:17:53	--	irc: connected to irc.twitch.tv/6667 (192.16.64.207)
+2015-11-04 20:17:53	--	Welcome, GLHF!
+2015-11-04 20:17:53	--	Your host is tmi.twitch.tv
+2015-11-04 20:17:53	--	This server is rather new
+2015-11-04 20:17:53	--	-
+2015-11-04 20:17:53	--	-
+2015-11-04 20:17:53	--	You are in a maze of twisty passages, all alike.
+2015-11-04 20:17:53	--	>
+2015-11-04 21:17:59	--	irc: disconnected from server
+2015-11-05 18:34:34	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-05 18:34:34	--	irc: connected to irc.twitch.tv/6667 (192.16.64.206)
+2015-11-05 18:34:35	--	Welcome, GLHF!
+2015-11-05 18:34:35	--	Your host is tmi.twitch.tv
+2015-11-05 18:34:35	--	This server is rather new
+2015-11-05 18:34:35	--	-
+2015-11-05 18:34:35	--	-
+2015-11-05 18:34:35	--	You are in a maze of twisty passages, all alike.
+2015-11-05 18:34:35	--	>
+2015-11-05 18:34:46	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-05 18:34:46	--	irc: connected to irc.twitch.tv/6667 (192.16.64.206)
+2015-11-05 18:34:47	--	Welcome, GLHF!
+2015-11-05 18:34:47	--	Your host is tmi.twitch.tv
+2015-11-05 18:34:47	--	This server is rather new
+2015-11-05 18:34:47	--	-
+2015-11-05 18:34:47	--	-
+2015-11-05 18:34:47	--	You are in a maze of twisty passages, all alike.
+2015-11-05 18:34:47	--	>
+2015-11-05 21:51:41	--	irc: disconnected from server
+2015-11-05 22:09:39	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-05 22:09:39	--	irc: connected to irc.twitch.tv/6667 (192.16.64.211)
+2015-11-05 22:09:39	--	Welcome, GLHF!
+2015-11-05 22:09:39	--	Your host is tmi.twitch.tv
+2015-11-05 22:09:39	--	This server is rather new
+2015-11-05 22:09:39	--	-
+2015-11-05 22:09:39	--	-
+2015-11-05 22:09:39	--	You are in a maze of twisty passages, all alike.
+2015-11-05 22:09:39	--	>
+2015-11-06 17:43:52	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2015-11-06 17:43:52	--	irc: disconnecting from server...
+2015-11-06 17:43:52	--	irc: disconnected from server
+2015-11-06 17:43:52	--	irc: reconnecting to server in 10 seconds
+2015-11-06 17:44:02	--	irc: reconnecting to server...
+2015-11-06 17:44:02	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-06 17:44:02	--	irc: connected to irc.twitch.tv/6667 (192.16.64.178)
+2015-11-06 17:44:02	--	Welcome, GLHF!
+2015-11-06 17:44:02	--	Your host is tmi.twitch.tv
+2015-11-06 17:44:02	--	This server is rather new
+2015-11-06 17:44:02	--	-
+2015-11-06 17:44:02	--	-
+2015-11-06 17:44:02	--	You are in a maze of twisty passages, all alike.
+2015-11-06 17:44:02	--	>
+2015-11-06 20:01:37	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2015-11-06 20:01:37	--	irc: disconnecting from server...
+2015-11-06 20:01:37	--	irc: disconnected from server
+2015-11-06 20:01:37	--	irc: reconnecting to server in 10 seconds
+2015-11-06 20:01:47	--	irc: reconnecting to server...
+2015-11-06 20:01:47	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-06 20:01:47	--	irc: connected to irc.twitch.tv/6667 (192.16.64.178)
+2015-11-06 20:01:47	--	Welcome, GLHF!
+2015-11-06 20:01:47	--	Your host is tmi.twitch.tv
+2015-11-06 20:01:47	--	This server is rather new
+2015-11-06 20:01:47	--	-
+2015-11-06 20:01:47	--	-
+2015-11-06 20:01:47	--	You are in a maze of twisty passages, all alike.
+2015-11-06 20:01:47	--	>
+2015-11-06 23:05:03	--	irc: disconnected from server
+2015-11-06 23:06:37	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-06 23:06:38	--	irc: connected to irc.twitch.tv/6667 (192.16.64.176)
+2015-11-06 23:06:38	--	Welcome, GLHF!
+2015-11-06 23:06:38	--	Your host is tmi.twitch.tv
+2015-11-06 23:06:38	--	This server is rather new
+2015-11-06 23:06:38	--	-
+2015-11-06 23:06:38	--	-
+2015-11-06 23:06:38	--	You are in a maze of twisty passages, all alike.
+2015-11-06 23:06:38	--	>
+2015-11-07 13:59:24	--	irc: disconnected from server
+2015-11-07 14:02:32	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 14:02:32	--	irc: connected to irc.twitch.tv/6667 (192.16.64.205)
+2015-11-07 14:02:32	--	Welcome, GLHF!
+2015-11-07 14:02:32	--	Your host is tmi.twitch.tv
+2015-11-07 14:02:32	--	This server is rather new
+2015-11-07 14:02:32	--	-
+2015-11-07 14:02:32	--	-
+2015-11-07 14:02:32	--	You are in a maze of twisty passages, all alike.
+2015-11-07 14:02:32	--	>
+2015-11-07 14:10:48	--	irc: disconnected from server
+2015-11-07 14:12:36	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 14:12:36	--	irc: connected to irc.twitch.tv/6667 (192.16.64.177)
+2015-11-07 14:12:37	--	Welcome, GLHF!
+2015-11-07 14:12:37	--	Your host is tmi.twitch.tv
+2015-11-07 14:12:37	--	This server is rather new
+2015-11-07 14:12:37	--	-
+2015-11-07 14:12:37	--	-
+2015-11-07 14:12:37	--	You are in a maze of twisty passages, all alike.
+2015-11-07 14:12:37	--	>
+2015-11-07 15:50:50	--	irc: disconnected from server
+2015-11-07 19:30:46	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 19:30:46	--	irc: connected to irc.twitch.tv/6667 (192.16.64.211)
+2015-11-07 19:30:46	--	Welcome, GLHF!
+2015-11-07 19:30:46	--	Your host is tmi.twitch.tv
+2015-11-07 19:30:46	--	This server is rather new
+2015-11-07 19:30:46	--	-
+2015-11-07 19:30:46	--	-
+2015-11-07 19:30:46	--	You are in a maze of twisty passages, all alike.
+2015-11-07 19:30:46	--	>
+2015-11-07 19:45:19	--	irc: disconnected from server
+2015-11-07 19:54:03	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 19:54:03	--	irc: connected to irc.twitch.tv/6667 (192.16.64.174)
+2015-11-07 19:54:03	--	Welcome, GLHF!
+2015-11-07 19:54:03	--	Your host is tmi.twitch.tv
+2015-11-07 19:54:03	--	This server is rather new
+2015-11-07 19:54:03	--	-
+2015-11-07 19:54:03	--	-
+2015-11-07 19:54:03	--	You are in a maze of twisty passages, all alike.
+2015-11-07 19:54:03	--	>
+2015-11-07 19:54:06	--	irc: disconnected from server
+2015-11-07 19:55:48	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 19:55:48	--	irc: connected to irc.twitch.tv/6667 (192.16.64.179)
+2015-11-07 19:55:48	--	Welcome, GLHF!
+2015-11-07 19:55:48	--	Your host is tmi.twitch.tv
+2015-11-07 19:55:48	--	This server is rather new
+2015-11-07 19:55:48	--	-
+2015-11-07 19:55:48	--	-
+2015-11-07 19:55:48	--	You are in a maze of twisty passages, all alike.
+2015-11-07 19:55:48	--	>
+2015-11-07 19:59:43	=!=	irc: this buffer is not a channel!
+2015-11-07 19:59:45	--	irc: disconnected from server
+2015-11-07 20:00:05	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 20:00:05	--	irc: connected to irc.twitch.tv/6667 (192.16.64.209)
+2015-11-07 20:00:06	--	Welcome, GLHF!
+2015-11-07 20:00:06	--	Your host is tmi.twitch.tv
+2015-11-07 20:00:06	--	This server is rather new
+2015-11-07 20:00:06	--	-
+2015-11-07 20:00:06	--	-
+2015-11-07 20:00:06	--	You are in a maze of twisty passages, all alike.
+2015-11-07 20:00:06	--	>
+2015-11-07 20:37:17	--	irc: disconnected from server
+2015-11-07 21:09:28	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 21:09:28	--	irc: connected to irc.twitch.tv/6667 (192.16.64.174)
+2015-11-07 21:09:28	--	Welcome, GLHF!
+2015-11-07 21:09:28	--	Your host is tmi.twitch.tv
+2015-11-07 21:09:28	--	This server is rather new
+2015-11-07 21:09:28	--	-
+2015-11-07 21:09:28	--	-
+2015-11-07 21:09:28	--	You are in a maze of twisty passages, all alike.
+2015-11-07 21:09:28	--	>
+2015-11-07 21:15:20	--	irc: disconnected from server
+2015-11-07 21:15:32	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 21:15:32	--	irc: connected to irc.twitch.tv/6667 (192.16.64.210)
+2015-11-07 21:15:32	--	Welcome, GLHF!
+2015-11-07 21:15:32	--	Your host is tmi.twitch.tv
+2015-11-07 21:15:32	--	This server is rather new
+2015-11-07 21:15:32	--	-
+2015-11-07 21:15:32	--	-
+2015-11-07 21:15:32	--	You are in a maze of twisty passages, all alike.
+2015-11-07 21:15:32	--	>
+2015-11-07 21:23:44	--	irc: disconnected from server
+2015-11-07 21:51:56	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 21:51:56	--	irc: connected to irc.twitch.tv/6667 (192.16.64.211)
+2015-11-07 21:51:56	--	Welcome, GLHF!
+2015-11-07 21:51:56	--	Your host is tmi.twitch.tv
+2015-11-07 21:51:56	--	This server is rather new
+2015-11-07 21:51:56	--	-
+2015-11-07 21:51:56	--	-
+2015-11-07 21:51:56	--	You are in a maze of twisty passages, all alike.
+2015-11-07 21:51:56	--	>
+2015-11-07 21:52:23	--	irc: disconnected from server
+2015-11-07 21:52:24	--	irc: connecting to server irc.twitch.tv/6667...
+2015-11-07 21:52:24	--	irc: connected to irc.twitch.tv/6667 (192.16.64.207)
+2015-11-07 21:52:24	--	Welcome, GLHF!
+2015-11-07 21:52:24	--	Your host is tmi.twitch.tv
+2015-11-07 21:52:24	--	This server is rather new
+2015-11-07 21:52:24	--	-
+2015-11-07 21:52:24	--	-
+2015-11-07 21:52:24	--	You are in a maze of twisty passages, all alike.
+2015-11-07 21:52:24	--	>

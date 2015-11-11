@@ -1,0 +1,221 @@
+2015-10-31 22:46:20	-->	nogz (~nogz@ip68-10-234-44.hr.hr.cox.net) has joined #gnome
+2015-10-31 22:46:20	--	Topic for #gnome is "Unofficial GNOME support channel - just ask your questions | GNOME 3.18 released - https://help.gnome.org/misc/release-notes/3.18/"
+2015-10-31 22:46:20	--	Topic set by borschty on Wed, 23 Sep 2015 12:32:00
+2015-10-31 22:46:20	--	Channel #gnome: 152 nicks (1 op, 0 voices, 151 normals)
+2015-10-31 22:46:21	--	Channel created on Fri, 15 Jan 2010 06:47:10
+2015-10-31 22:46:29	davidmichaelkarr	borschty: Hmm, this is repeating "xfs_log_force: error 5 returned"
+2015-10-31 22:46:44	davidmichaelkarr	borschty: Just doing that continually.
+2015-10-31 22:47:09	borschty	that looks like your file system might be corrupted
+2015-10-31 22:47:19	nogz	how can i enable multimonitor workspaces?
+2015-10-31 22:47:58	davidmichaelkarr	borschty: What should I do at this point?
+2015-10-31 22:48:03	borschty	nogz, gsettings set org.gnome.shell.overrides workspaces-only-on-primary false
+2015-10-31 22:48:35	nogz	borschty: you're amazing
+2015-10-31 22:49:01	borschty	davidmichaelkarr, maybe there is some kind of fsck tool for xfs, i don't know, i stopped using xfs after losing too much data to it several years ago
+2015-10-31 22:51:10	davidmichaelkarr	borschty: After power cycling, and without editing the linux16 command line (still had rhgb and quiet), it showed the following lines at the end:
+2015-10-31 22:51:41	nogz	would it be possible to it also switch on only one monitor?
+2015-10-31 22:52:49	borschty	nogz, that's the default behavior
+2015-10-31 22:53:05	borschty	nogz, gsettings reset org.gnome.shell.overrides workspaces-only-on-primary
+2015-10-31 22:53:06	davidmichaelkarr	https://www.irccloud.com/pastebin/aDNc4mLU/
+2015-10-31 22:53:08	<--	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has quit (Ping timeout: 244 seconds)
+2015-10-31 22:54:19	davidmichaelkarr	borschty: Do I just enter the root password at this point?
+2015-10-31 22:54:21	borschty	davidmichaelkarr, log in and run systemctl default
+2015-10-31 22:54:57	nogz	gsettings reset org.gnome.shell.overrides workspaces-only-on-primary
+2015-10-31 22:55:03	davidmichaelkarr	borschty: Uh, that results in the gnome graphical login page.
+2015-10-31 22:55:04	nogz	whoops
+2015-10-31 22:55:32	davidmichaelkarr	borschty: Did erasing that aborted transaction just fix it?
+2015-10-31 22:55:44	borschty	davidmichaelkarr, no idea
+2015-10-31 22:56:10	davidmichaelkarr	borschty: Weird.  Guess I'll have to try rebooting again to be sure.
+2015-10-31 22:56:28	davidmichaelkarr	borschty: Otherwise, it let me log in and it displayed my desktop.
+2015-10-31 22:59:33	-->	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #gnome
+2015-10-31 22:59:34	<--	james41382 (~james4138@unaffiliated/james41382) has quit (Read error: Connection reset by peer)
+2015-10-31 23:03:38	<--	muka (~muka@184.101.218.249) has quit (Ping timeout: 250 seconds)
+2015-10-31 23:06:55	davidmichaelkarr	borschty: Looks like virtualbox is messed up now.  At least I'm booting.
+2015-10-31 23:38:37	<--	_5378_ (~seth@unaffiliated/-seth-/x-5710674) has quit (Ping timeout: 256 seconds)
+2015-10-31 23:40:27	-->	MichaelTiebesl (~MichaelTi@49.144.25.163) has joined #gnome
+2015-10-31 23:46:48	Quick_Wango	Hi! I just found out that my gnome 3.18 is running on both tty2 and tty1. is that normal ?
+2015-10-31 23:46:56	Quick_Wango	I'm running on archlinux
+2015-10-31 23:46:59	<--	HoboPrimate (~jobezone@bl10-158-114.dsl.telepac.pt) has quit (Ping timeout: 264 seconds)
+2015-10-31 23:50:27	borschty	the instance on tty1 is probably the login screen
+2015-10-31 23:50:46	<--	MichaelTiebesl (~MichaelTi@49.144.25.163) has quit (Quit: Effe wat anders doen!)
+2015-10-31 23:51:24	Quick_Wango	borschty: thay have both login screens
+2015-10-31 23:51:37	Quick_Wango	the one on tty2 is shown by default
+2015-10-31 23:52:41	borschty	how many instances of /usr/sbin/gdm are running?
+2015-10-31 23:54:43	Quick_Wango	I see one /usr/bin/gdm
+2015-10-31 23:55:27	<--	Roland-N (~Roland-N@ec2-50-16-32-61.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2015-10-31 23:55:44	-->	Roland-N (~Roland-N@ec2-54-205-144-160.compute-1.amazonaws.com) has joined #gnome
+2015-10-31 23:57:13	borschty	and how many instances of gnome-shell are running and what are their commandline arguments?
+2015-10-31 23:58:55	Quick_Wango	http://snag.gy/SZ6vw.jpg
+2015-11-01 00:01:08	borschty	looks like what i said: one for the login screen, the other one for your user
+2015-11-01 00:02:43	Quick_Wango	so thats normal? I can also log me in a second time on tty1
+2015-11-01 00:02:53	borschty	yes
+2015-11-01 00:03:42	Quick_Wango	why would that be possible?
+2015-11-01 00:04:09	borschty	if you log in as phillipp, the one on tty2 will get unlocked if you log in as someone else, a new gnome-shell will get started on tty3 and tty1 will keep showing the login screen
+2015-11-01 00:05:52	Quick_Wango	it seems to detect that phillip is already logged in on another tty and switches to that
+2015-11-01 00:06:21	borschty	yes
+2015-11-01 00:06:32	Quick_Wango	I remember being logged in twice on my laptop and I'm pretty sure the second instance was on tty1
+2015-11-01 00:06:37	Quick_Wango	but I think that was 3.16
+2015-11-01 00:07:25	borschty	gdm has prevented multiple logins of the same user since pretty much forever
+2015-11-01 00:07:41	Quick_Wango	well then I found a bug I guess
+2015-11-01 00:08:10	borschty	or maybe you were using startx back then
+2015-11-01 00:09:17	Quick_Wango	"back then" was like 2 months ago and was pretty much the same setup
+2015-11-01 00:09:45	Quick_Wango	maybe it's still happening, let my check
+2015-11-01 00:09:49	-->	james41382 (~james4138@unaffiliated/james41382) has joined #gnome
+2015-11-01 00:10:37	Quick_Wango	I tested it on my desktop with a second user, the second session was started on tty5 for some reason
+2015-11-01 00:11:09	Quick_Wango	oh I think I had tty3 and 4 already open before, that might be the reason for that
+2015-11-01 00:11:19	borschty	yes
+2015-11-01 00:11:33	Quick_Wango	what if I had activated all of them?
+2015-11-01 00:12:38	borschty	no idea, but logind should take care of freeing them
+2015-11-01 00:13:30	Quick_Wango	ok it seems fixed with 3.18, but it definitly happened with 3.16. it happened multiple times that I accidentally logged in twice and was confused when the shutdown dialog told my that I was still logged
+2015-11-01 00:13:36	Quick_Wango	ok
+2015-11-01 00:25:18	<--	bcx (~user@177.114.19.93.rev.sfr.net) has quit (Ping timeout: 265 seconds)
+2015-11-01 00:26:45	<--	wlemuel (~lemuel@116.224.235.252) has quit (Ping timeout: 265 seconds)
+2015-11-01 00:28:27	-->	wlemuel (~lemuel@180.174.248.166) has joined #gnome
+2015-11-01 00:32:40	-->	d9500 (~d9500@unaffiliated/d9500) has joined #gnome
+2015-11-01 00:36:22	<--	d9500 (~d9500@unaffiliated/d9500) has quit (Quit: Leaving)
+2015-11-01 00:40:09	<--	borschty (~sebastian@x4db246d7.dyn.telefonica.de) has quit (Quit: Leaving)
+2015-11-01 00:59:50	<--	wlemuel (~lemuel@180.174.248.166) has quit (Ping timeout: 240 seconds)
+2015-11-01 01:00:52	-->	wlemuel (~lemuel@180.174.248.166) has joined #gnome
+2015-11-01 01:01:36	<--	slappymcfry (~slappymcf@122.58.33.151) has quit (Ping timeout: 255 seconds)
+2015-11-01 01:02:01	<--	chasmo77 (~chas77@158.183-62-69.ftth.swbr.surewest.net) has quit (Quit: It's just that easy)
+2015-11-01 01:04:15	-->	slappymcfry (~slappymcf@122.58.33.151) has joined #gnome
+2015-11-01 01:10:18	<--	robjh (~robh@rjheywood.com) has quit (Ping timeout: 260 seconds)
+2015-11-01 01:15:01	-->	DWestCoast (~dmitry@85.173.78.206) has joined #gnome
+2015-11-01 01:16:17	-->	robjh (~robh@rjheywood.com) has joined #gnome
+2015-11-01 01:52:58	-->	VsyachePuz (~smuxi@broadband-77-37-160-37.nationalcablenetworks.ru) has joined #gnome
+2015-11-01 01:53:06	VsyachePuz	http://unix.stackexchange.com/questions/240068/how-to-learn-gnome?
+2015-11-01 01:03:25	-->	ryaxnb (~quassel@c-24-7-26-46.hsd1.ca.comcast.net) has joined #gnome
+2015-11-01 01:48:03	-->	iiddnn (~iacopodee@host178-246-dynamic.0-87-r.retail.telecomitalia.it) has joined #gnome
+2015-11-01 03:39:46	<--	goddard (~Thunderbi@unaffiliated/goddard) has quit (Ping timeout: 240 seconds)
+2015-11-01 03:47:34	-->	topyli (~topyli@unaffiliated/topyli) has joined #gnome
+2015-11-01 03:48:44	-->	geek (~geek@unaffiliated/geek) has joined #gnome
+2015-11-01 03:49:32	geek	(gnome-shell:19862): mutter-WARNING **: NOTE: Not using GLX TFP <<< animations are very slow, very laggy while dragging windows
+2015-11-01 03:49:37	geek	anyone can help me
+2015-11-01 03:55:56	-->	Spec-Chum (~Russ@94.9.43.251) has joined #gnome
+2015-11-01 04:02:00	<--	geek (~geek@unaffiliated/geek) has quit (Remote host closed the connection)
+2015-11-01 04:09:27	-->	aburgess (~aburgess@host81-158-4-199.range81-158.btcentralplus.com) has joined #gnome
+2015-11-01 04:15:19	-->	dasj (~daniel@x1-6-44-94-fc-59-eb-1d.cpe.webspeed.dk) has joined #gnome
+2015-11-01 04:23:36	-->	kilbith (~jp@2a01:e34:ee51:c3e0:d253:49ff:fe12:3b80) has joined #gnome
+2015-11-01 04:25:54	<--	Spec-Chum (~Russ@94.9.43.251) has quit (Quit: Leaving)
+2015-11-01 04:35:29	<--	slappymcfry (~slappymcf@122.58.33.151) has quit (Remote host closed the connection)
+2015-11-01 04:47:51	-->	Haaninjo (~anders@fsf/member/Haaninjo) has joined #gnome
+2015-11-01 05:06:08	-->	syslock (~syslock@x4d07fdbe.dyn.telefonica.de) has joined #gnome
+2015-11-01 05:08:03	syslock	hi, gnome 3.18 seems to have removed to option to change action of the power button: https://bugzilla.gnome.org/show_bug.cgi?id=753713
+2015-11-01 05:08:27	syslock	the autor says: people who want to change the configurations at system level can use udev to apply a new keymap.
+2015-11-01 05:08:34	syslock	any hints on how to do that?
+2015-11-01 05:09:02	VsyachePuz	syslock: file him a new bug with this quesion, and link it to the old bug
+2015-11-01 05:19:36	<--	glebihan (~glebihan@unaffiliated/glebihan) has quit (Quit: That's all folks !)
+2015-11-01 05:22:57	-->	glebihan (~glebihan@unaffiliated/glebihan) has joined #gnome
+2015-11-01 05:24:53	syslock	hm there has already been some discussion about the issue: https://bugzilla.gnome.org/show_bug.cgi?id=755953 - seems thy do not know how to accomplish that either
+2015-11-01 05:24:59	syslock	*sigh*
+2015-11-01 05:29:30	<--	catsup (d@ps38852.dreamhost.com) has quit (Remote host closed the connection)
+2015-11-01 05:29:49	-->	catsup (~d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 05:30:32	<--	catsup (~d@ps38852.dreamhost.com) has quit (Read error: Connection reset by peer)
+2015-11-01 05:31:06	-->	catsup (d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 05:36:04	<--	catsup (d@ps38852.dreamhost.com) has quit (Ping timeout: 244 seconds)
+2015-11-01 05:36:47	-->	catsup (d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 05:41:13	<--	catsup (d@ps38852.dreamhost.com) has quit (Ping timeout: 246 seconds)
+2015-11-01 05:42:14	-->	catsup (d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 05:47:10	<--	catsup (d@ps38852.dreamhost.com) has quit (Ping timeout: 268 seconds)
+2015-11-01 05:47:46	-->	catsup (d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 05:47:58	-->	Quanttek (~quassel@2a02:8108:73f:f6e4:e23f:49ff:fe47:9364) has joined #gnome
+2015-11-01 05:52:42	<--	catsup (d@ps38852.dreamhost.com) has quit (Ping timeout: 260 seconds)
+2015-11-01 05:53:07	-->	catsup (d@ps38852.dreamhost.com) has joined #gnome
+2015-11-01 06:11:06	-->	notis (~notis@athedsl-295143.home.otenet.gr) has joined #gnome
+2015-11-01 06:13:12	-->	Moonsilence (~Moonsilen@aftr-37-201-224-155.unity-media.net) has joined #gnome
+2015-11-01 06:13:20	<--	Moonsilence (~Moonsilen@aftr-37-201-224-155.unity-media.net) has left #gnome
+2015-11-01 06:28:47	<--	iiddnn (~iacopodee@host178-246-dynamic.0-87-r.retail.telecomitalia.it) has quit (Ping timeout: 252 seconds)
+2015-11-01 06:29:13	-->	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has joined #gnome
+2015-11-01 06:39:12	-->	khushbu_ (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 06:40:07	<--	khushbu_ (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 06:44:33	-->	khushbu (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 06:48:06	<--	khushbu (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 06:50:35	<--	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has quit (Ping timeout: 264 seconds)
+2015-11-01 06:53:31	-->	khushbu (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 06:54:24	-->	iiddnn (~iacopodee@host178-246-dynamic.0-87-r.retail.telecomitalia.it) has joined #gnome
+2015-11-01 06:55:11	<--	khushbu (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 06:55:59	-->	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has joined #gnome
+2015-11-01 06:56:53	-->	s8321414 (~s8321414@140.127.73.89) has joined #gnome
+2015-11-01 06:57:50	-->	utack_ (~utack@2a02:810a:913f:d088:d63d:7eff:fedb:b2eb) has joined #gnome
+2015-11-01 07:06:54	-->	_5378_ (~seth@unaffiliated/-seth-/x-5710674) has joined #gnome
+2015-11-01 07:07:42	-->	|\n (~x0a@unaffiliated/siberiannerd) has joined #gnome
+2015-11-01 07:10:00	-->	khushbu_ (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 07:10:01	<--	|\n (~x0a@unaffiliated/siberiannerd) has left #gnome
+2015-11-01 07:13:40	-->	bcx (~user@177.114.19.93.rev.sfr.net) has joined #gnome
+2015-11-01 07:14:11	<--	khushbu_ (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 07:15:37	-->	Spec-Chum (~Russ@94.9.43.251) has joined #gnome
+2015-11-01 07:23:36	-->	khushbu_ (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 07:23:44	<--	khushbu_ (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 07:31:59	-->	khushbu (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 07:33:06	<--	khushbu (~quassel@182.73.140.109) has quit (Read error: No route to host)
+2015-11-01 07:38:28	<--	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has quit (Ping timeout: 246 seconds)
+2015-11-01 07:43:10	-->	|PuLi| (~pauli@dsl-vntbrasgw1-50dcf1-208.dhcp.inet.fi) has joined #gnome
+2015-11-01 08:06:50	<--	topyli (~topyli@unaffiliated/topyli) has quit (Quit: I quit!)
+2015-11-01 08:15:53	-->	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has joined #gnome
+2015-11-01 08:16:06	<--	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has quit (Ping timeout: 240 seconds)
+2015-11-01 08:16:13	-->	Spike29 (~SpiKe@unaffiliated/spike29) has joined #gnome
+2015-11-01 08:17:26	<--	s8321414 (~s8321414@140.127.73.89) has quit (Read error: Connection reset by peer)
+2015-11-01 08:17:37	-->	s8321414 (~s8321414@140.127.73.89) has joined #gnome
+2015-11-01 08:22:32	-->	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #gnome
+2015-11-01 08:27:34	-->	paintbox (~fayad@1.39.80.5) has joined #gnome
+2015-11-01 08:27:56	-->	radel (~marco@host134-98-static.227-95-b.business.telecomitalia.it) has joined #gnome
+2015-11-01 08:39:01	<--	kilbith (~jp@2a01:e34:ee51:c3e0:d253:49ff:fe12:3b80) has quit (Quit: Leaving)
+2015-11-01 08:41:23	<--	blazed_ (~digi@2607:5300:60:69b1::def:aced) has quit (Quit: ZNC - http://znc.in)
+2015-11-01 08:42:00	-->	blazed (~digi@2607:5300:60:69b1::def:aced) has joined #gnome
+2015-11-01 09:01:10	-->	muka (~muka@184.101.218.249) has joined #gnome
+2015-11-01 09:02:08	-->	kilbith (~jp@2a01:e34:ee51:c3e0:d253:49ff:fe12:3b80) has joined #gnome
+2015-11-01 09:10:05	-->	bs0d (~bs0d@sa-186-250.saturn.infonet.ee) has joined #gnome
+2015-11-01 09:15:55	bs0d	Hello. I have installed a set of GNOME shell extensions, like the system monitor, but I cannot see it
+2015-11-01 09:17:13	kilbith	bs0d, try to run them from the console and paste us the errors (if there are)
+2015-11-01 09:18:49	bs0d	kilbith  so, for system-monitor extension (in example) how do I run it from the command line?  The command "system-monitor" is not found
+2015-11-01 09:21:03	kilbith	oh, sorry i misunderstood, thought you were talking about the independant program
+2015-11-01 09:22:39	<--	kilbith (~jp@2a01:e34:ee51:c3e0:d253:49ff:fe12:3b80) has quit (Quit: Leaving)
+2015-11-01 09:23:27	bs0d	kilbith, I installed the GNOME shell extensions from https://extensions.gnome.org/
+2015-11-01 09:24:02	<--	s8321414 (~s8321414@140.127.73.89) has quit (Quit: Konversation terminated!)
+2015-11-01 09:24:03	bs0d	It now seems that I can see some of then on the top panel, but they are sooo tiny. I hope there is a way to put them on the desktop
+2015-11-01 09:25:59	<--	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has quit (Ping timeout: 244 seconds)
+2015-11-01 09:31:53	<--	bs0d (~bs0d@sa-186-250.saturn.infonet.ee) has quit (Quit: Leaving)
+2015-11-01 09:39:27	<--	wlemuel (~lemuel@180.174.248.166) has quit (Ping timeout: 252 seconds)
+2015-11-01 09:42:10	-->	lvrabec_ (~lvrabec@88-80-243-50.satronet.sk) has joined #gnome
+2015-11-01 09:44:23	-->	Daredel (~Daredel@dynamic-186-154-176-88.dynamic.etb.net.co) has joined #gnome
+2015-11-01 09:45:29	<--	Daredel (~Daredel@dynamic-186-154-176-88.dynamic.etb.net.co) has quit (Client Quit)
+2015-11-01 09:52:39	<--	notis (~notis@athedsl-295143.home.otenet.gr) has quit (Remote host closed the connection)
+2015-11-01 09:53:11	-->	somis (~somis@167.160.44.197) has joined #gnome
+2015-11-01 09:55:47	-->	myhau (5efb8d07@gateway/web/freenode/ip.94.251.141.7) has joined #gnome
+2015-11-01 09:55:59	myhau	hi
+2015-11-01 09:56:40	myhau	does anybody know, how to force keypad keys like home, end, delete, page_up, page_down behave like normal home, end, delete etc ?
+2015-11-01 09:57:26	myhau	because when I do xev and type keypad end key it prints KP_End and when I press normal end key it outputs End
+2015-11-01 10:00:33	--	irc: disconnected from server
+2015-11-01 10:03:54	-->	nogz (~nogz@ip68-10-234-44.hr.hr.cox.net) has joined #gnome
+2015-11-01 10:03:54	--	Topic for #gnome is "Unofficial GNOME support channel - just ask your questions | GNOME 3.18 released - https://help.gnome.org/misc/release-notes/3.18/"
+2015-11-01 10:03:54	--	Topic set by borschty on Wed, 23 Sep 2015 12:32:00
+2015-11-01 10:03:54	--	Channel #gnome: 165 nicks (1 op, 0 voices, 164 normals)
+2015-11-01 10:03:55	--	Channel created on Fri, 15 Jan 2010 06:47:10
+2015-11-01 10:04:44	nogz	when I use GDM to login it puts gnome on TTY2 instead of replacing GDM with Gnome.
+2015-11-01 10:04:50	nogz	how do I fix that?
+2015-11-01 10:04:57	NanoSector	nogz, gdm does this by design
+2015-11-01 10:05:12	NanoSector	myhau, in your terminal?
+2015-11-01 10:07:07	nogz	NanoSector how do I make it autoswitch then so that I don't have to push ctrl+alt+F2 every time?
+2015-11-01 10:07:43	NanoSector	that it should do automatically
+2015-11-01 10:08:12	<--	DWestCoast (~dmitry@85.173.78.206) has quit (Quit: DWestCoast)
+2015-11-01 10:08:31	NanoSector	nogz, what distro is this, btw?
+2015-11-01 10:08:38	nogz	archlinux
+2015-11-01 10:08:48	NanoSector	on my arch system it works automatically, at least
+2015-11-01 10:09:37	nogz	I'll try again later I suppose, maybe I'm just impatient.
+2015-11-01 10:09:48	NanoSector	could try asking in #archlinux
+2015-11-01 10:10:00	NanoSector	but they're not friendly
+2015-11-01 10:10:03	-->	DoctorJellyface (~juraj@ip100.213-181-130.pegonet.sk) has joined #gnome
+2015-11-01 10:10:07	NanoSector	so be prepared
+2015-11-01 10:10:20	DoctorJellyface	!ping
+2015-11-01 10:10:28	NanoSector	pong?
+2015-11-01 10:10:35	nogz	oh i've asked already
+2015-11-01 10:10:41	nogz	look in the wiki
+2015-11-01 10:10:43	DoctorJellyface	ups, wrong channel
+2015-11-01 10:11:12	DoctorJellyface	but anyway, ping. the ball's going your way. now you have to decide what to do with it.
+2015-11-01 10:11:19	NanoSector	:o
+2015-11-01 10:11:28	 *	NanoSector dodges 
+2015-11-01 10:12:09	<--	khushbu (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 10:14:26	-->	khushbu (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 10:15:24	<--	khushbu (~quassel@182.73.140.109) has quit (Read error: Connection reset by peer)
+2015-11-01 10:17:23	-->	NoirLess (~NoirLess@178.71.29.141) has joined #gnome
+2015-11-01 10:19:23	-->	khushbu_ (~quassel@182.73.140.109) has joined #gnome
+2015-11-01 10:22:53	--	irc: disconnected from server
