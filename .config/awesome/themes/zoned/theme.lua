@@ -24,6 +24,20 @@ theme.border_normal                 = "#121212"
 theme.border_focus                  = "#292929"
 theme.titlebar_bg_focus             = "#292929"
 
+theme.bg_widgets = {
+	"#008594",
+	"#00A3B5",
+	"#00BAAE",
+	"#02D4B8",
+	"#00E3A3",
+	"#00F080",
+	"#0AFF2B"
+}
+
+theme.bg_systray = theme.bg_widgets[1]
+
+theme.fg_widget = theme.fg_normal
+
 theme.taglist_fg_focus              = "#dddcff"
 theme.taglist_bg_focus              = "#121212"
 theme.menu_height                   = "16"
