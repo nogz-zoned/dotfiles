@@ -15,7 +15,7 @@ export TZ=America/New_York
 ################################
 # oh-my-zsh stuff              /
 ################################
-ZSH_THEME="agnoster"
+ZSH_THEME="rummik"
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 plugins=(archlinux git colorize sudo tmux torrent vundle)
@@ -62,3 +62,5 @@ man() {
 alias weec="screen weechat-curses"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
