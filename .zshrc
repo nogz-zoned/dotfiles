@@ -23,8 +23,7 @@ plugins=(archlinux git colorize sudo tmux torrent vundle)
 ################################
 # sources                      /
 ################################
-#source $DOTFILES/export.zsh
-#source $DOTFILES/aliases.zsh
+source $DOTFILES/aliases.zsh
 source $ZSH/oh-my-zsh.sh
 source $ANTIGEN/antigen.zsh
 source /usr/share/doc/pkgfile/command-not-found.zsh
