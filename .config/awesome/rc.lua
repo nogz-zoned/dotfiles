@@ -79,18 +79,19 @@ musicplr   = terminal .. " -g 130x34-320+16 -e ncmpcpp "
 htop 	   = terminal .. " -e htop "
 
 local layouts = {
-    awful.layout.suit.floating,
+    lain.layout.uselesspiral,
+    lain.layout.centerwork,
     lain.layout.uselesstile,
-    awful.layout.suit.fair,
     lain.layout.uselesstile.left,
-    lain.layout.uselesstile.top
+    lain.layout.uselesstile.top,
+    awful.layout.suit.floating
 }
 -- }}}
 
 -- {{{ Tags
 tags = {
    names = { "www", "games", "term", "media", "img", "chat", "vbox", "extra" },
-   layout = { layouts[1], layouts[2], layouts[4], layouts[4], layouts[1], layouts[5], layouts[1], layouts[1] }
+   layout = { layouts[1], layouts[3], layouts[4], layouts[4], layouts[6], layouts[5], layouts[6], layouts[1] }
 }
 for s = 1, screen.count() do
 -- Each screen has its own tag table.
@@ -737,7 +738,7 @@ awful.rules.rules = {
           properties = { tag = tags[1][2]} },
 
     { rule = { class = "VirtualBox" },
-          properties = { tag = tags[1][7]} },
+          properties = { tag = tags[2][7]} },
 
     { rule = { class = "htop" },
           properties = { tag = tags[1][6]} },

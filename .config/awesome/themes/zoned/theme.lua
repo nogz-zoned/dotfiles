@@ -24,20 +24,6 @@ theme.border_normal                 = "#121212"
 theme.border_focus                  = "#292929"
 theme.titlebar_bg_focus             = "#292929"
 
-theme.bg_widgets = {
-	"#008594",
-	"#00A3B5",
-	"#00BAAE",
-	"#02D4B8",
-	"#00E3A3",
-	"#00F080",
-	"#0AFF2B"
-}
-
-theme.bg_systray = theme.bg_widgets[1]
-
-theme.fg_widget = theme.fg_normal
-
 theme.taglist_fg_focus              = "#dddcff"
 theme.taglist_bg_focus              = "#121212"
 theme.menu_height                   = "16"
@@ -99,7 +85,9 @@ theme.tasklist_maximized_vertical   = ""
 
 -- lain related
 theme.useless_gap_width             = 10
+theme.layout_termfair 		    = theme.dir .. "/icons/fairv.png"
 theme.layout_uselesstile            = theme.dir .. "/icons/uselesstile.png"
+theme.layout_centerwork 	    = theme.dir .. "/icons/centerworkw.png"
 theme.layout_uselesstileleft        = theme.dir .. "/icons/uselesstileleft.png"
 theme.layout_uselesstiletop         = theme.dir .. "/icons/uselesstiletop.png"
 

@@ -1,0 +1,907 @@
+Delivered-To: lookinoji@gmail.com
+Received: by 10.13.213.2 with SMTP id x2csp838229ywd;
+        Wed, 11 Nov 2015 05:45:11 -0800 (PST)
+X-Received: by 10.66.102.101 with SMTP id fn5mr14705749pab.66.1447249511348;
+        Wed, 11 Nov 2015 05:45:11 -0800 (PST)
+Return-Path: <linkedin@e.linkedin.com>
+Received: from omp.e.linkedin.com (omp.e.linkedin.com. [199.7.202.92])
+        by mx.google.com with ESMTPS id om10si12843176pbc.229.2015.11.11.05.45.11
+        for <lookinoji@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 11 Nov 2015 05:45:11 -0800 (PST)
+Received-SPF: pass (google.com: domain of linkedin@e.linkedin.com designates 199.7.202.92 as permitted sender) client-ip=199.7.202.92;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of linkedin@e.linkedin.com designates 199.7.202.92 as permitted sender) smtp.mailfrom=linkedin@e.linkedin.com;
+       dkim=pass header.i=@e.linkedin.com;
+       dkim=pass header.i=@responsys.net;
+       dmarc=pass (p=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=linkedin; d=e.linkedin.com;
+ h=MIME-Version:Content-Type:Date:To:From:Reply-To:Subject:Feedback-ID:List-Unsubscribe:Message-ID; i=linkedin@e.linkedin.com;
+ bh=OwcBUiIgx2VtDGmsdAH+YsEqzLY=;
+ b=dIpWsD7pKl3HI3D16h4BwJ6p5WKkH/Xyli1zwmJCZVrfI0myYvnQYVDjw3KMZRr3yQm8Z6LBwXAy
+   dfSPb5weGznM8Ohv6cm1AFFaigwMzc/eZd1djDf4XvcbqevXT94GZloJ4xNEWBsTdd9rjvF7Ybtm
+   HmHXVzZ7IG2PFoUxmZ0=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=responsys.net;
+ h=MIME-Version:Content-Type:Date:To:From:Reply-To:Subject:Feedback-ID:List-Unsubscribe:Message-ID;
+ bh=OwcBUiIgx2VtDGmsdAH+YsEqzLY=;
+ b=IKMG3I4nWKPrj3+mjL1nV4FfqJipgdZBSi+CZ723MbEmpip0hJZfkQUPRU+CEckCY5iJBF/Us5Bi
+   MLTjgxGv7vSJCG9aB0iNlz8J3PXQA96V9TAY6kdb22A/mMVys5ibO1jicqrOgqwCALL8Sh6oxYlS
+   r1XihrBqU4WMPDSQtWo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=linkedin; d=e.linkedin.com;
+ b=PYe3EhttzzS1Ht1Pl00X1azqyFJQUMZx9ARfNJeGGgYsBv7aPmbMiULDbIwc1DrAcI+wU5lP6Yuq
+   XQ17IHpKjRW81Q1PnikB7j5lIFwdDKu1B2WOKY5iiVQ5Am8KU4u0bVb99FTB1KQpU18jgBENpWcR
+   NZCD0OXnrJqy/unhUMk=;
+Received: by omp.e.linkedin.com id h8d36e162hkv for <lookinoji@gmail.com>; Wed, 11 Nov 2015 05:28:37 -0800 (envelope-from <linkedin@e.linkedin.com>)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----msg_border_12VJGNTBuM"
+Date: Wed, 11 Nov 2015 05:28:37 -0800
+To: lookinoji@gmail.com
+From: "LinkedIn" <linkedin@e.linkedin.com>
+Reply-To: "LinkedIn" <donotreply@e.linkedin.com>
+Subject: Robert, get your free 1-year access to LinkedIn's Premium Job Seeker Account and On-Demand Courses
+Feedback-ID: 50563:1400815:oraclersys
+List-Unsubscribe: <https://e.linkedin.com/pub/optout/UnsubscribeOneStepConfirmAction?YES=true&_ri_=X0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zc&_ei_=EolaGGF4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ>, <mailto:unsubscribe-YQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zc@imh.rsys5.com?subject=List-Unsubscribe>
+X-sgxh1: thhspghrpxnuHptQJhu
+X-rext: 5.interact5.El1qnB-w5k1SDikruXCSj8JRuu2YAHridXyJ7jex9GV_hbd8ulYX
+X-cid: linkedin.2530235
+X-CSA-Complaints: whitelist-complaints@eco.de
+Message-ID: <0.0.5C.E49.1D11C84DF2F5384.0@omp.e.linkedin.com>
+
+This is a multi-part message in MIME format.
+
+------msg_border_12VJGNTBuM
+Date: Wed, 11 Nov 2015 05:28:37 -0800
+Content-Type: multipart/alternative; boundary="----alt_border_sKes3VnnjM_1"
+
+
+
+------alt_border_sKes3VnnjM_1
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please view this email in a browser:=20
+https://e=2Elinkedin=2Ecom/pub/sf/FormLink?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtS=
+zbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXMtX%3DYQpglLjHJlYQ=
+GtOKwNrdGPzcN4vrGT2I2cqBkIIFrD0RDNLgCq29p4ndIuCRM1zgtl&_ei_=3DErLYK9Tlw1lo6=
+P-M2gFZlB0CFKmEQitX4Ak6PgrpnGXukkdaY36wX3pJ=2EJg%3D%3D
+
+If you prefer not to receive these messages:=20
+https://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS=
+19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTUY&_ei_=3DEolaGG=
+F4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwmWK2aJafrkegwlR8DWX2lsizFdr-cMMS9w3X5=
+Kxhz88-t9HSDtFO2jZMg_Hzv4SX3UZLURauXDDMZKfWFccFxAbj0Ng8pnfKfBwES8gUJXmN284X=
+9ww57XdWyK2Sw4jcrsYV_nHo9R8z_3qSXTC0=2EJg%3D%3D
+
+If you need assistance or have questions, please contact LinkedIn Customer =
+Service:=20
+https://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS=
+19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTSY&_ei_=3DEolaGG=
+F4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=
+=2EJg%3D%3D
+
+This email was intended for Robert Duggan=2E Learn how this information hel=
+ps us protect your security:=20
+https://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS=
+19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRWBUY&_ei_=3DEolaGG=
+F4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=
+=2EJg%3D%3D
+
+LinkedIn Corporation=2E 2029 Stierlin Ct, Mountain View, CA 94043, USA=2E
+=2E
+
+------alt_border_sKes3VnnjM_1
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22 =22h=
+ttp://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+<html xmlns=3D=22http://www=2Ew3=2Eorg/1999/xhtml=22>
+<head>
+  <meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; charset=3DU=
+TF-8=22 />
+    <=21--META TAGS FOR RESPONSIVE EMAILS-->
+    <meta name=3D=22viewport=22 content=3D=22width=3Ddevice-width=22 />=20
+    <meta http-equiv=3D=22X-UA-Compatible=22 content=3D=22IE=3Dedge=22 /><=
+=21--WINDOWS PHONE-->=20
+  <title>LinkedIn</title>
+</head>
+
+<body>
+<=21--=5Bif gte mso 9=5D>
+<style type=3D=22text/css=22>
+=2Elhfix=7B mso-line-height-rule: exactly;=7D
+</style>
+<=21=5Bendif=5D-->
+<style type=3D=22text/css=22>
+=2EReadMsgBody, =2EExternalClass =7Bwidth: 100%;=7D /* Force Hotmail to dis=
+play emails at full width */
+=2EExternalClass =7Bwidth: 100%;=7D
+html =7B -webkit-text-size-adjust:none; -ms-text-size-adjust:none; -moz-tex=
+t-size-adjust:none;  =7D /* Prevent Webkit Mobile platforms from changing d=
+efault font sizes, while not breaking desktop design=2E */
+body =7B background-color: =23ffffff; margin: 0; padding: 0; width: 100%; =
+=7D
+table th =7B margin:0 =21important; padding:0 =21important; vertical-align:=
+top =21important;=7D
+v:* =7B behavior: url(=23default=23VML); display: block; =7D
+table, td =7B border-collapse: collapse; mso-table-lspace: 0; mso-table-rsp=
+ace: 0; =7D /* Remove spacing around Outlook 07, 10, 13 tables*/
+
+
+=40media screen and (max-width: 600px)=7B
+*=5Bclass=5D=2Ehead=7B display:table-header-group =21important; =7D
+*=5Bclass=5D=2Eshow =7Bdisplay: block =21important; width: auto =21importan=
+t; overflow: visible =21important; float: none =21important; max-height: in=
+herit =21important; line-height: inherit =21important;=7D
+*=5Bclass=5D=2Eblock =7B display:block =21important; =7D
+*=5Bclass=5D=2Ehide =7B display:none =21important; =7D
+*=5Bclass=5D=2Eherobg =7B background-image:url('https://static=2Ecdn=2Eresp=
+onsys=2Enet/i5/responsysimages/content/linkedin/LDC-LI_Vets-320x168v2_v3=2E=
+jpg') =21important; height:168px =21important; width: 318px =21important; =
+=7D
+*=5Bclass=5D=2Evaligntop =7B vertical-align:top =21important; =7D
+*=5Bclass=5D=2Ealigncenter=7B text-align:center =21important; =7D
+
+    *=5Bclass=5D=2Erel =7B position:relative =21important; =7D
+
+/*Width*/
+*=5Bclass=5D=2Ewidth5 =7B width:5px =21important; =7D
+*=5Bclass=5D=2Ewidth10 =7B width:10px =21important; =7D
+*=5Bclass=5D=2Ewidth12 =7B width:12px =21important; =7D
+*=5Bclass=5D=2Ewidth13 =7B width:13px =21important; =7D
+*=5Bclass=5D=2Ewidth14 =7B width:14px =21important; =7D
+*=5Bclass=5D=2Ewidth26 =7B width:26px =21important; =7D
+*=5Bclass=5D=2Ewidth33 =7B width:33px =21important; =7D
+*=5Bclass=5D=2Ewidth27 =7B width:27px =21important; =7D
+*=5Bclass=5D=2Ewidth37 =7B width:37px =21important; =7D
+*=5Bclass=5D=2Ewidth48 =7B width:48px =21important; =7D
+*=5Bclass=5D=2Ewidth61 =7B width:61px =21important; =7D
+*=5Bclass=5D=2Ewidth68 =7B width:68px =21important; =7D
+*=5Bclass=5D=2Ewidth98 =7B width:98px =21important; =7D
+*=5Bclass=5D=2Ewidth111 =7B width:111px =21important; =7D
+*=5Bclass=5D=2Ewidth113 =7B width:113px =21important; =7D
+*=5Bclass=5D=2Ewidth131 =7B width:131px =21important; =7D
+*=5Bclass=5D=2Ewidth137 =7B width:137px =21important; =7D
+*=5Bclass=5D=2Ewidth142 =7B width:142px =21important; =7D
+*=5Bclass=5D=2Ewidth144 =7B width:144px =21important; =7D
+*=5Bclass=5D=2Ewidth151 =7B width:151px =21important; =7D
+*=5Bclass=5D=2Ewidth153 =7B width:153px =21important; =7D
+*=5Bclass=5D=2Ewidth159 =7B width:159px =21important; =7D
+*=5Bclass=5D=2Ewidth168 =7B width:168px =21important; =7D
+*=5Bclass=5D=2Ewidth205 =7B width:205px =21important; =7D
+*=5Bclass=5D=2Ewidth211 =7B width:211px =21important; =7D
+*=5Bclass=5D=2Ewidth287 =7B width:287px =21important; =7D
+*=5Bclass=5D=2Ewidth297 =7B width:297px =21important; =7D
+*=5Bclass=5D=2Ewidth318 =7B width:318px =21important; =7D
+*=5Bclass=5D=2Ewidth320 =7B width:320px =21important; =7D
+
+/*Height*/
+*=5Bclass=5D=2Eheight4 =7B height:4px =21important; =7D
+*=5Bclass=5D=2Eheight5 =7B height:5px =21important; =7D
+*=5Bclass=5D=2Eheight6 =7B height:6px =21important; =7D
+*=5Bclass=5D=2Eheight8 =7B height:8px =21important; =7D
+*=5Bclass=5D=2Eheight9 =7B height:9px =21important; =7D
+*=5Bclass=5D=2Eheight10 =7B height:10px =21important; =7D
+*=5Bclass=5D=2Eheight11 =7B height:11px =21important; =7D
+*=5Bclass=5D=2Eheight12 =7B height:12px =21important; =7D
+*=5Bclass=5D=2Eheight13 =7B height:13px =21important; =7D
+*=5Bclass=5D=2Eheight14 =7B height:14px =21important; =7D
+*=5Bclass=5D=2Eheight15 =7B height:15px =21important; =7D
+*=5Bclass=5D=2Eheight16 =7B height:16px =21important; =7D
+*=5Bclass=5D=2Eheight17 =7B height:17px =21important; =7D
+*=5Bclass=5D=2Eheight18 =7B height:18px =21important; =7D
+*=5Bclass=5D=2Eheight19 =7B height:19px =21important; =7D
+*=5Bclass=5D=2Eheight20 =7B height:20px =21important; =7D
+*=5Bclass=5D=2Eheight21 =7B height:21px =21important; =7D
+*=5Bclass=5D=2Eheight22 =7B height:22px =21important; =7D
+*=5Bclass=5D=2Eheight24 =7B height:24px =21important; =7D
+*=5Bclass=5D=2Eheight25 =7B height:25px =21important; =7D
+*=5Bclass=5D=2Eheight26 =7B height:26px =21important; =7D
+*=5Bclass=5D=2Eheight28 =7B height:28px =21important; =7D
+*=5Bclass=5D=2Eheight29 =7B height:29px =21important; =7D
+*=5Bclass=5D=2Eheight32 =7B height:32px =21important; =7D
+*=5Bclass=5D=2Eheight34 =7B height:34px =21important; =7D
+*=5Bclass=5D=2Eheight35 =7B height:35px =21important; =7D
+*=5Bclass=5D=2Eheight36 =7B height:36px =21important; =7D
+*=5Bclass=5D=2Eheight37 =7B height:37px =21important; =7D
+*=5Bclass=5D=2Eheight39 =7B height:39px =21important; =7D
+*=5Bclass=5D=2Eheight40 =7B height:40px =21important; =7D
+*=5Bclass=5D=2Eheight42 =7B height:42px =21important; =7D
+*=5Bclass=5D=2Eheight44 =7B height:44px =21important; =7D
+*=5Bclass=5D=2Eheight50 =7B height:50px =21important; =7D
+*=5Bclass=5D=2Eheight52 =7B height:52px =21important; =7D
+*=5Bclass=5D=2Eheight61 =7B height:61px =21important; =7D
+*=5Bclass=5D=2Eheight68 =7B height:68px =21important; =7D
+*=5Bclass=5D=2Eheight153 =7B height:153px =21important; =7D
+*=5Bclass=5D=2Eheight156 =7B height:156px =21important; =7D
+
+/*Font*/
+*=5Bclass=5D=2Efont10 =7B font-size:10px =21important; =7D
+*=5Bclass=5D=2Efont12 =7B font-size:12px =21important; =7D
+*=5Bclass=5D=2Efont14 =7B font-size:14px =21important; =7D
+*=5Bclass=5D=2Efont16 =7B font-size:16px =21important; =7D
+*=5Bclass=5D=2Efont18 =7B font-size:18px =21important; =7D
+*=5Bclass=5D=2Efont20 =7B font-size:20px =21important; =7D
+
+/*Line Height*/
+*=5Bclass=5D=2Eline12 =7B line-height:12px =21important; =7D
+*=5Bclass=5D=2Eline14 =7B line-height:14px =21important; =7D
+*=5Bclass=5D=2Eline16 =7B line-height:16px =21important; =7D
+*=5Bclass=5D=2Eline17 =7B line-height:17px =21important; =7D
+*=5Bclass=5D=2Eline18 =7B line-height:18px =21important; =7D
+*=5Bclass=5D=2Eline20 =7B line-height:20px =21important; =7D
+*=5Bclass=5D=2Eline22 =7B line-height:22px =21important; =7D
+*=5Bclass=5D=2Eline24 =7B line-height:24px =21important; =7D
+=7D</style>
+
+<table width=3D=22100%=22 cellpadding=3D=220=22 cellspacing=3D=220=22 bgcol=
+or=3D=22=23ffffff=22>
+<tr>
+    <td width=3D=22100%=22 align=3D=22center=22>
+
+        <=21--Preheader-->
+        <table cellspacing=3D=220=22 cellpadding=3D=220=22 width=3D=22720=
+=22 class=3D=22hide=22>
+        <tr>
+            <td align=3D=22center=22 valign=3D=22top=22>
+           	  <table cellspacing=3D=220=22 cellpadding=3D=220=22><tr><td wi=
+dth=3D=221=22 height=3D=2225=22 style=3D=22line-height:0px;=22><img src=3D=
+=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda=
+/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=22disp=
+lay:block; border:0;=22 /></td></tr></table>
+           	  <a href=3D=22https://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X=
+%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVX=
+tpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_W=
+yhRYEj5cwCz08bAvsIIocJutQ=2E=22 style=3D=22font-family:Helvetica, Arial, sa=
+ns-serif; font-size:12px; color:=23444444; line-height:15px; text-decoratio=
+n:none;=22>Prepare for what's next with help from LinkedIn</a>
+            	<table cellspacing=3D=220=22 cellpadding=3D=220=22><tr><td wid=
+th=3D=221=22 height=3D=224=22 style=3D=22line-height:0px;=22><img src=3D=22=
+https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Ly=
+nda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=22display=
+:block; border:0;=22 /></td></tr></table>
+            </td>
+        </tr>
+        </table>
+        <=21--/Preheader-->
+
+<table width=3D=22610=22 cellpadding=3D=220=22 cellspacing=3D=220=22 class=
+=3D=22width320=22>
+        <tr>
+          <td width=3D=22610=22 height=3D=221=22 style=3D=22line-height:0px=
+;=22 bgcolor=3D=22=23757373=22 class=3D=22width320=22><img src=3D=22https:/=
+/static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Vet=
+eran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=22display:block;=
+ border:0;=22 /></td>
+        </tr>
+        <tr>
+          <td width=3D=22610=22 class=3D=22width320=22>
+              <table width=3D=22610=22 cellpadding=3D=220=22 cellspacing=3D=
+=220=22 class=3D=22width320=22>
+                <tr>
+                    <td width=3D=221=22 style=3D=22line-height:0px;=22 bgco=
+lor=3D=22=23757373=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/=
+i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22=
+ height=3D=221=22 style=3D=22display:block; border:0;=22 /></td>
+                    <td width=3D=22608=22 class=3D=22width318=22>
+                    <=21--NAVIGATION-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 class=3D=22width318=22>
+                  <tr>
+                        <td width=3D=2217=22 height=3D=2270=22 class=3D=22w=
+idth14=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsys=
+images/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=
+=221=22 style=3D=22display:block; border:0;=22 /></td>
+                        <td width=3D=22440=22 align=3D=22left=22 valign=3D=
+=22top=22 class=3D=22width151=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22><tr><td width=3D=221=22 height=3D=2217=22 style=3D=22line-height:0px;=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td></tr></table>
+                            <a href=3D=22www=2Elinkedin=2Ecom/=22><img src=
+=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Ly=
+nda/Lynda_Veteran/logo_li=2Egif=22 width=3D=2249=22 height=3D=2239=22 alt=
+=3D=22Linkedin&trade;=22 style=3D=22display:block; border:0;=22 /></a>
+                        </td>
+                        <td width=3D=22161=22 align=3D=22left=22 valign=3D=
+=22top=22 class=3D=22width153=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22><tr><td width=3D=221=22 height=3D=2222=22 style=3D=22line-height:0px;=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td></tr></table>
+                          <a href=3D=22https://e=2Elinkedin=2Ecom/pub/cc?_r=
+i_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEze=
+XoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPh=
+HwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https://static=2E=
+cdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/LDC-LI_Vets-Lynda=
+-Promo-Email_1029_05=2Epng=22 width=3D=22143=22 height=3D=2231=22 alt=3D=22=
+lynda=2Ecom&reg; - A LINKEDIN COMPANY=22 style=3D=22display:block; border:0=
+;=22 /></a>
+                        </td>
+                    </tr>
+                    </table>
+                    <=21--/NAVIGATION-->
+                    <=21--HERO-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 class=3D=22width318=22>
+                  <tr>
+                      <td width=3D=22608=22 height=3D=22320=22 align=3D=22l=
+eft=22 valign=3D=22top=22 background=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/hero_bg_1=2Ejpg=22 b=
+gcolor=3D=22=23235f87=22 class=3D=22width318 herobg=22>
+                           <=21--=5Bif gte mso 9=5D>
+                            <v:rect xmlns:v=3D=22urn:schemas-microsoft-com:=
+vml=22 fill=3D=22true=22 stroke=3D=22false=22 style=3D=22width:608px; heigh=
+t:320px;=22>
+                            <v:fill type=3D=22tile=22 color=3D=22=230094b7=
+=22 src=3D=22images/hero_bg_1=2Ejpg=22 />
+                            <v:textbox inset=3D=220,0,0,0=22>
+                            <table cellpadding=3D=220=22cellspacing=3D=220=
+=22><tr><td width=3D=22608=22 height=3D=22320=22 align=3D=22left=22 valign=
+=3D=22top=22>
+                            <=21=5Bendif=5D-->
+                            <div>
+                              <table width=3D=22608=22 cellpadding=3D=220=
+=22 cellspacing=3D=220=22 class=3D=22width318=22>
+                                <tr>
+                                  <td width=3D=2215=22></td>
+                                  <td width=3D=22288=22 class=3D=22width144=
+=22>
+                                      <table cellpadding=3D=220=22 cellspac=
+ing=3D=220=22><tr><td width=3D=221=22 height=3D=2254=22 style=3D=22line-hei=
+ght:0px;=22 class=3D=22height8=22><img src=3D=22https://static=2Ecdn=2Eresp=
+onsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 wid=
+th=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td=
+></tr></table>
+                                      <div style=3D=22font-family:Helvetica=
+, Arial, sans-serif; font-size:20px; color:=23ffffff; text-decoration:none;=
+ line-height:24px; font-weight:bold;=22 class=3D=22font14 line17=22 >
+                                                                           =
+     This Veteran's Day, it's our turn to serve you=2E
+
+                                        </div>
+                                        <table cellpadding=3D=220=22 cellsp=
+acing=3D=220=22><tr><td width=3D=221=22 height=3D=2211=22 style=3D=22line-h=
+eight:0px;=22 class=3D=22height4=22><img src=3D=22https://static=2Ecdn=2Ere=
+sponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 w=
+idth=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></=
+td></tr></table>
+                                        <div style=3D=22font-family:Helveti=
+ca, Arial, sans-serif; font-size:12px; color:=23ffffff; line-height:18px; p=
+adding-right:5px=22 class=3D=22hide=22>
+                                       Receive <bold> one year of free acce=
+ss </bold>to: <br/>
+                                   =20
+                                            <li>LinkedIn Premium Job Seeker=
+ account</li>
+                                           <li> Courses at Lynda=2Ecom, a L=
+inkedIn Company </li>
+
+</div>
+                                       <table cellpadding=3D=220=22 cellspa=
+cing=3D=220=22><tr><td width=3D=221=22 height=3D=2219=22 style=3D=22line-he=
+ight:0px;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                        <a href=3D=22https://e=2Elinkedin=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56a=
+jpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93c=
+EvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22h=
+ttps://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/S=
+tart-Trial=2Epng=22 width=3D=22142=22 height=3D=2235=22 alt=3D=22Get Starte=
+d=22 style=3D=22display:block; border:0;=22 class=3D=22width113 height28=22=
+/></a>
+                                        <table cellpadding=3D=220=22 cellsp=
+acing=3D=220=22><tr><td width=3D=221=22 height=3D=225=22 style=3D=22line-he=
+ight:0px;=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/respon=
+sysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=
+=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr></table>
+                                      =20
+                                    </td>
+                                    <td width=3D=22305=22 class=3D=22width1=
+59=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimag=
+es/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=
+=22 style=3D=22display:block; border:0;=22 /></td>
+                                </tr>
+                                </table>
+                            </div>
+                            <=21--=5Bif gte mso 9=5D>
+                            </td></tr></table>
+                            </v:textbox>
+                            </v:rect>
+                            <=21=5Bendif=5D-->=20
+                        </td>
+                    </tr>
+                    </table>
+                    <=21--/HERO-->
+                    <=21--CONTENT-->
+                    <=21--HEADER-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 class=3D=22width318=22>
+                  <tr>
+                      <td width=3D=22608=22 height=3D=2251=22 align=3D=22ce=
+nter=22 valign=3D=22top=22 class=3D=22width318 height153=22>
+                          <=21--=5Bif =21mso=5D><=21-->
+                          <div class=3D=22show=22 style=3D=22display:none; =
+float:left; overflow:hidden; width:0; max-height:0; line-height:0;=22>
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22><tr><td width=3D=221=22 height=3D=2215=22 style=3D=22line-height:0px;=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td></tr></table>
+                            <div style=3D=22font-family:Helvetica, Arial, s=
+ans-serif; font-size:12px; color:=23757373; line-height:18px;=22>
+We're giving 1-year free access to: <li>LinkedIn Premium Job Seeker account=
+</li>
+<li>Courses at Lynda=2Ecom, a LinkedIn Company </li>
+                            </div>
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22><tr><td width=3D=221=22 height=3D=2215=22 style=3D=22line-height:0px;=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td></tr></table>
+                            </div>
+                          <=21--<=21=5Bendif=5D-->
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22><tr><td width=3D=221=22 height=3D=2216=22 style=3D=22line-height:0px;=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td></tr></table>
+                          <div style=3D=22font-family:Helvetica, Arial, san=
+s-serif; font-size:18px; color:=23757373; line-height:22px;=22>Start by exp=
+loring courses recommended for you:</span></div>
+                        </td>
+                    </tr>
+                    </table>
+                    <=21--/HEADER-->
+                    <=21--COURSE-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 bgcolor=3D=22=23f7f8f8=22 class=3D=22width318=22>
+                  <tr>
+                      <th width=3D=22345=22 align=3D=22right=22 class=3D=22=
+head width318 block aligncenter=22>
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=2245=22 class=3D=22hide=22><img =
+src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin=
+/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=
+=22display:block; border:0;=22 /></td>
+                                <td width=3D=22300=22 align=3D=22center=22 =
+class=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2214=22 style=3D=22line-height=
+:0px;=22 class=3D=22height9=22><img src=3D=22https://static=2Ecdn=2Erespons=
+ys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <a href=3D=22https://e=2Elinkedin=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcB=
+rLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16Eo=
+X5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https://s=
+tatic=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/Leda%20Ci=
+troen=2Ejpg=22 width=3D=22300=22 height=3D=22169=22 style=3D=22display:bloc=
+k; border:0;=22 /></a>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2214=22 style=3D=22line-height=
+:0px;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=
+=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr=
+></table>
+                                </td>
+                            </tr>
+                            </table>
+                        </th>
+                        <th width=3D=22263=22 align=3D=22center=22 class=3D=
+=22head width318 block=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=22263=22 align=3D=22center=22 cl=
+ass=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2274=22 style=3D=22line-height=
+:0px;=22 class=3D=22height9=22><img src=3D=22https://static=2Ecdn=2Erespons=
+ys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <div style=3D=22font-family:Helvetica, Ar=
+ial, sans-serif; font-size:16px; color:=23757373; font-weight:100; line-hei=
+ght:23px;=22>
+                                  Translating Your Military Service  <br/> =
+to Civilian Life by Lida Citro=C3=ABn
+                                                                    </div>
+                                    <table cellpadding=3D=220=22 cellspacin=
+g=3D=220=22><tr><td width=3D=221=22 height=3D=225=22 style=3D=22line-height=
+:0px;=22 ><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsys=
+images/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=
+=221=22 style=3D=22display:block; border:0;=22 /></td></tr></table>
+                                </td>
+                          </tr>
+                            </table>
+                        </th>
+                    </tr>
+                    </table>
+                    <=21--/COURSE-->
+                    <=21--COURSE-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 bgcolor=3D=22=23ffffff=22 class=3D=22width318=22>
+                  <tr>
+                      <th width=3D=22345=22 align=3D=22right=22 class=3D=22=
+head width318 block aligncenter=22>
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=2245=22 class=3D=22hide=22><img =
+src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin=
+/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=
+=22display:block; border:0;=22 /></td>
+                                <td width=3D=22300=22 align=3D=22center=22 =
+class=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2218=22 style=3D=22line-height=
+:0px;=22 class=3D=22height19=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <a href=3D=22https://e=2Elinkedin=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcB=
+rLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16Eo=
+X5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https://s=
+tatic=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/LDC_small=
+_business=2Ejpg=22 width=3D=22300=22 height=3D=22169=22 style=3D=22display:=
+block; border:0;=22 /></a>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2214=22 style=3D=22line-height=
+:0px;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=
+=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr=
+></table>
+                                </td>
+                            </tr>
+                            </table>
+                        </th>
+                        <th width=3D=22263=22 align=3D=22center=22 class=3D=
+=22head width318 block=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=22263=22 align=3D=22center=22 cl=
+ass=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2277=22 style=3D=22line-height=
+:0px;=22 class=3D=22height10=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <div style=3D=22font-family:Helvetica, Ar=
+ial, sans-serif; font-size:16px; color:=23757373; font-weight:100; line-hei=
+ght:23px;=22>
+                                 Business Courses + <br />
+                                  Tutorials
+                                  </div>
+                                    <table cellpadding=3D=220=22 cellspacin=
+g=3D=220=22><tr><td width=3D=221=22 height=3D=225=22 style=3D=22line-height=
+:0px;=22 class=3D=22height10=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                </td>
+                          </tr>
+                            </table>
+                        </th>
+                    </tr>
+                    </table>
+                    <=21--/COURSE-->
+                    <=21--COURSE-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 bgcolor=3D=22=23f7f8f8=22 class=3D=22width318=22>
+                  <tr>
+                      <th width=3D=22345=22 align=3D=22right=22 class=3D=22=
+head width318 block aligncenter=22>
+                            <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=2245=22 class=3D=22hide=22><img =
+src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin=
+/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=
+=22display:block; border:0;=22 /></td>
+                                <td width=3D=22300=22 align=3D=22center=22 =
+class=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2213=22 style=3D=22line-height=
+:0px;=22 class=3D=22height9=22><img src=3D=22https://static=2Ecdn=2Erespons=
+ys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <a href=3D=22https://e=2Elinkedin=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcB=
+rLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16Eo=
+X5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https://s=
+tatic=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/designlog=
+o=2Ejpg614925661=2Ejpg=22 width=3D=22300=22 height=3D=22169=22 style=3D=22d=
+isplay:block; border:0;=22 /></a>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2215=22 style=3D=22line-height=
+:0px;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=
+=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr=
+></table>
+                                </td>
+                            </tr>
+                            </table>
+                        </th>
+                        <th width=3D=22263=22 align=3D=22center=22 class=3D=
+=22head width318 block=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                              <td width=3D=22263=22 align=3D=22center=22 cl=
+ass=3D=22width318=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2272=22 style=3D=22line-height=
+:0px;=22 class=3D=22height10=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <div style=3D=22font-family:Helvetica, Ar=
+ial, sans-serif; font-size:16px; color:=23757373; font-weight:100; line-hei=
+ght:23px;=22>
+                                  Design Training +   <br /> Tutorials
+                                =20
+                                  </div>
+                                    <table cellpadding=3D=220=22 cellspacin=
+g=3D=220=22><tr><td width=3D=221=22 height=3D=225=22 style=3D=22line-height=
+:0px;=22 ><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsys=
+images/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=
+=221=22 style=3D=22display:block; border:0;=22 /></td></tr></table>
+                                </td>
+                          </tr>
+                            </table>
+                        </th>
+                    </tr>
+                    </table>
+                    <=21--/COURSE-->
+                   =20
+                    <=21--CTA 2-->                   =20
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 class=3D=22width318=22 bgcolor=3D=22=23f7f8f8=22>
+                  <tr>
+                      <th width=3D=22419=22 align=3D=22center=22 valign=3D=
+=22middle=22 class=3D=22head width318 block=22>
+                          <table width=3D=22419=22 cellpadding=3D=220=22 ce=
+llspacing=3D=220=22 class=3D=22head width318 block=22>
+                            <tr>
+                              <td width=3D=22419=22 align=3D=22center=22 va=
+lign=3D=22middle=22 class=3D=22head width318 block=22>
+                              <table cellpadding=3D=220=22 cellspacing=3D=
+=220=22><tr><td width=3D=221=22 height=3D=2228=22 style=3D=22line-height:0p=
+x;=22 class=3D=22height14=22><img src=3D=22https://static=2Ecdn=2Eresponsys=
+=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=
+=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr=
+></table>
+                                <div style=3D=22font-family:Helvetica, Aria=
+l, sans-serif; font-size:16px; color:=23757373; font-weight:100; line-heigh=
+t:23px;=22>Receive a <span style=3D=22font-weight:bold;=22>one-year free tr=
+ial</span> <span class=3D=22block=22>to <a href=3D=22https://e=2Elinkedin=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56a=
+jpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93c=
+EvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22 style=3D=22font=
+-family:Helvetica, Arial, sans-serif; color:=23757373; text-decoration:none=
+;=22>lynda&=238203;=2Ecom</a></span></div>
+                              <table cellpadding=3D=220=22 cellspacing=3D=
+=220=22><tr><td width=3D=221=22 height=3D=2219=22 style=3D=22line-height:0p=
+x;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2En=
+et/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=
+=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td></tr></t=
+able>
+                                </td>
+                            </tr>
+                            </table>
+                        </th>
+                        <th width=3D=22142=22 align=3D=22center=22 valign=
+=3D=22top=22 class=3D=22head width318 block=22>
+                          <table cellpadding=3D=220=22 cellspacing=3D=220=
+=22>
+                            <tr>
+                                <td width=3D=22142=22 align=3D=22center=22 =
+valign=3D=22top=22 class=3D=22head width318 block=22>
+                                  <table cellpadding=3D=220=22 cellspacing=
+=3D=220=22><tr><td width=3D=221=22 height=3D=2223=22 style=3D=22line-height=
+:0px;=22 class=3D=22height10=22><img src=3D=22https://static=2Ecdn=2Erespon=
+sys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=
+=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td><=
+/tr></table>
+                                  <a href=3D=22https://e=2Elinkedin=2Ecom/p=
+ub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcB=
+rLzfDEzeXoIKCmt5zcVXtpKX%3DBRWAYY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16Eo=
+X5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https://s=
+tatic=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/content/linkedin/Start-Tri=
+al=2Epng=22 width=3D=22142=22 height=3D=2235=22 style=3D=22border:0; displa=
+y:block;=22 class=3D=22width113 height29=22/></a>
+                                    <table cellpadding=3D=220=22 cellspacin=
+g=3D=220=22><tr><td width=3D=221=22 height=3D=2212=22 style=3D=22line-heigh=
+t:0px;=22 class=3D=22height15=22><img src=3D=22https://static=2Ecdn=2Erespo=
+nsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 widt=
+h=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 /></td>=
+</tr></table>
+                                </td>
+                            </tr>
+                            </table>
+                        </th>
+                        <th width=3D=2247=22 height=3D=2215=22 style=3D=22l=
+ine-height:0px;=22 class=3D=22hide=22><img src=3D=22https://static=2Ecdn=2E=
+responsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22=
+ width=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22 />=
+</th>
+                    </tr>
+                    </table>
+
+
+                   =20
+                    <=21--/CONTENT-->
+                    <=21--FOOTER-->
+                    <table width=3D=22608=22 cellpadding=3D=220=22 cellspac=
+ing=3D=220=22 class=3D=22width318=22 bgcolor=3D=22=23323232=22>
+                    <tr>
+                      <td width=3D=22608=22 height=3D=2231=22 style=3D=22li=
+ne-height:0px;=22 class=3D=22width318 height20=22><img src=3D=22https://sta=
+tic=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran=
+/sp=2Egif=22 width=3D=221=22 height=3D=221=22 style=3D=22display:block; bor=
+der:0;=22 /></td>
+                    </tr>
+                    <tr>
+                      <td width=3D=22608=22 class=3D=22width318=22>        =
+           =20
+                            <table width=3D=22608=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 class=3D=22width318=22 bgcolor=3D=22=23323232=22>
+                            <tr>
+                                <td width=3D=22133=22 align=3D=22right=22 v=
+align=3D=22top=22 class=3D=22width98=22><a href=3D=22https://e=2Elinkedin=
+=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56a=
+jpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTDY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93c=
+EvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22h=
+ttps://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lyn=
+da_Veteran/logo_li_footer=2Egif=22 width=3D=2287=22 height=3D=2224=22 alt=
+=3D=22Linkedin&trade;=22 style=3D=22display:block; border:0;=22 /></a></td>
+                                <td width=3D=22352=22 class=3D=22width131=
+=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages=
+/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22 height=3D=221=22 =
+style=3D=22display:block; border:0;=22 /></td>
+                                <td width=3D=2226=22 align=3D=22left=22 val=
+ign=3D=22top=22 class=3D=22width26=22><a href=3D=22https://e=2Elinkedin=2Ec=
+om/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKz=
+cPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTDY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL=
+16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https=
+://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_V=
+eteran/social_1=2Egif=22 width=3D=2225=22 height=3D=2224=22 alt=3D=22Linked=
+in&trade;=22 style=3D=22display:block; border:0;=22 /></a></td>
+                                 <td width=3D=2226=22 align=3D=22left=22 va=
+lign=3D=22top=22 class=3D=22width26=22><a href=3D=22https://e=2Elinkedin=2E=
+com/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpK=
+zcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRUSY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvR=
+L16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22http=
+s://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_=
+Veteran/social_2=2Egif=22 width=3D=2224=22 height=3D=2224=22 alt=3D=22Twitt=
+er=22 style=3D=22display:block; border:0;=22 /></a></td>
+                                <td width=3D=2271=22 align=3D=22left=22 val=
+ign=3D=22top=22 class=3D=22width26=22><a href=3D=22https://e=2Elinkedin=2Ec=
+om/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rCc0mmT56ajpKz=
+cPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRUUY&_ei_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL=
+16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22><img src=3D=22https=
+://static=2Ecdn=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_V=
+eteran/social_3=2Egif=22 width=3D=2224=22 height=3D=2224=22 alt=3D=22Facebo=
+ok=22 style=3D=22display:block; border:0;=22 /></a></td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td width=3D=22608=22 height=3D=225=22 style=3D=22lin=
+e-height:0px;=22 class=3D=22height6=22><img src=3D=22https://static=2Ecdn=
+=2Eresponsys=2Enet/i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=
+=22 width=3D=221=22 height=3D=221=22 style=3D=22display:block; border:0;=22=
+ /></td>
+                    </tr>
+                    </table>
+                    <=21--/FOOTER-->
+                    </td>
+                    <td width=3D=221=22 style=3D=22line-height:0px;=22 bgco=
+lor=3D=22=23757373=22><img src=3D=22https://static=2Ecdn=2Eresponsys=2Enet/=
+i5/responsysimages/linkedin/Lynda/Lynda_Veteran/sp=2Egif=22 width=3D=221=22=
+ height=3D=221=22 style=3D=22display:block; border:0;=22 /></td>
+                </tr>
+                </table>
+
+<table width=3D=22100%=22 border=3D=220=22 align=3D=22center=22 cellpadding=
+=3D=220=22 cellspacing=3D=220=22>
+    <tr align=3D=22center=22>
+      <td align=3D=22center=22 style=3D=22background-color: =23ffffff; padd=
+ing-top: 20px; padding-bottom: 20px;=22>
+        <table class=3D=22width287=22 align=3D=22center=22 width=3D=22600=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+    <tr align=3D=22center=22>
+      <td align=3D=22center=22>
+        <table align=3D=22center=22 width=3D=2290%=22 border=3D=220=22 cell=
+spacing=3D=220=22 cellpadding=3D=220=22>
+    <tr align=3D=22center=22>
+      <td align=3D=22center=22 style=3D=22font-family:Helvetica, Arial, san=
+s-serif; font-size:11px; color:=23666666; padding-bottom:45px;=22>*Offer va=
+lid only for members or veterans of the U=2ES=2E Armed Forces (as determine=
+d by LinkedIn in its sole discretion) located in the United States who have=
+ not previously used a similar promotional trial offer from LinkedIn in the=
+ past 12 months=2E LinkedIn, at its option, may require information to conf=
+irm the foregoing=2E The promotion is not transferable and may not be sold,=
+ shared, or bartered=2E LinkedIn (and/or lynda=2Ecom) may revoke this offer=
+ at any time for technical, security, or business reasons, including fraud =
+prevention=2E One promotional offer per eligible subscriber=2E Offer expire=
+s on December 31, 2016, which is the last day to redeem this promotion and =
+activate the activation code=2E After the one-year promotional period, your=
+ subscription will terminate=2E=20
+Access to lynda=2Ecom courses includes those features offered through lynda=
+=2Ecom=E2=80=99s Premium Subscription (or, at LinkedIn=E2=80=99s option, an=
+other similar alternative service provided by LinkedIn)=2E All use of the l=
+ynda=2Ecom service is subject to lynda=2Ecom=E2=80=99s <a href=3D=22https:/=
+/e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmz=
+c81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRWABY&_ei_=3DEolaGGF4SNMvx=
+FF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22 ri=
+lt=3D=22FOOTER_POLICY=22 style=3D=22color:=23006699;=22>user agreement and =
+privacy policy=2E</a> Applicable charges and taxes will apply to future Lyn=
+da and other LinkedIn subscription orders=2E<br /><br>
+
+If you need assistance or have questions, please contact <a href=3D=22https=
+://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psj=
+mzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRSDY&_ei_=3DEolaGGF4SNM=
+vxFF7KucKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22 =
+rilt=3D=22HELP_ENGLISH=22 style=3D=22color:=23006699;=22>LinkedIn Customer =
+Service</a>=2E
+            <br />
+This is an occasional email to help you get the most out of LinkedIn=2E <a =
+href=3D=22https://e=2Elinkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGt=
+Szbg7qOYsS19psjmzc81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTUY&_ei=
+_=3DEolaGGF4SNMvxFF7KucKuWM93cEvRL16EoX5iW3IPhHwmWK2aJafrkegwlR8DWX2lsizFdr=
+-cMMS9w3X5Kxhz88-t9HSDtFO2jZMg_Hzv4SX3UZLURauXDDMZKfWFccFxAbj0Ng8pnfKfBwES8=
+gUJXmN284X9ww57XdWyK2Sw4jcrsYV_nHo9R8z_3qSXTC0=2E=22 rilt=3D=22UNSUB=22 sty=
+le=3D=22color:=23006699;=22>Unsubscribe</a>=2E
+			<br />
+This email was intended for Robert Duggan (at)=2E <a href=3D=22https://e=2E=
+linkedin=2Ecom/pub/cc?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmzc81rC=
+c0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXtpKX%3DBRRTYY&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22 rilt=3D=
+=22FOOTER_EN=22 style=3D=22color:=23006699;=22>Learn why we include this</a=
+>=2E<img src=3D=22https://pixel=2Emonitor1=2Ereturnpath=2Enet/pixel=2Egif?r=
+=3D336f8076412624329de0e7ceebac824144cb5754&s=3D447620733&c=3Dlinkedin=2E25=
+30235&date=3D2015-11-11=22 width=3D=221=22 height=3D=221=22 />
+            <br />
+			<br />
+&=23169; 2015, LinkedIn Corporation=2E All rights reserved=2E LinkedIn Corp=
+=2E 2029 Stierlin Court&=2344; Mountain View CA 94043 </td>
+  </tr>
+</table>
+
+
+
+            </td>
+        </tr>
+        <tr>
+
+        </table>
+    </td>
+</tr>
+</table><br>
+<br><img border=3D=220=22 width=3D=221=22 height=3D=221=22 src=3D=22https:/=
+/e=2Elinkedin=2Ecom/pub/as?_ri_=3DX0Gzc2X%3DYQpglLjHJlYQGtSzbg7qOYsS19psjmz=
+c81rCc0mmT56ajpKzcPcBrLzfDEzeXoIKCmt5zcVXHkMX%3Dw&_ei_=3DEolaGGF4SNMvxFF7Ku=
+cKuWM93cEvRL16EoX5iW3IPhHwGZG76EC7_WyhRYEj5cwCz08bAvsIIocJutQ=2E=22>
+</body>
+</html>
+
+------alt_border_sKes3VnnjM_1--
+
+------msg_border_12VJGNTBuM--
+

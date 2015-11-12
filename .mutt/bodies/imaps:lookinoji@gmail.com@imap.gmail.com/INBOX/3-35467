@@ -1,0 +1,1020 @@
+Delivered-To: lookinoji@gmail.com
+Received: by 10.13.213.2 with SMTP id x2csp678560ywd;
+        Tue, 10 Nov 2015 23:04:45 -0800 (PST)
+X-Received: by 10.66.158.129 with SMTP id wu1mr11975998pab.146.1447225484935;
+        Tue, 10 Nov 2015 23:04:44 -0800 (PST)
+Return-Path: <156-OFN-742.0.4632.0.0.6413.7.43073154@em-sj-77.mktomail.com>
+Received: from dove.mktdns.com (dove.mktdns.com. [199.15.215.50])
+        by mx.google.com with ESMTPS id qd3si10668618pab.208.2015.11.10.23.04.44
+        for <lookinoji@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 10 Nov 2015 23:04:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of 156-OFN-742.0.4632.0.0.6413.7.43073154@em-sj-77.mktomail.com designates 199.15.215.50 as permitted sender) client-ip=199.15.215.50;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 156-OFN-742.0.4632.0.0.6413.7.43073154@em-sj-77.mktomail.com designates 199.15.215.50 as permitted sender) smtp.mailfrom=156-OFN-742.0.4632.0.0.6413.7.43073154@em-sj-77.mktomail.com;
+       dkim=pass header.i=@mktdns.com
+Return-Path: <news@nvidia.com>
+X-MSFBL: bG9va2lub2ppQGdtYWlsLmNvbUBkdnAtMTk5LTE1LTIxNS01MEBiZy1zamQtNDRA
+	MTU2LU9GTi03NDI6ODg0OTo0NjMyOjIzNzg3OjA6NjQxMzo3OjQzMDczMTU0
+Received: from [10.0.12.43] ([10.0.12.43:48252] helo=sjmas02.marketo.org)
+	by sjmta17.marketo.org (envelope-from <news@nvidia.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 84/63-01911-A88E2465; Wed, 11 Nov 2015 01:04:42 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1447225482;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=cWDuaUTRZBot8ihjJUjqDR2BMIerVpXzn7TbJBuynvI=;
+	b=kzyEUy2emNNeBuHHl+zyvKYuDYegeaTF37+SGsRkzKRLT83waq4R/wwkRXCybkTZ
+	kv9Qcd1+RzYUdq21WXQwzvvpVCS/ALH9v9FHOvSzVPTvGDkryBuuZtFwpJYDzLGtptU
+	9S9HPnop43/GrJzsnYn5u0ALhbGHAcfogWshcy0A=
+Date: Wed, 11 Nov 2015 01:04:42 -0600 (CST)
+From: NVIDIA <news@nvidia.com>
+Reply-To: news@nvidia.com
+To: lookinoji@gmail.com
+Message-ID: <1228638511.310288806.1447225482492.JavaMail.root@sjmas02.marketo.org>
+Subject: Welcome Home. Fallout 4 Now Available
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_310288805_1379895552.1447225482492"
+X-PVIQ: mkto-156OFN742-000001-000000-016237
+X-Binding: bg-sjd-44
+X-MarketoID: 156-OFN-742:8849:4632:23787:0:6413:7:43073154
+X-MktArchive: false
+X-Mailfrom: 156-OFN-742.0.4632.0.0.6413.7.43073154@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+
+------=_Part_310288805_1379895552.1447225482492
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">
+<title>Welcome Home. Fallout=C2=AE 4 Now Available.</title>
+
+<style type=3D"text/css">
+.ReadMsgBody {
+        width:100%;
+        background-color:#212121
+}
+.ExternalClass {
+        width:100%;
+        background-color:#212121
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {
+        line-height:100%
+}
+html {
+        width:100%
+}
+body {
+        -webkit-text-size-adjust:none;
+        -ms-text-size-adjust:none;
+        margin:0;
+        padding:0
+}
+table {
+        border-spacing:0
+}
+img {
+        display:block!important;
+}
+table td {
+        border-collapse:collapse
+}
+.yshortcuts a {
+        border-bottom:none!important
+}
+img {
+        height:auto!important
+}
+ @media only screen and (max-width: 640px) {
+body {
+        width:auto!important
+}
+table[class=3D"container"] {
+        width:100%!important;
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+img[class=3D"image-100-percent"] {
+        width:100%!important;
+        height:auto!important;
+        max-width:100%!important
+}
+img[class=3D"small-image-100-percent"] {
+        width:100%!important;
+        height:auto!important
+}
+table[class=3D"full-width"] {
+        width:100%!important
+}
+td[class=3D"var-height"] {
+        height:30px!important
+}
+table[class=3D"full-width-text"] {
+        width:100%!important;
+        background-color:#b91925;
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+table[class=3D"full-width-text2"] {
+        width:100%!important;
+        background-color:#f3f3f3;
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+table[class=3D"col-2-3img"] {
+        width:50%!important;
+        margin-right:20px!important
+}
+table[class=3D"col-2-3img-last"] {
+        width:50%!important
+}
+table[class=3D"col-2"] {
+        width:47%!important;
+        margin-right:20px!important
+}
+table[class=3D"col-2-last"] {
+        width:47%!important
+}
+table[class=3D"col-3"] {
+        width:33%!important
+}
+table[class=3D"col-3-last"] {
+        width:33%!important
+}
+table[class=3D"row-2"] {
+        width:50%!important
+}
+td[class=3D"text-center"] {
+        text-align:center!important
+}
+table[class=3D"remove"], td[class=3D"remove"] {
+        display:none!important
+}
+table[class=3D"reduce"], td[class=3D"reduce"] {
+        padding-left:3px!important
+}
+table[class=3D"fix-box"], td[class=3D"fix-box"] {
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+td[class=3D"font-resize"] {
+        font-size:18px!important;
+        line-height:22px!important
+}
+table[class=3D"space-scale"] {
+        width:100%!important;
+        float:none!important
+}
+table[class=3D"btn"] {
+        width: 100% !important
+}
+table[class=3D"blockCenter"], td[class=3D"blockCenter"] {
+        text-align: center !important;
+        width: 100% !important;
+}
+}
+ @media only screen and (max-width: 479px) {
+body {
+        font-size:10px!important
+}
+table[class=3D"container"] {
+        width:100%!important;
+        padding-left:10px!important;
+        padding-right:10px!important
+}
+table[class=3D"container2"] {
+        width:100%!important;
+        float:none!important
+}
+img[class=3D"image-100-percent"], img[class=3D"small-image-100-percent"] {
+        width:100%!important;
+        height:auto!important;
+        max-width:100%!important;
+        min-width:124px!important
+}
+table[class=3D"full-width"] {
+        width:100%!important
+}
+td[class=3D"var-height"] {
+        height:20px!important
+}
+table[class=3D"full-width-text"] {
+        width:100%!important;
+        background-color:#b91925;
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+table[class=3D"full-width-text2"] {
+        width:100%!important;
+        background-color:#f3f3f3;
+        padding-left:20px!important;
+        padding-right:20px!important
+}
+table[class=3D"col-2"], table[class=3D"col-3"] {
+        width:100%!important;
+        margin-right:0!important
+}
+table[class=3D"col-3-last"], table[class=3D"col-2-last"], table[class=3D"ro=
+w-2"] {
+        width:100%!important
+}
+table[id=3D"col-underline1"], td[id=3D"col-underline2"], td[class=3D"col-un=
+derline"] {
+        float:none!important;
+        width:100%!important;
+        border-bottom:1px solid #eee
+}
+td[class=3D"text-center"], div[class=3D"text-center"] {
+        text-align:center!important
+}
+table[class=3D"clear-padding"] {
+        padding:0!important
+}
+td[class=3D"clear-padding"] {
+        padding:0!important
+}
+table[class=3D"remove-479"] {
+        display:none!important
+}
+td[class=3D"remove-479"] {
+        display:none!important
+}
+table[class=3D"clear-align"] {
+        float:none!important;
+        width:100%!important;
+        margin-right:0!important
+}
+table[class=3D"width-small"] {
+        width:100%!important
+}
+table[class=3D"fix-box"] {
+        padding-left:0!important;
+        padding-right:0!important
+}
+td[class=3D"fix-box"] {
+        padding-left:0!important;
+        padding-right:0!important
+}
+td[class=3D"font-resize"] {
+        font-size:14px!important
+}
+td[class=3D"increase-Height"] {
+        height:10px!important
+}
+td[class=3D"increase-Height-20"] {
+        height:20px!important
+}
+table[class=3D"btn"] {
+        width: 100% !important
+}
+table[class=3D"blockCenter"], td[class=3D"blockCenter"] {
+        text-align: center !important;
+        width: 100% !important;
+}
+}
+ @media only screen and (max-width: 320px) {
+table[class=3D"width-small"] {
+        width:125px!important
+}
+img[class=3D"image-100-percent"] {
+        width:100%!important;
+        height:auto!important;
+        max-width:100%!important;
+        min-width:124px!important
+}
+table[class=3D"btn"] {
+        width: 100% !important
+}
+table[class=3D"blockCenter"] td {
+        text-align: center !important;
+        width: 100% !important;
+}
+}
+</style>
+</head>
+<body style=3D"font-size:12px; background-color:#000000; " ><div style=3D"d=
+isplay:none;width:0px;height:0px;max-width:0px;max-height:0px;overflow:hidd=
+en;opacity: 0;mso-hide:all;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" style=3D"background-color: #000000; display: none; mso=
+-hide: all; padding: 8px 0px">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"responsive=
+-table" width=3D"600">
+<tr>
+<td align=3D"center">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" style=3D"padding: 0; display: none; mso-hide: all;"><a=
+ href=3D"#" style=3D"font-size: 14px; line-height: 20px; font-family: Trebu=
+chet MS, Tahoma, Helvetica, sans-serif; color: #000000; text-decoration: no=
+ne; mso-hide: all; display: none; opacity: 0;">NVIDIA has teamed up with Fa=
+llout=C2=AE 4</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class=3D"mkteditable" id=3D"content" ><!--start 100% wrapper (white ba=
+ckground) -->
+<div class=3D"mkteditable" id=3D"block 20 (2 column/multi row articles)" ><=
+!-- START ARTICLE MULTI ROWS BLOCK --></div>
+<div class=3D"mkteditable" id=3D"block 33 (full width/social icons)" ><!-- =
+START SOCIAL ICON BLOCK --></div>
+<div class=3D"mkteditable" id=3D"block 34 (full width/footer)" ><!-- START =
+FOOTER BLOCK --></div>
+<table width=3D"100%" id=3D"mainStructure" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D"background-color:#000000;"><!-- START LAYOUT-14 -=
+->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start layout-14 container width=
+ 600px -->
+<table width=3D"600" bgcolor=3D"#000000" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" class=3D"container"><!--start space height =
+-->
+<tr>
+<td height=3D"20"></td>
+</tr>
+<!--end space height -->
+<tr>
+<td><!-- start logo footer and address -->
+<table width=3D"100%" align=3D"right" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+<tr>
+<td style=3D"font-size: 11px; line-height: 18px; font-family:Trebuchet MS,T=
+ahoma, Helvetica, sans-serif; font-weight:normal; text-align:right; color: =
+#76b900; font-weight: bold; text-transform:uppercase;" class=3D"text-center=
+"><a href=3D"http://info.nvidianews.com/index.php/email/emailWebview?mkt_to=
+k=3D3RkMMJWWfF9wsRoiva%2FLZKXonjHpfsX86OwqWqazhokz2EFye%2BLIHETpodcMSsZjNq%=
+2BTFAwTG5toziV8R7HAKs1v3NsQXBXg" target=3D"_blank" style=3D"text-decoration=
+: none; color: #bdbdbd; font-weight: normal;">VIEW ONLINE</a> <span style=
+=3D"font-size:14px;"><a href=3D"http://info.nvidianews.com/index.php/email/=
+emailWebview?mkt_tok=3D3RkMMJWWfF9wsRoiva%2FLZKXonjHpfsX86OwqWqazhokz2EFye%=
+2BLIHETpodcMSsZjNq%2BTFAwTG5toziV8R7HAKs1v3NsQXBXg" target=3D"_blank" style=
+=3D"text-decoration: none; color: #76b900; font-weight: normal;">&#9658;</a=
+></span></td>
+</tr>
+</table>
+<!-- end logo footer and address --></td>
+</tr>
+<!--start space height -->
+<tr>
+<td height=3D"12"></td>
+</tr>
+<!--end space height --></table>
+</td>
+</tr>
+<!-- END LAYOUT-14--><!-- START LAYOUT 2 -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start layout-2 container width =
+600px -->
+<table width=3D"598" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width" bgcolor=3D"#212121" style=3D"background-co=
+lor: #212121; border-left:1px solid #303439;border-right:1px solid #303439;=
+border-top:1px solid #303439;">
+<tr>
+<td width=3D"299" class=3D"full-width"><!-- start content left -->
+<table width=3D"299" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"full-width">
+<tr>
+<td align=3D"center" width=3D"100%"><a href=3D
+"http://go.nvidianews.com/c0U00JiO06MF2eENB0ii400" target=3D"_blank"
+><img class=3D"image-100-percent" src=3D"http://info.nvidianews.com/rs/nvid=
+ia/images/gf-black-top-bar-logo.png" width=3D"299" alt=3D"" style=3D"displa=
+y:block; max-width:299px;" border=3D"0" hspace=3D"0" vspace=3D"0"></a></td>
+</tr>
+</table>
+<!-- end content left --></td>
+<td width=3D"299" class=3D"remove"><!-- start content right -->
+<table width=3D"299" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"remove">
+<tr>
+<td align=3D"center"><img class=3D"remove" src=3D"http://info.nvidianews.co=
+m/rs/nvidia/images/nv-black-top-bar-bg.png" width=3D"299" alt=3D"" style=3D=
+"display:block; max-width:299px;" border=3D"0" hspace=3D"0" vspace=3D"0"></=
+td>
+</tr>
+</table>
+<!-- end content right --></td>
+</tr>
+<!-- end image and content --></table>
+<!-- end layout-2 container width 560px --></td>
+</tr>
+<!-- END LAYOUT 2 --><!--START IMAGE HEADER LAYOUT-->
+<tr>
+<td class=3D"fix-box">
+<table width=3D"100%" align=3D"center" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"full-width" style=3D"background-color:#000000;">
+<tr>
+<td class=3D"full-width" width=3D"100%" align=3D"center"><!-- start header =
+container -->
+<table width=3D"598" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width" style=3D"background-color:#000000; border-=
+left:1px solid rgb(48, 52, 57); border-right:1px solid rgb(48, 52, 57);">
+<tr>
+<td align=3D"center"><a href=3D
+"http://go.nvidianews.com/l4FJC0006eii0N0EU0M0j2O" target=3D"_blank"
+><img class=3D"image-100-percent" src=3D"http://images.nvidia.com/newslette=
+rs/images/gf-nov-2015/NEWSLETTER-Fallout4-600x360-Billboard-1-Final.png" wi=
+dth=3D"600" height=3D"360" style=3D"max-width:600px; display:block;" border=
+=3D"0" hspace=3D"0" vspace=3D"0" alt=3D"Fallout 4" title=3D"Fallout 4"></a>=
+</td>
+</tr>
+</table>
+<!-- end header container --></td>
+</tr>
+</table>
+</td>
+</tr>
+<!--END IMAGE HEADER LAYOUT--><!-- START LAYOUT 1 -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start layout-1 container width =
+600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" bgcolor=3D"#212121" style=3D"background-col=
+or: #212121; border-left:1px solid rgb(48, 52, 57); border-right:1px solid =
+rgb(48, 52, 57);">
+<tr>
+<td>
+<table width=3D"30" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"full-width">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td><!-- start layout-1 container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width" bgcolor=3D"#212121" style=3D"background-co=
+lor:#212121;"><!--start space height -->
+<tr>
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --><!-- start text content -->
+<tr>
+<td>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tr>
+<td style=3D"font-size:13px;line-height:17px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;color:#bdbdbd;font-weight:normal;text-align:left;" c=
+lass=3D"text-center">Enter the incredible world of <em>Fallout</em>=C2=AE <=
+em>4</em>--Bethesda Game Studios' most ambitious game ever. Bring this mass=
+ive open-world to life with the performance, exclusive technologies, and un=
+ique features GeForce GTX 900-series GPUs deliver.<br>
+<br>
+With the GeForce GTX=E2=84=A2 980 Ti or 970, you can be sure you'll be Game=
+ Ready. Download the <em>Fallout</em>=C2=AE <em>4</em> GeForce Game Ready 3=
+58.91 WHQL driver through GeForce Experience to ensure you receive 60 FPS O=
+ptimal Playable Settings.<br>
+<br>
+Experience <em>Fallout</em>=C2=AE <em>4</em> The Way It's Meant to be Playe=
+d.</td>
+</tr>
+<!--start space height --><!--                   <tr>
+                     <td height=3D"15"></td>
+                   </tr>--><!--end space height --><!-- <tr>
+                     <td style=3D"font-size: 13px; line-height: 17px; font-=
+family:Trebuchet MS,Tahoma, Helvetica, sans-serif; color:#bdbdbd; font-weig=
+ht:normal; text-align:left; " class=3D"text-center">
+                         un gran placer anunciarles el Torneo Internacional=
+ Pro/Am Hearthstone con admisi=C3=B3n gratuita para todos. Jugadores amateu=
+r y profesionales compitiendo en l=C3=ADnea en busca de ganar los $25,000 d=
+e premio.
+                        =20
+                        =20
+                     </td>
+                   </tr>--></table>
+</td>
+</tr>
+<!-- end text content --><!--start space height -->
+<tr>
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --></table>
+<!-- end layout-1 container width 560px --></td>
+<td>
+<table width=3D"30" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=
+=3D"full-width">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- end layout-1 container width 600px --></td>
+</tr>
+<!-- END LAYOUT 1 --><!-- START LAYOUT 13 -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start layout-13 container width=
+ 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#212121; border-l=
+eft:1px solid rgb(48, 52, 57); border-right:1px solid rgb(48, 52, 57);">
+<tr>
+<td><!-- start layout-13 container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width" style=3D"background-color:#212121;"><!-- s=
+tart text content -->
+<tr>
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" style=3D"background-color:#212121; padding:10px; text-align:ce=
+nter;" class=3D"text-center">
+<tr>
+<td style=3D"padding-left:10px; font-size: 13px; line-height: 17px; font-fa=
+mily:Trebuchet MS,Tahoma, Helvetica, sans-serif; color:#bdbdbd; font-weight=
+:normal; text-align:center;"><font style=3D"line-height: 17px; font-size:17=
+px; font-family:Trebuchet MS,Tahoma, Helvetica, sans-serif; color:#bdbdbd; =
+font-weight:bold; text-align:center;">=E2=80=9C</font> <font style=3D"line-=
+height: 18px; font-size:15px; font-family:Trebuchet MS,Tahoma, Helvetica, s=
+ans-serif; color:#76b900; font-weight:normal; text-align:center;">Best of S=
+how E3 2015.</font> <font style=3D"line-height: 17px; font-size:17px; font-=
+family:Trebuchet MS,Tahoma, Helvetica, sans-serif; color:#bdbdbd; font-weig=
+ht:bold; text-align:center;">=E2=80=9D</font><br>
+<font style=3D"line-height: 20px; font-size:13px; font-family:Trebuchet MS,=
+Tahoma, Helvetica, sans-serif; color:#bdbdbd; font-weight:normal; text-alig=
+n:center;">Official Game Critics Award</font></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- end text content --><!--start space height -->
+<tr>
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --></table>
+<!-- end layout-13 container width 560px --></td>
+</tr>
+</table>
+<!-- end layout-13 container width 600px --></td>
+</tr>
+<!-- END LAYOUT 13 --><!-- START OUTER TOP SPACE -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start outer top space container=
+ width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#000000; border-t=
+op:1px solid rgb(48, 52, 57);"><!--start space height -->
+<tr>
+<td height=3D"5"></td>
+</tr>
+<!--end space height --></table>
+<!-- end outer top space container width 600px --></td>
+</tr>
+<!-- END OUTER TOP SPACE --><!-- START OUTER BOTTOM SPACE -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start outer bottom space contai=
+ner width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#000000; border-b=
+ottom:1px solid rgb(48, 52, 57);"><!--start space height -->
+<tr>
+<td height=3D"5"></td>
+</tr>
+<!--end space height --></table>
+<!-- end outer bottom space container width 600px --></td>
+</tr>
+<!-- END OUTER BOTTOM SPACE -->
+<tr align=3D"center">
+<td align=3D"center" width=3D"600&quot;" class=3D"fix-box"><!-- start layou=
+t-5 container width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" bgcolor=3D"#212121" style=3D"background-col=
+or:#212121;border-left:1px solid #303439;border-right:1px solid #303439">
+<tr align=3D"center">
+<td align=3D"center"><!-- start layout-5 container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width"><!--start space height -->
+<tr align=3D"center">
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --><!-- start image content -->
+<tr align=3D"center">
+<td width=3D"100%"><!-- start content right -->
+<table width=3D"255" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"right" class=3D"full-width">
+<tr align=3D"center">
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"left">
+<tr align=3D"center">
+<td align=3D"left" bgcolor=3D"#E2E2E2"><a href=3D
+"http://go.nvidianews.com/rU0k0N040FD6iMOei02J0E0" target=3D"_blank"
+><img class=3D"image-100-percent" src=3D"http://images.nvidia.com/newslette=
+rs/images/gf-nov-2015/Story2_EVGA-Fallout-4-card.jpg" width=3D"255" alt=3D"=
+BEST BUY EXCLUSIVE FALLOUT=C2=AE 4 GRAPHICS CARD" title=3D"BEST BUY EXCLUSI=
+VE FALLOUT=C2=AE 4 GRAPHICS CARD" style=3D"display:block; max-width:255px;"=
+ border=3D"0" hspace=3D"0" vspace=3D"0"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --></table>
+<!-- end content right --><!-- start space width -->
+<table class=3D"remove" width=3D"1" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"right" style=3D"font-size:0;line-height:0;border-collaps=
+e:collapse;">
+<tr align=3D"center">
+<td width=3D"0" height=3D"2" style=3D"font-size:0;line-height:0;border-coll=
+apse:collapse;">
+<p style=3D"padding-left:30px;">&nbsp;</p>
+</td>
+</tr>
+</table>
+<!-- end space width --><!-- start content left -->
+<table width=3D"255" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"left" class=3D"full-width"><!-- start text content -->
+<tr align=3D"center">
+<td>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+<tr align=3D"center">
+<td style=3D"font-size: 18px; line-height: 17px; font-family: Trebuchet MS,=
+Tahoma, Helvetica, sans-serif; color:#555555; font-weight:bold; text-align:=
+left;" class=3D"text-center"><span style=3D"color: #76b900; font-weight: bo=
+ld; text-transform:uppercase;">BEST BUY EXCLUSIVE <em>FALLOUT</em>=C2=AE <e=
+m>4</em> GRAPHICS CARD</span></td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"15"></td>
+</tr>
+<!--end space height -->
+<tr align=3D"center">
+<td style=3D"font-size: 13px; line-height: 17px; font-family:Trebuchet MS,T=
+ahoma, Helvetica, sans-serif; color:#bdbdbd; font-weight:normal; text-align=
+:left;" class=3D"text-center">Take on the exciting new world of <em>Fallout=
+</em>=C2=AE <em>4</em> with an exclusively wrapped <em>Fallout</em>=C2=AE <=
+em>4</em> EVGA GeForce GTX 970 graphics card. Hurry, only a few of these ca=
+rds have been created!<br>
+<br style=3D"mso-special-character:line-break">
+<!--[if !supportLineBreakNewLine]--> <!--[endif]--></td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"15"></td>
+</tr>
+<!--end space height --></table>
+</td>
+</tr>
+<!-- end text content --><!--start space height -->
+<tr align=3D"center">
+<td width=3D"auto"><!-- start button -->
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"btn">
+<tr>
+<td width=3D"auto" align=3D"center" valign=3D"middle" height=3D"40" style=
+=3D" background-color:#212121; border:2px solid rgb(118, 185, 0); backgroun=
+d-clip: padding-box;font-size:13px; font-family: Trebuchet MS,Tahoma, Helve=
+tica, sans-serif; text-align:center; color:#ffffff; font-weight: bold;paddi=
+ng-left:10px; padding-right:10px;"><span style=3D"color: #ffffff; font-weig=
+ht: bold; text-transform:uppercase;"><a href=3D
+"http://go.nvidianews.com/rU0k0N040FD6iMOei02J0E0" target=3D"_blank" style=
+=3D"text-decoration: none; color: #ffffff; font-weight: bold;display:block;=
+ padding-left:18px; padding-right:18px;padding-top:10px;padding-bottom:10px=
+;"
+>Buy Now</a></span></td>
+</tr>
+</table>
+<!-- end button --></td>
+</tr>
+<!--end space height --></table>
+<!-- end content left --></td>
+</tr>
+<!-- end image content --></table>
+<!-- end layout-5 container width 560px --></td>
+</tr>
+</table>
+<!-- end layout-5 container width 600px --></td>
+</tr>
+<!-- START INNER SPACE -->
+<tr align=3D"center">
+<td align=3D"center" class=3D"fix-box"><!-- start inner space container wid=
+th 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#212121;border-le=
+ft:1px solid #303439;border-right:1px solid #303439">
+<tr align=3D"center">
+<td align=3D"center"><!-- start inner space container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width">
+<tr align=3D"center">
+<td height=3D"1" style=3D"border-top:1px solid #303439"></td>
+</tr>
+<!--end space height --></table>
+<!-- end inner space container width 560px --></td>
+</tr>
+</table>
+<!-- end inner space container width 600px --></td>
+</tr>
+<!-- END INNER SPACE --><!-- START ROW -->
+<tr align=3D"center">
+<td align=3D"center" width=3D"600" class=3D"fix-box"><!-- start layout-4 co=
+ntainer width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" bgcolor=3D"#212121" style=3D"background-col=
+or:#212121;border-left:1px solid #303439;border-right:1px solid #303439">
+<tr align=3D"center">
+<td align=3D"center"><!-- start layout-4 container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width"><!--start space height -->
+<tr align=3D"center">
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --><!-- start image content -->
+<tr align=3D"center">
+<td width=3D"100%"><!-- start content left -->
+<table width=3D"255" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"left" class=3D"full-width">
+<tr align=3D"center">
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"left">
+<tr align=3D"center">
+<td align=3D"left" bgcolor=3D"#E2E2E2"><a href=3D
+"http://go.nvidianews.com/ViFE200E4e0N000O6UJilM0" target=3D"_blank"
+><img class=3D"image-100-percent" src=3D"http://images.nvidia.com/newslette=
+rs/images/gf-nov-2015/Story3_Prizes-All.png" width=3D"255" alt=3D"FALLOUT=
+=C2=AE 4 RADIATION CHECK CONTEST" title=3D"FALLOUT=C2=AE 4 RADIATION CHECK =
+CONTEST" style=3D"display:block; max-width:255px;" border=3D"0" hspace=3D"0=
+" vspace=3D"0"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --></table>
+<!-- end content left --><!-- start space width -->
+<table class=3D"remove" width=3D"1" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"left" style=3D"font-size:0;line-height:0;border-collapse=
+:collapse;">
+<tr align=3D"center">
+<td width=3D"0" height=3D"2" style=3D"font-size:0;line-height:0;border-coll=
+apse:collapse;">
+<p style=3D"padding-left:30px;">&nbsp;</p>
+</td>
+</tr>
+</table>
+<!-- end space width --><!-- start content left -->
+<table width=3D"255" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"right" class=3D"full-width"><!-- start text content -->
+<tr align=3D"center">
+<td>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">
+<tr align=3D"center">
+<td style=3D"font-size:18px;line-height:20px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;text-align:left;color:#76b900;font-weight:bold;" cla=
+ss=3D"text-center"><span class=3D"text-center" style=3D"font-size:18px;line=
+-height:20px;font-family:Trebuchet MS,Tahoma,Helvetica,sans-serif;text-alig=
+n:left;color:#76b900;font-weight:bold;"><em>FALLOUT=C2=AE</em> 4 RADIATION =
+CHECK CONTEST</span></td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"15"></td>
+</tr>
+<!--end space height -->
+<tr align=3D"center">
+<td style=3D"font-size:13px;line-height:17px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;color:#bdbdbd;text-align:left" class=3D"text-center"=
+>Share your best radiation check pictures for chances to win NVIDIA and <em=
+>Fallout</em>=C2=AE <em>4</em> prizes.</td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"15"></td>
+</tr>
+<!--end space height --></table>
+</td>
+</tr>
+<!-- end text content --><!--start space height -->
+<tr align=3D"center">
+<td width=3D"auto"><!-- start button -->
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"btn">
+<tr>
+<td width=3D"auto" align=3D"center" valign=3D"middle" height=3D"40" style=
+=3D" background-color:#212121; border:2px solid rgb(118, 185, 0); backgroun=
+d-clip: padding-box;font-size:13px; font-family: Trebuchet MS,Tahoma, Helve=
+tica, sans-serif; text-align:center; color:#ffffff; font-weight: bold;paddi=
+ng-left:10px; padding-right:10px;"><span style=3D"color: #ffffff; font-weig=
+ht: bold; text-transform:uppercase;"><a href=3D
+"http://go.nvidianews.com/ViFE200E4e0N000O6UJilM0" target=3D"_blank" style=
+=3D"text-decoration: none; color: #ffffff; font-weight: bold;display:block;=
+ padding-left:18px; padding-right:18px;padding-top:10px;padding-bottom:10px=
+;"
+>Enter Now</a></span></td>
+</tr>
+</table>
+<!-- end button --></td>
+</tr>
+<tr>
+<td height=3D"30" class=3D"var-height"></td>
+</tr>
+<!--end space height --></table>
+<!-- end content left --></td>
+</tr>
+<!-- end image content --></table>
+<!-- end layout-4 container width 560px --></td>
+</tr>
+</table>
+<!-- end layout-4 container width 600px --></td>
+</tr>
+<!-- END ROW --><!-- START OUTER TOP SPACE -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start outer top space container=
+ width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#000000; border-t=
+op:1px solid rgb(48, 52, 57);"><!--start space height -->
+<tr>
+<td height=3D"5"></td>
+</tr>
+<!--end space height --></table>
+<!-- end outer top space container width 600px --></td>
+</tr>
+<!-- END OUTER TOP SPACE --><!-- START OUTER BOTTOM SPACE -->
+<tr>
+<td align=3D"center" class=3D"fix-box"><!-- start outer bottom space contai=
+ner width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"background-color:#000000; border-b=
+ottom:1px solid rgb(48, 52, 57);"><!--start space height -->
+<tr>
+<td height=3D"5"></td>
+</tr>
+<!--end space height --></table>
+<!-- end outer bottom space container width 600px --></td>
+</tr>
+<!-- END OUTER BOTTOM SPACE -->
+<tr align=3D"center">
+<td align=3D"center" width=3D"600" class=3D"fix-box"><!-- start social icon=
+ block container width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"border-left:1px solid #303439;bord=
+er-right:1px solid #303439;background-color:#0e0e0e;border-top:2px solid #7=
+6b900;"><!--start space height -->
+<tr align=3D"center">
+<td height=3D"25"></td>
+</tr>
+<!--end space height -->
+<tr align=3D"center">
+<td><!-- start logo footer and address -->
+<table width=3D"100%" align=3D"center" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr align=3D"center">
+<td style=3D"font-size: 11px;line-height: 14px;font-family:Trebuchet MS,Tah=
+oma,Helvetica,sans-serif;text-align:center;color:#76b900;font-weight:bold;t=
+ext-transform:uppercase;">FOLLOW US</td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"5"></td>
+</tr>
+<!--end space height -->
+<tr align=3D"center">
+<td align=3D"center"><!--start icon socail navigation -->
+<table border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container">
+<tr align=3D"center">
+<td align=3D"left">
+<table border=3D"0" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"container">
+<tr align=3D"center">
+<td height=3D"25" align=3D"center" valign=3D"middle" class=3D"clear-padding=
+"><a href=3D
+"http://go.nvidianews.com/XE60iFF2M000N4UiJ00eOm0" target=3D"_blank"
+><img src=3D"http://info.nvidianews.com/rs/nvidia/images/nv-social_icons-ga=
+ming-fb.png" width=3D"25" alt=3D"Facebook" style=3D"max-width:25px;" border=
+=3D"0" hspace=3D"0" vspace=3D"0"></a></td>
+<td style=3D"padding-left:10px;" height=3D"25" align=3D"center" valign=3D"m=
+iddle" class=3D"clear-padding"><a href=3D
+"http://go.nvidianews.com/kO2G60M004i00FEJie0nU0N" target=3D"_blank"
+><img src=3D"http://info.nvidianews.com/rs/nvidia/images/nv-social_icons-ga=
+ming-tw.png" width=3D"25" alt=3D"Twitter" style=3D"max-width:25px;" border=
+=3D"0" hspace=3D"0" vspace=3D"0"></a></td>
+<td style=3D"padding-left:10px;" height=3D"25" align=3D"center" valign=3D"m=
+iddle" class=3D"clear-padding"><a href=3D
+"http://go.nvidianews.com/HO0000J0MiHi4NU26eF00oE" target=3D"_blank"
+><img src=3D"http://info.nvidianews.com/rs/nvidia/images/nv-social_icons-ga=
+ming-in.png" width=3D"25" alt=3D"Instagram" style=3D"max-width:25px;" borde=
+r=3D"0" hspace=3D"0" vspace=3D"0"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--end icon socail navigation --></td>
+</tr>
+</table>
+<!-- end logo footer and address --></td>
+</tr>
+<!--start space height -->
+<tr align=3D"center">
+<td height=3D"10"></td>
+</tr>
+<!--end space height --></table>
+<!-- end social icon block --></td>
+</tr>
+<!-- END SOCIAL ICON BLOCK -->
+<tr align=3D"center">
+<td align=3D"center" width=3D"600" class=3D"fix-box"><!-- start footer bloc=
+k container width 600px -->
+<table width=3D"600" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"container" style=3D"border-left:1px solid #303439;bord=
+er-right:1px solid #303439;border-bottom:1px solid #303439;background-color=
+:#0e0e0e;">
+<tr align=3D"center">
+<td align=3D"center"><!-- start footer block container width 560px -->
+<table width=3D"540" align=3D"center" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"full-width"><!--start space height -->
+<tr align=3D"center">
+<td height=3D"10"></td>
+</tr>
+<!--end space height --><!-- start text content -->
+<tr align=3D"center">
+<td>
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center">
+<tr align=3D"center">
+<td style=3D"font-size:11px;line-height:14px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;color:#949494;text-align:center"><a href=3D
+"http://go.nvidianews.com/tENi0J24Oi06I00MFU000ep" style=3D"text-decoration=
+:underline;color:#949494;font-weight:normal;"
+>Manage My Preferences</a> | <a href=3D
+"http://go.nvidianews.com/dc/aOK7riEJHTpdGg1qEVs-7lux9-CrSvBufSq2zR8wDmcXk2=
+jAYQ5PaXlCE2zggScJCBZMOSm1br2dkBLO4jOfP3r2rD_SsnAXrOpmbUi-S6-ica8eoDfBqtJOr=
+wOAoXDMVjZcZIlJXQ_Gr3uuggGPuQ=3D=3D/iJ4O0MFeiq600E020iJ0N0U" style=3D"text-=
+decoration:underline;color:#949494;font-weight:normal;"
+>Unsubscribe</a></td>
+</tr>
+<!--start space height -->
+<tr>
+<td height=3D"10"></td>
+</tr>
+<!--end space height -->
+<tr>
+<td style=3D"font-size:11px;line-height:14px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;color:#949494;text-align:center;">&#169; 2015 NVIDIA=
+ Corporation. All rights reserved.</td>
+</tr>
+<!--start space height -->
+<tr>
+<td height=3D"5"></td>
+</tr>
+<!--end space height -->
+<tr>
+<td style=3D"font-size:11px;line-height:14px;font-family:Trebuchet MS,Tahom=
+a,Helvetica,sans-serif;color:#949494;text-align:center;">NVIDIA Corporation=
+, 2701 San Tomas Expressway, Santa Clara, CA 95050.</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- end text content --><!--start space height -->
+<tr align=3D"center">
+<td height=3D"30"></td>
+</tr>
+<!--end space height --></table>
+<!-- end footer block container width 560px --></td>
+</tr>
+</table>
+<!-- end footer block container width 600px --></td>
+</tr>
+<!-- END FOOTER BLOCK --><!-- START HEIGHT SPACE 20PX-->
+<tr>
+<td align=3D"center">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td height=3D"20"><img src=3D"http://www.nvidia.co.uk/content/EMEAI/newslet=
+ters/marketo/images/space.png" width=3D"20" alt=3D"space" style=3D"display:=
+block; max-height:20px; max-width:20px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- END HEIGHT SPACE 20PX--></table>
+</div>
+<!-- end 100% wrapper (white background) -->
+<img src=3D"http://go.nvidianews.com/trk?t=3D1&mid=3DMTU2LU9GTi03NDI6ODg0OT=
+o0NjMyOjIzNzg3OjA6NjQxMzo3OjQzMDczMTU0Omxvb2tpbm9qaUBnbWFpbC5jb20%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+</body>
+</html>
+------=_Part_310288805_1379895552.1447225482492--
