@@ -1,0 +1,9 @@
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export TERM=rxvt-unicode-256color
+export EDITOR=vim
+export VISUAL=vim
+export BROWSER=chromium
+export ARCHFLAGS="-arch x86_64"
+export ZSH=/usr/lib/.oh-my-zsh
+export DOTFILES=/home/nogz/dotfiles
+export ANTIGEN=/usr/share/.antigen
