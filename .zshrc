@@ -15,7 +15,7 @@ export TZ=America/New_York
 ################################
 # oh-my-zsh stuff              /
 ################################
-ZSH_THEME="rummik"
+ZSH_THEME="powerline"
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 plugins=(archlinux git colorize sudo tmux torrent vundle)
