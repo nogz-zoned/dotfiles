@@ -15,8 +15,8 @@ map <C-n> :NERDTreeToggle<CR>
 
 " PERSISTANT UNDO
 if has('persistent_undo')
-  silent !mkdir ~/.vim/backups > /dev/null 2>&1
-  set undodir=~/.vim/backups
+  silent !mkdir -p ~/.undo > /dev/null 2>&1
+  set undodir=~/.undo
   set undofile
 endif
 
