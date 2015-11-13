@@ -1,160 +1,82 @@
-Xft.lcdfilter                :  lcddefault
-Xft.hintstyle                :  hintslight
-Xft.hinting                  :  1
-Xft.autohint                 :  1
-Xft.antialias                :  1
-Xft.dpi                      :  96
-Xft.rgba                     :  rgb
+!-------------------------------
+! URxvt Configuration          /
+!-------------------------------
 
-Xcursor.theme                :  Vanilla-DMZ-AA
+xft.lcdfilter: 			lcddefault
+xft.dpi: 			96
+xft.rgba: 			rgb
+xft.hintstyle: 			hintslight
+xft.hinting: 			1
+xft.autohint: 			1
+xft.antialias: 			1
 
-URxvt.font                   :  xft:Hack:size=10:autohint=true
-! URxvt.boldFont               :  xft:Hack:bold:pixelsize=12:autohint=true
+urxvt*font: 			xft:Hack:pixelsize=11:autohint=true
+urxvt.letterSpace: 		-1
+urxvt*scrollBar: 		false
+urxvt*perl-ext: 		default,url-select
+urxvt*perl-ext-common: 		default,matcher,clipboard,url-select
+urxvt*url-select.launcher: 	/usr/bin/chromium
+urxvt*url-select.underline: 	true
+urxvt*matcher.button: 		1
+urxvt*matcher.rend.0: 		Uline Bold fg5
+urxvt*loginShell: 		true
+urxvt*urgentOnBell: 		true
+urxvt*cursorBlink: 		true
+urxvt*pointerBlank: 		true
+urxvt*saveLines: 		12000
+urxvt*depth: 			32
 
-URxvt.scrollBar              :  false
-URxvt.buffered               :  true 
-URxvt.perl-ext-common        :  default,tabbedex
-URxvt.tabbed.tabbar-fg       :  8
-URxvt.tabbed.tabbar-bg       :  0
-URxvt.tabbed.tab-fg          :  15
-URxvt.tabbed.tab-bg          :  0
-URxvt.tabbed.autohide        :  true
-URXvt.tabbed.reopen-on-close :  yes
+!-------------------------------
+! Tabs                         /
+!-------------------------------
+urxvt.tabbed.tabbar-fg: 	8
+urxvt.tabbed.tabbar-bg: 	0
+urxvt.tabbed.tab-fg: 		15
+urxvt.tabbed.tab-bg: 		0
+urxvt.tabbed.autohide: 		true
 
-URxvt*perl-ext-common 	     :  default,matcher,clipboard,url-select
-URxvt.perl-ext               :  default,url-select
-URxvt.keysym.C-i             :  perl:url-select:select_next
-URxvt.url-select.launcher    :  /usr/bin/chromium
-URxvt*matcher.button 	     :  1
-URxvt.url-select.underline   :  true
-URxvt*matcher.rend.0  	     :  Uline Bold fg5
-!URxvt.colorUL               :  #78A4FF
-! URxvt*termName 		     :  xterm-256
-URxvt*geometry 		     :  80x20 
-! URxvt*chdir:                          string
-! URxvt*reverseVideo:                   boolean
-URxvt*loginShell 	     :  tue
-! URxvt*multiClickTime:                 number
-! URxvt*jumpScroll:                     boolean
-! URxvt*skipScroll:                     boolean
-! URxvt*pastableTabs:                   boolean
-! URxvt*scrollstyle:                    mode
-! URxvt*scrollBar:                      boolean
-! URxvt*scrollBar_right:                boolean
-! URxvt*scrollBar_floating:             boolean
-! URxvt*scrollBar_align:                mode
-! URxvt*thickness:                      number
-! URxvt*scrollTtyOutput:                boolean
-! URxvt*scrollTtyKeypress:              boolean
-! URxvt*scrollWithBuffer:               boolean
-! URxvt*inheritPixmap:                  boolean
-! URxvt*transparent 	     :  true
-! URxvt*tintColor:                      color
-! URxvt*shading 		     :  20
-! URxvt*blurRadius:                     HxV
-! URxvt*fading:                         number
-! URxvt*fadeColor:                      color
-! URxvt*utmpInhibit:                    boolean
-URxvt.urgentOnBell  	     :  true
-! URxvt*visualBell:                     boolean
-! URxvt*mapAlert:                       boolean
-! URxvt*meta8:                          boolean
-! URxvt*mouseWheelScrollPage:           boolean
-! URxvt*tripleclickwords:               boolean
-! URxvt*insecure:                       boolean
-! URxvt*cursorUnderline:                boolean
-URxvt*cursorBlink 	     :  true
-URxvt*pointerBlank 	     :  true 
-URxvt*background 	     :  [95]#1d1f21                     
-URxvt*foreground  	     :  #c5c8c6                   
-URxvt*color0                 :  #262a2e
-URxvt*color1   		     :  #a54242
-URxvt*color2 		     :  #8c9440
-URxvt*color3 		     :  #de935f
-URxvt*color4 		     :  #5f819d
-URxvt*color5 		     :  #85678f
-URxvt*color6 		     :  #5e8d87
-URxvt*color7 		     :  #707880
-URxvt*color8 		     :  #373b41
-URxvt*color9 		     :  #cc6666
-URxvt*color10 		     :  #b5bd68
-URxvt*color11 		     :  #f0c674
-URxvt*color12 		     :  #81a2be
-URxvt*color13 		     :  #b294bb
-URxvt*color14 		     :  #8abeb7
-URxvt*color15 		     :  #c5c8c6
-URxvt*colorBD 		     :  #d7d7d7
-URxvt*colorIT 		     :  #87af5f
-URxvt*colorUL 		     :  #87afd7
-! URxvt*colorRV:                        color
-! URxvt*underlineColor:                 color
-! URxvt*scrollColor:                    color
-! URxvt*troughColor:                    color
-! URxvt*highlightColor:                 color
-! URxvt*highlightTextColor:             color
-! URxvt*cursorColor:                    color
-! URxvt*cursorColor2:                   color
-! URxvt*pointerColor:                   color
-! URxvt*pointerColor2:                  color
-! URxvt*borderColor:                    color
-! URxvt*iconFile:                       file
-! URxvt*italicFont:                     fontname
-! URxvt*boldItalicFont:                 fontname
-! URxvt*intensityStyles:                boolean
-! URxvt*inputMethod:                    name
-! URxvt*preeditType:                    style
-! URxvt*imLocale:                       string
-! URxvt*imFont:                         fontname
-! URxvt*title:                          string
-! URxvt*iconName:                       string
-URxvt*saveLines 	     :  12000
-! URxvt*buffered:                       boolean
-URxvt*depth 		     :  32
-! URxvt*visual:                         number
-! URxvt*transient-for:                  windowid
-! URxvt*override-redirect:              boolean
-! URxvt*hold:                           boolean
-! URxvt*externalBorder:                 number
-! URxvt*internalBorder:                 number
-! URxvt*borderLess:                     boolean
-! URxvt*lineSpace:                      number
-URxvt*letterSpace 	     :  -1
-! URxvt*skipBuiltinGlyphs:              boolean
-! URxvt*pointerBlankDelay:              number
-! URxvt*backspacekey:                   string
-! URxvt*deletekey:                      string
-! URxvt*print-pipe:                     string
-! URxvt*modifier:                       modifier
-! URxvt*cutchars:                       string
-! URxvt*answerbackString:               string
-! URxvt*secondaryScreen:                boolean
-! URxvt*secondaryScroll:                boolean
-! URxvt*perl-lib:                       string
-! URxvt*perl-eval:                      perl-eval
-! URxvt*perl-ext-common:                string
-! URxvt*perl-ext:                       string
-! URxvt*iso14755:                       boolean
-! URxvt*iso14755_52:                    boolean
-! URxvt*xrm:                            string
-! URxvt*keysym.sym:                     keysym
-! URxvt*background.border:              boolean
-! URxvt*background.expr:                string
-! URxvt*background.interval:            seconds
-! URxvt*bell-command:                   string
-! URxvt*kuake.hotkey:                   string
-! URxvt*matcher.launcher:               string
-! URxvt*matcher.launcher.*:             string
-! URxvt*matcher.pattern.*:              string
-! URxvt*matcher.rend.*:                 string
-! URxvt*remote-clipboard.fetch:         string
-! URxvt*remote-clipboard.store:         string
-! URxvt*searchable-scrollback:          string
-! URxvt*selection-autotransform.*:      string
-! URxvt*selection-pastebin.cmd:         string
-! URxvt*selection-pastebin.url:         string
-! URxvt*selection.pattern-0:            string
-! URxvt*tab-bg:                         colour
-! URxvt*tab-fg:                         colour
-! URxvt*tabbar-bg:                      colour
-! URxvt*tabbar-fg:                      colour
-! URxvt*url-launcher:                   string
+!-------------------------------
+! Colors                       /
+!-------------------------------
+
+#define t_background            #1d1f21
+#define t_current_line          #282a2e
+#define t_selection             #373b41
+#define t_foreground            #c5c8c6
+#define t_comment               #969896
+#define t_red                   #cc6666
+#define t_orange                #de935f
+#define t_yellow                #f0c674
+#define t_green                 #b5bd68
+#define t_aqua                  #8abeb7
+#define t_blue                  #81a2be
+#define t_purple                #b294bb
+
+*.foreground:                   t_foreground
+*.background:                   t_background
+*.cursorColor:                  #aeafad
+
+! Black / Grey
+*.color0:                       #000000
+*.color8:                       #666666
+! Red / Bright Red
+*.color1:                       t_red
+*.color9:                       #FF3334
+! Green + Bright Green
+*.color2:                       t_green
+*.color10:                      #9ec400
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:                       t_orange
+*.color11:                      t_yellow
+! Blue + Bright Blue
+*.color4:                       t_blue
+*.color12:                      t_blue
+! Magenta (Purple) + Bright Magenta
+*.color5:                       t_purple
+*.color13:                      #b777e0
+! Cyan (Aqua) + Bright Cyan
+*.color6:                       t_aqua
+*.color14:                      #54ced6
+! Light Grey (Selection) + White (Current Line)
+*.color7:                       t_selection
+*.color15:                      t_current_line
