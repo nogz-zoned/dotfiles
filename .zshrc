@@ -1,6 +1,7 @@
-################################
+#-------------------------------
 # export                       /
-################################
+#-------------------------------
+
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
 export TERM="xterm-256color"
 export EDITOR=vim
@@ -12,31 +13,35 @@ export ANTIGEN=~/.antigen
 export TZ=America/New_York
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-################################
+#-------------------------------
 # sources                      /
-################################
+#-------------------------------
+
 #source $DOTFILES/aliases.zsh
 source $ANTIGEN/antigen.zsh
 
-################################
+#-------------------------------
 # autocompletion               /
-################################
+#-------------------------------
+
 autoload -U compinit
 compinit
 zstyle ':completion:*' menu select
 setopt completealiases
 
-################################
+#-------------------------------
 # other things                 /
-################################
+#-------------------------------
+
 #[ "$DISPLAY" ] && xset b 100
 #[[ $- != *i* ]] && return
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 
-################################
+#-------------------------------
 # antigen                      /
-################################
+#-------------------------------
+
 antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
@@ -56,11 +61,12 @@ antigen theme agnoster
 
 antigen apply
 
-################################
+#-------------------------------
 # functions                    /
-################################
+#-------------------------------
 
-################################
+#-------------------------------
 # aliases                      /
-################################
+#-------------------------------
+
 alias weec="screen weechat-curses"
