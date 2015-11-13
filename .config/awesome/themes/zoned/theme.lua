@@ -1,4 +1,3 @@
-
 --[[
                                    
      Dremora Awesome WM dir 2.0 
@@ -9,7 +8,8 @@
 theme                               = {}
 
 theme.dir                           = os.getenv("HOME") .. "/.config/awesome/themes/zoned"
-theme.wallpaper                     = theme.dir .. "/calvin.png"
+theme.wallpaperdir 		    = os.getenv("HOME") .. "/.config/awesome/wallpaper"
+theme.wallpaper                     = theme.wallpaperdir .. "/archos.png"
 
 theme.font                          = "Hack 9"
 theme.taglist_font                  = "Hack 10"
