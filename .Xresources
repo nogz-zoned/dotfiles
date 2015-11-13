@@ -8,8 +8,8 @@ Xft.rgba                     :  rgb
 
 Xcursor.theme                :  Vanilla-DMZ-AA
 
-URxvt.font                   :  xft:Hack:pixelsize=10.5:autohint=true
-URxvt.boldFont               :  xft:Hack:bold:pixelsize=10.5:autohint=true
+URxvt.font                   :  xft:Hack:size=10:autohint=true
+! URxvt.boldFont               :  xft:Hack:bold:pixelsize=12:autohint=true
 
 URxvt.scrollBar              :  false
 URxvt.buffered               :  true 

@@ -2,31 +2,21 @@
 # export                       /
 ################################
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
-export TERM="rxvt-unicode-256color"
+export TERM="xterm-256color"
 export EDITOR=vim
 export VISUAL=vim
 export BROWSER=chromium
 export ARCHFLAGS="-arch x86_64"
-export ZSH=/usr/lib/.oh-my-zsh
-#export DOTFILES=/home/nogz/dotfiles
-export ANTIGEN=/usr/share/.antigen
+export DOTFILES=/home/nogz/dotfiles
+export ANTIGEN=~/.antigen
 export TZ=America/New_York
-
-################################
-# oh-my-zsh stuff              /
-################################
-ZSH_THEME="powerline"
-HYPHEN_INSENSITIVE="true"
-ENABLE_CORRECTION="true"
-plugins=(archlinux git colorize sudo tmux torrent vundle)
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 ################################
 # sources                      /
 ################################
 #source $DOTFILES/aliases.zsh
-source $ZSH/oh-my-zsh.sh
 source $ANTIGEN/antigen.zsh
-source /usr/share/doc/pkgfile/command-not-found.zsh
 
 ################################
 # autocompletion               /
@@ -39,28 +29,38 @@ setopt completealiases
 ################################
 # other things                 /
 ################################
-[ "$DISPLAY" ] && xset b 100
-[[ $- != *i* ]] && return
+#[ "$DISPLAY" ] && xset b 100
+#[[ $- != *i* ]] && return
+HYPHEN_INSENSITIVE="true"
+ENABLE_CORRECTION="true"
+
+################################
+# antigen                      /
+################################
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+	robbyrussell/oh-my-zsh plugins/archlinux
+	robbyrussell/oh-my-zsh plugins/git
+	robbyrussell/oh-my-zsh plugins/colorize
+	robbyrussell/oh-my-zsh plugins/sudo
+	robbyrussell/oh-my-zsh plugins/vundle
+	robbyrussell/oh-my-zsh plugins/command-not-found
+	robbyrussell/oh-my-zsh plugins/colored-man-pages
+	robbyrussell/oh-my-zsh plugins/autojump
+	zsh-users/zsh-syntax-highlighting
+EOBUNDLES
+
+antigen theme agnoster 
+#antigen theme https://gist.github.com/3712874.git agnoster
+
+antigen apply
 
 ################################
 # functions                    /
 ################################
-man() {
-	local width=$(tput cols)
-	[ $width -gt $MANWIDTH ] && width = $MANWIDTH
-	env MANWIDTH=$width \
-		LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-		LESS_TERMCAP_md=$(printf "\e[1;31m") \
-		LESS_TERMCAP_me=$(printf "\e[0m") \
-		LESS_TERMCAP_se=$(printf "\e[0m") \
-		LESS_TERMCAP_so=$(printf "\e[1;40;33m") \
-		LESS_TERMCAP_ue=$(printf "\e[0m") \
-		LESS_TERMCAP_us=$(printf "\e[1;32m") \
-	man "$@"
-}
 
+################################
+# aliases                      /
+################################
 alias weec="screen weechat-curses"
-
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
