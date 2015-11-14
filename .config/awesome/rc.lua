@@ -77,6 +77,9 @@ graphics   = "gimp"
 mail       = terminal .. " -e mutt "
 musicplr   = terminal .. " -g 130x34-320+16 -e ncmpcpp "
 htop 	   = terminal .. " -e htop "
+rofi_run   = "rofi -show run"
+rofi_win   = "rofi -show window"
+rofi_com   = "rofi -show combi"
 
 local layouts = {
     lain.layout.uselessfair,
@@ -517,10 +520,10 @@ globalkeys = awful.util.table.join(globalkeys,
         end),
 
     -- Show Menu
-    awful.key({ key }, "w",
-        function ()
-            mymainmenu:show({ keygrabber = true })
-        end),
+    -- awful.key({ key }, "w",
+    --    function ()
+    --        mymainmenu:show({ keygrabber = true })
+    --    end),
 
     -- Show/Hide Wibox
     awful.key({ key }, "b", function ()
@@ -619,7 +622,9 @@ globalkeys = awful.util.table.join(globalkeys,
     --awful.key({ key }, "y", function () awful.util.spawn(musicplr) end),
 
     -- Prompt
-    awful.key({ key }, "r", function () mypromptbox[mouse.screen]:run() end),
+    --awful.key({ key }, "r", function () mypromptbox[mouse.screen]:run() end),
+    awful.key({ key }, "r", function () awful.util.spawn(rofi_com) end),
+    awful.key({ key }, "w", function () awful.util.spawn(rofi_win) end),
     awful.key({ key }, "x",
               function ()
                   awful.prompt.run({ prompt = "Run Lua code: " },
@@ -716,7 +721,7 @@ awful.rules.rules = {
                      buttons = clientbuttons,
 	                   size_hints_honor = false } },
     { rule = { class = "URxvt" },
-          properties = { opacity = 0.99 } },
+          properties = { opacity = 0.95 } },
 
     { rule = { class = "MPlayer" },
           properties = { floating = true } },
@@ -751,12 +756,8 @@ awful.rules.rules = {
     --{ rule = { class = "chromium" },
     --      properties = { tag = tags[2][1]} },
 
-    { rule = { class = "chat" },
-       	  properties = { tag = tags[2][6]} },
-
-    { rule = { class = "Battle.net" },
-    	  properties = { tag = tags[1][2]},
-	  properties = { floating = true} },
+    { rule = { class = "Rofi" },
+    	  properties = { opacity = 0.95}},
 }
 -- }}}
 

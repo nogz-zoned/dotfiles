@@ -44,7 +44,7 @@ urxvt.tabbed.autohide: 		true
 #define t_background            #2f343f
 #define t_current_line          #282a2e
 #define t_selection             #373b41
-#define t_foreground            #c5c8c6
+#define t_foreground            #ffffff
 #define t_comment               #969896
 #define t_red                   #cc6666
 #define t_orange                #de935f
@@ -82,3 +82,17 @@ urxvt.tabbed.autohide: 		true
 ! Light Grey (Selection) + White (Current Line)
 *.color7:                       t_selection
 *.color15:                      t_current_line
+
+!-------------------------------
+! Rofi Settings                /
+!-------------------------------
+rofi.modi: 			combi	
+rofi.font: 			Hack 9 
+rofi.bg: 			t_background
+rofi.fg: 			t_foreground
+rofi.hlbg: 			#5294e2 	 		
+rofi.bg-urgent:			#2a1f1e
+rofi.fg-urgent: 		#cc9393
+!rofi.bc: 			#5294e2
+!rofi.sidebar-mode: 		true
+rofi.combi-modi: 		window,run
