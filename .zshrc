@@ -2,7 +2,8 @@
 # export                       /
 #-------------------------------
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH=$PATH:~/bin
 export TERM="xterm-256color"
 export EDITOR=vim
 export VISUAL=vim

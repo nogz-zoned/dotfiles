@@ -90,7 +90,7 @@ local layouts = {
 -- {{{ Tags
 tags = {
    names = { "www", "games", "term", "media", "img", "chat", "vbox", "extra" },
-   layout = { layouts[1], layouts[3], layouts[4], layouts[4], layouts[5], layouts[4], layouts[5], layouts[1] }
+   layout = { layouts[1], layouts[3], layouts[4], layouts[4], layouts[6], layouts[5], layouts[6], layouts[1] }
 }
 for s = 1, screen.count() do
 -- Each screen has its own tag table.
@@ -750,9 +750,6 @@ awful.rules.rules = {
 
     --{ rule = { class = "chromium" },
     --      properties = { tag = tags[2][1]} },
-
-    { rule = { class = "chat" },
-       	  properties = { tag = tags[2][6]} },
 }
 -- }}}
 
