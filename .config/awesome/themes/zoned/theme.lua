@@ -86,6 +86,7 @@ theme.tasklist_maximized_vertical   = ""
 -- lain related
 theme.useless_gap_width             = 10
 theme.layout_termfair 		    = theme.dir .. "/icons/layout/fairv.png"
+theme.layout_uselessfair 	    = theme.dir .. "/icons/layout/fairv.png"
 theme.layout_uselesstile            = theme.dir .. "/icons/layout/uselesstile.png"
 theme.layout_centerwork 	    = theme.dir .. "/icons/layout/centerworkw.png"
 theme.layout_uselesstileleft        = theme.dir .. "/icons/layout/uselesstileleft.png"
