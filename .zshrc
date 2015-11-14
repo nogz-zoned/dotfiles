@@ -7,7 +7,6 @@ export PATH=$PATH:~/bin
 export TERM="xterm-256color"
 export EDITOR=vim
 export VISUAL=vim
-export BROWSER=chromium
 export ARCHFLAGS="-arch x86_64"
 #export DOTFILES=/home/nogz/dotfiles
 export ANTIGEN=~/.antigen

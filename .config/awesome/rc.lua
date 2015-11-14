@@ -79,7 +79,7 @@ musicplr   = terminal .. " -g 130x34-320+16 -e ncmpcpp "
 htop 	   = terminal .. " -e htop "
 
 local layouts = {
-    lain.layout.uselesspiral,
+    lain.layout.termfair,
     lain.layout.uselesstile,
     lain.layout.uselesstile.left,
     lain.layout.uselesstile.top,
@@ -89,7 +89,7 @@ local layouts = {
 
 -- {{{ Tags
 tags = {
-   names = { "www", "games", "term", "media", "img", "chat", "vbox", "extra" },
+   names = { "www ", "games ", "term ", "media ", "img ", "chat ", "vbox ", "extra " },
    layout = { layouts[1], layouts[3], layouts[4], layouts[4], layouts[5], layouts[4], layouts[5], layouts[1] }
 }
 for s = 1, screen.count() do
@@ -124,7 +124,7 @@ markup      = lain.util.markup
 
 -- Textclock
 clockicon = wibox.widget.imagebox(beautiful.widget_clock)
---mytextclock = awful.widget.textclock(markup("#d3d3d3", "%A %d %B ") .. markup("#d3d3d3", ">") .. markup("#d3d3d3", " %H:%M "))
+--mytextclock = awful.widget.textclock(markup("#ffffff", "%A %d %B ") .. markup("#ffffff", ">") .. markup("#ffffff", " %H:%M "))
 mytextclock = lain.widgets.abase({
     timeout  = 60,
     cmd      = "date +'%A %d %B %R'",
@@ -134,7 +134,7 @@ mytextclock = lain.widgets.abase({
 
         for i=1,3 do t_output = t_output .. " " .. o_it(i) end
 
-        widget:set_markup(markup("#d3d3d3", t_output) .. markup("#d3d3d3", " ") .. markup("#d3d3d3", o_it(1)) .. " ")
+        widget:set_markup(markup("#ffffff", t_output) .. markup("#ffffff", " ") .. markup("#ffffff", o_it(1)) .. " ")
     end
 })
 
@@ -149,7 +149,7 @@ myweather = lain.widgets.weather({
     settings = function()
         descr = weather_now["weather"][1]["description"]:lower()
         units = math.floor(weather_now["main"]["temp"])
-        widget:set_markup(markup("#d3d3d3", descr .. ", " .. units .. "°F "))
+        widget:set_markup(markup("#ffffff", descr .. ", " .. units .. "°F "))
     end
 })
 
@@ -157,7 +157,7 @@ myweather = lain.widgets.weather({
 fsicon = wibox.widget.imagebox(beautiful.widget_fs)
 fswidget = lain.widgets.fs({
     settings  = function()
-        widget:set_markup(markup("#d3d3d3", fs_now.used .. "% "))
+        widget:set_markup(markup("#ffffff", fs_now.used .. "% "))
     end
 })
 
@@ -186,7 +186,7 @@ cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = lain.widgets.cpu({
     settings = function()
-        widget:set_markup(markup("#d3d3d3", cpu_now.usage .. "% "))
+        widget:set_markup(markup("#ffffff", cpu_now.usage .. "% "))
     end
 })
 
@@ -194,7 +194,7 @@ cpuwidget = lain.widgets.cpu({
 tempicon = wibox.widget.imagebox(beautiful.widget_temp)
 tempwidget = lain.widgets.temp({
     settings = function()
-        widget:set_markup(markup("#d3d3d3", coretemp_now .. "°C "))
+        widget:set_markup(markup("#ffffff", coretemp_now .. "°C "))
     end
 })
 
@@ -225,7 +225,7 @@ volumewidget = lain.widgets.alsa({
 		volicon:set_image(beautiful.widget_vol)
 		end
 
-		widget:set_markup(markup("#d3d3d3", volume_now.level .. "% "))
+		widget:set_markup(markup("#ffffff", volume_now.level .. "% "))
 	end
 })
 
@@ -243,8 +243,8 @@ netupinfo = lain.widgets.net({
             myweather.update()
         end
 
-        widget:set_markup(markup("#d3d3d3", net_now.sent .. " "))
-        netdowninfo:set_markup(markup("#d3d3d3", net_now.received .. " "))
+        widget:set_markup(markup("#ffffff", net_now.sent .. " "))
+        netdowninfo:set_markup(markup("#ffffff", net_now.received .. " "))
     end
 })
 
@@ -252,7 +252,7 @@ netupinfo = lain.widgets.net({
 memicon = wibox.widget.imagebox(beautiful.widget_mem)
 memwidget = lain.widgets.mem({
     settings = function()
-        widget:set_markup(markup("#d3d3d3", mem_now.used .. "M "))
+        widget:set_markup(markup("#ffffff", mem_now.used .. "M "))
     end
 })
 
@@ -279,7 +279,7 @@ mpdwidget = lain.widgets.mpd({
             title  = ""
             mpdicon:set_image(nil)
         end
-        widget:set_markup(markup("#e54c62", artist) .. markup("#d3d3d3", title))
+        widget:set_markup(markup("#5294e2", artist) .. markup("#ffffff", title))
     end
 })
 
@@ -293,7 +293,7 @@ uptimeicon = wibox.widget.imagebox(beautiful.widget_uptime)
 uptimewidget = wibox.widget.textbox()
 vicious.register(uptimewidget, vicious.widgets.uptime, 
 	function (widget, args)
-		return string.format("<span color='#d3d3d3'>%2dd %02d:%02d </span>",args[1], args[2], args[3])
+		return string.format("<span color='#ffffff'>%2dd %02d:%02d </span>",args[1], args[2], args[3])
 	end, 1)
 -- }}}
 
@@ -301,8 +301,8 @@ vicious.register(uptimewidget, vicious.widgets.uptime,
 pkgicon = wibox.widget.imagebox(beautiful.widget_pkg)
 pkgwidget = wibox.widget.textbox()
 vicious.register(pkgwidget, vicious.widgets.pkg, function (widget, args )
-		if args [1] == 0 then return "<span color='#d3d3d3'>Up to date!</span>"
-		else return "<span color='#d3d3d3'>" .. args[1] .. " new pkg(s) </span>"
+		if args [1] == 0 then return "<span color='#ffffff'>Up to date!</span>"
+		else return "<span color='#ffffff'>" .. args[1] .. " new pkg(s) </span>"
 		end
 	end,3600,"Arch")
 
@@ -753,6 +753,10 @@ awful.rules.rules = {
 
     { rule = { class = "chat" },
        	  properties = { tag = tags[2][6]} },
+
+    { rule = { class = "Battle.net" },
+    	  properties = { tag = tags[1][2]},
+	  properties = { floating = true} },
 }
 -- }}}
 

@@ -25,6 +25,8 @@ set beep_new  		= yes
 set check_new 		= yes
 
 auto_view text/html
+#alternative_order text/plain text/enriched text/html
 
 ## Theme
-source ~/.mutt/themes/colors.default
+source ~/.mutt/themes/default.muttrc
+

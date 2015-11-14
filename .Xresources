@@ -40,7 +40,8 @@ urxvt.tabbed.autohide: 		true
 ! Colors                       /
 !-------------------------------
 
-#define t_background            #1d1f21
+!#define t_background           #1d1f21
+#define t_background            #2f343f
 #define t_current_line          #282a2e
 #define t_selection             #373b41
 #define t_foreground            #c5c8c6

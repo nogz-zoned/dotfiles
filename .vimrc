@@ -20,6 +20,11 @@ if has('persistent_undo')
   set undofile
 endif
 
+" GVIM
+if has('gui running')
+  set guifont=Hack\ 11
+endif
+
 " RUNTIME
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
