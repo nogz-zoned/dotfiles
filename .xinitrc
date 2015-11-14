@@ -9,6 +9,7 @@ fi
 
 xrdb -merge ~/.Xresources
 setxkbmap -option caps:super
+menutray -r -u -i &
 
 # Here awesome is kept as default
 session=${1:-awesome}

@@ -13,6 +13,7 @@ export ARCHFLAGS="-arch x86_64"
 export ANTIGEN=~/.antigen
 export TZ=America/New_York
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export LOGFILE="~/.logs"
 
 #-------------------------------
 # sources                      /
