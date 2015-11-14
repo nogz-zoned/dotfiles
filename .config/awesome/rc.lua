@@ -79,7 +79,7 @@ musicplr   = terminal .. " -g 130x34-320+16 -e ncmpcpp "
 htop 	   = terminal .. " -e htop "
 
 local layouts = {
-    lain.layout.termfair,
+    lain.layout.uselessfair,
     lain.layout.uselesstile,
     lain.layout.uselesstile.left,
     lain.layout.uselesstile.top,
