@@ -90,6 +90,7 @@ theme.layout_uselesstile            = theme.dir .. "/icons/uselesstile.png"
 theme.layout_centerwork 	    = theme.dir .. "/icons/centerworkw.png"
 theme.layout_uselesstileleft        = theme.dir .. "/icons/uselesstileleft.png"
 theme.layout_uselesstiletop         = theme.dir .. "/icons/uselesstiletop.png"
+theme.layout_uselesspiral 	    = theme.dir .. "/icons/spiral.png"
 
 theme.arch_icon 		    = theme.dir .. "/icons/symbol.png"
 

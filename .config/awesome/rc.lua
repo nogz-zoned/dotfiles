@@ -80,7 +80,6 @@ htop 	   = terminal .. " -e htop "
 
 local layouts = {
     lain.layout.uselesspiral,
-    lain.layout.centerwork,
     lain.layout.uselesstile,
     lain.layout.uselesstile.left,
     lain.layout.uselesstile.top,
