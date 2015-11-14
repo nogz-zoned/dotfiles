@@ -474,7 +474,7 @@ root.buttons(awful.util.table.join(
 globalkeys = awful.util.table.join(globalkeys,
     -- Take a screenshot
     -- https://github.com/copycat-killer/dots/blob/master/bin/screenshot
-    awful.key({ altkey }, "p", function() os.execute("screenshot") end),
+    awful.key({ altkey }, "p", function() os.execute("scrot") end),
 
     -- Tag browsing
     awful.key({ key }, "Left",   awful.tag.viewprev       ),

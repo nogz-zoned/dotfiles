@@ -34,8 +34,8 @@ setopt completealiases
 # other things                 /
 #-------------------------------
 
-#[ "$DISPLAY" ] && xset b 100
-#[[ $- != *i* ]] && return
+[ "$DISPLAY" ] && xset b 100
+[[ $- != *i* ]] && return
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 

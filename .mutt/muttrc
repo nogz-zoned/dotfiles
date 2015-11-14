@@ -28,5 +28,4 @@ auto_view text/html
 #alternative_order text/plain text/enriched text/html
 
 ## Theme
-source ~/.mutt/themes/default.muttrc
-
+source ~/.mutt/themes/vombatidae.mutt

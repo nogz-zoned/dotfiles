@@ -2,5 +2,5 @@
 
 urxvt -e eval "$(ssh-agent -s)"
 urxvt -e ssh-add ~/.ssh/id_rsa
-sleep 10
+sleep 5
 urxvt -e ssh -T git@github.com

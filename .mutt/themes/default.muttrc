@@ -67,7 +67,7 @@ color 	quoted6 	red 		default
 color 	quoted7 	green 		default
 
 ## Default color definitions
-#color hdrdefault white green
+color 	hdrdefault 	white 		green
 color 	signature 	brightmagenta 	default
 color 	indicator 	default 	cyan
 color 	attachment 	default 	green
@@ -79,6 +79,7 @@ color 	tree 		brightblue 	default
 color 	normal 		white 		default 
 color 	tilde 		green 		default
 color 	bold 		brightyellow 	default
+
 #color underline magenta default
 color 	markers 	brightcyan 	default
 
@@ -86,3 +87,4 @@ color 	markers 	brightcyan 	default
 mono 	bold 		bold
 mono 	underline 	underline
 mono 	indicator 	reverse
+
