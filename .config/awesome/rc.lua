@@ -54,7 +54,7 @@ end
 run_once("urxvtd")
 run_once("unclutter -root")
 run_once("compton -b &")
-run_once("bitlbee -D &")
+run_once("bitlbee -F -u nogz")
 -- }}}
 
 -- {{{ Variable definitions
@@ -82,6 +82,7 @@ rofi_win   = "rofi -show window"
 rofi_com   = "rofi -show combi"
 
 local layouts = {
+    awful.layout.suit.tile,
     lain.layout.uselessfair,
     lain.layout.uselesstile,
     lain.layout.uselesstile.left,
@@ -93,7 +94,7 @@ local layouts = {
 -- {{{ Tags
 tags = {
    names = { "www ", "games ", "term ", "media ", "img ", "chat ", "vbox ", "extra " },
-   layout = { layouts[1], layouts[3], layouts[4], layouts[4], layouts[5], layouts[4], layouts[5], layouts[1] }
+   layout = { layouts[1], layouts[1], layouts[3], layouts[4], layouts[6], layouts[5], layouts[6], layouts[1] }
 }
 for s = 1, screen.count() do
 -- Each screen has its own tag table.
@@ -264,7 +265,7 @@ mpdicon = wibox.widget.imagebox()
 mpdwidget = lain.widgets.mpd({
     settings = function()
         mpd_notification_preset = {
-	    music_dir = "~/media/music",
+	    music_dir = "~/music",
 	    title = "Now Playing",
             text = string.format("%s [%s] - %s\n%s", mpd_now.artist,
                    mpd_now.album, mpd_now.date, mpd_now.title)
@@ -552,7 +553,7 @@ globalkeys = awful.util.table.join(globalkeys,
     awful.key({ key, "Control" }, "h",      function () awful.tag.incncol( 1)          end),
     awful.key({ key,           }, "space",  function () awful.layout.inc(layouts,  1)  end),
     awful.key({ key, "Shift"   }, "space",  function () awful.layout.inc(layouts, -1)  end),
-    awful.key({ key, "Control" }, "n",      awful.client.restore),
+    awful.key({ key, "Shift"   }, "n",      awful.client.restore),
 
     -- Standard program
     awful.key({ key,           }, "Return", function () awful.util.spawn(terminal) end),
@@ -568,44 +569,44 @@ globalkeys = awful.util.table.join(globalkeys,
     awful.key({ altkey,           }, "w",      function () myweather.show(7) end),
 
     -- ALSA volume control
-    awful.key({ altkey }, "Up",
+    awful.key({ }, "XF86AudioRaiseVolume",
         function ()
             os.execute(string.format("amixer set %s 1%%+", volumewidget.channel))
             volumewidget.update()
         end),
-    awful.key({ altkey }, "Down",
+    awful.key({ }, "XF86AudioLowerVolume",
         function ()
             os.execute(string.format("amixer set %s 1%%-", volumewidget.channel))
             volumewidget.update()
         end),
-    awful.key({ altkey }, "m",
+    awful.key({ }, "XF86AudioMute",
         function ()
             os.execute(string.format("amixer set %s toggle", volumewidget.channel))
             volumewidget.update()
         end),
-    awful.key({ altkey, "Control" }, "m",
-        function ()
-            os.execute(string.format("amixer set %s 100%%", volumewidget.channel))
-            volumewidget.update()
-        end),
+   -- awful.key({ altkey, "Control" }, "m",
+   --     function ()
+   --         os.execute(string.format("amixer set %s 100%%", volumewidget.channel))
+   --         volumewidget.update()
+   --     end),
 
     -- MPD control
-    awful.key({ altkey, "Control" }, "Up",
+    awful.key({ }, "XF86AudioPlay",
         function ()
             awful.util.spawn_with_shell("mpc toggle || ncmpc toggle || pms toggle")
             mpdwidget.update()
         end),
-    awful.key({ altkey, "Control" }, "Down",
+    awful.key({ }, "XF86AudioStop",
         function ()
             awful.util.spawn_with_shell("mpc stop || ncmpc stop || pms stop")
             mpdwidget.update()
         end),
-    awful.key({ altkey, "Control" }, "Left",
+    awful.key({ }, "XF86AudioPrev",
         function ()
             awful.util.spawn_with_shell("mpc prev || ncmpc prev || pms prev")
             mpdwidget.update()
         end),
-    awful.key({ altkey, "Control" }, "Right",
+    awful.key({ }, "XF86AudioNext",
         function ()
             awful.util.spawn_with_shell("mpc next || ncmpc next || pms next")
             mpdwidget.update()

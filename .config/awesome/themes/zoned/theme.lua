@@ -24,6 +24,7 @@ theme.border_normal                 = "#2f343f"
 theme.border_focus                  = "#5294e2"
 theme.titlebar_bg_focus             = "#2f3f3f"
 
+theme.useless_gap 		    = 10
 theme.taglist_fg_focus              = "#ffffff"
 theme.taglist_bg_focus              = "#5294e2"
 theme.menu_height                   = "16"
@@ -59,8 +60,8 @@ theme.widget_vol_no 		    = theme.dir .. "/icons/Volume-No-256.png"
 theme.widget_vol_low 	            = theme.dir .. "/icons/Volume-Low-256.png"
 theme.widget_vol_mute 		    = theme.dir .. "/icons/Volume-Mute-256.png"
 
-theme.taglist_squares_sel           = theme.dir .. "/icons/layout/square_sel.png"
-theme.taglist_squares_unsel         = theme.dir .. "/icons/layout/square_unsel.png"
+--theme.taglist_squares_sel           = theme.dir .. "/icons/layout/square_sel.png"
+--theme.taglist_squares_unsel         = theme.dir .. "/icons/layout/square_unsel.png"
 theme.arrl_lr_pre                   = theme.dir .. "/icons/layout/arrl_lr_pre.png"
 theme.arrl_lr_post                  = theme.dir .. "/icons/layout/arrl_lr_post.png"
 
