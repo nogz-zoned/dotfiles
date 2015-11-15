@@ -402,6 +402,7 @@ for s = 1, screen.count() do
     left_layout:add(mylauncher)
     left_layout:add(mytaglist[s])
     left_layout:add(mypromptbox[s])
+    left_layout:add(spacer)
     left_layout:add(mpdicon)
     left_layout:add(mpdwidget)
 
