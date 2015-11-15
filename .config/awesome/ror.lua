@@ -13,7 +13,7 @@
 
 table5={
    ["e"]={"emacsclient -a emacs -n -c","Emacs"}, 
-   ["v"]={"chromium --app=http://netflix.com","www.netflix.com","instance"}, 
+   ["v"]={"chromium --force-device-scale-factor=1 --app=http://netflix.com","www.netflix.com","instance"}, 
 -- ["g"]={"firefox -new-window 'http://mail.google.com/mail/'","Gmail","name"}, 
    ["f"]={"urxvt -name mcTerm -e mc -d","mcTerm", "instance"}, 
    ["b"]={"urxvt -name rtorrentTerm -e rtorrent","rtorrentTerm","instance"}, 
