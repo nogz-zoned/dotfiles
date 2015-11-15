@@ -11,7 +11,6 @@ local helpers      = require("lain.helpers")
 local async        = require("lain.asyncshell")
 
 local escape_f     = require("awful.util").escape
-local surface 	   = require("gears").surface
 local naughty      = require("naughty")
 local wibox        = require("wibox")
 
@@ -35,7 +34,7 @@ local function worker(args)
     local password    = args.password or ""
     local host        = args.host or "127.0.0.1"
     local port        = args.port or "6600"
-    local music_dir   = args.music_dir or os.getenv("HOME") .. "/media/music"
+    local music_dir   = args.music_dir or os.getenv("HOME") .. "/Music"
     local cover_size  = args.cover_size or 100
     local default_art = args.default_art or ""
     local followmouse = args.followmouse or false
@@ -60,6 +59,7 @@ local function worker(args)
             mpd_now = {
                 state   = "N/A",
                 file    = "N/A",
+                name    = "N/A",
                 artist  = "N/A",
                 title   = "N/A",
                 album   = "N/A",
@@ -72,6 +72,7 @@ local function worker(args)
                 for k, v in string.gmatch(line, "([%w]+):[%s](.*)$") do
                     if     k == "state"   then mpd_now.state   = v
                     elseif k == "file"    then mpd_now.file    = v
+                    elseif k == "Name"    then mpd_now.name    = escape_f(v)
                     elseif k == "Artist"  then mpd_now.artist  = escape_f(v)
                     elseif k == "Title"   then mpd_now.title   = escape_f(v)
                     elseif k == "Album"   then mpd_now.album   = escape_f(v)

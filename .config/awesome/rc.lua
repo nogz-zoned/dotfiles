@@ -265,10 +265,12 @@ mpdicon = wibox.widget.imagebox()
 mpdwidget = lain.widgets.mpd({
     settings = function()
         mpd_notification_preset = {
-	    music_dir = "~/music",
+	    music_dir = "/home/nogz/Music",
 	    title = "Now Playing",
             text = string.format("%s [%s] - %s\n%s", mpd_now.artist,
-                   mpd_now.album, mpd_now.date, mpd_now.title)
+                   mpd_now.album, mpd_now.date, mpd_now.title),
+	    cover_size = 100,
+	    followmouse = false,
         }
 
         if mpd_now.state == "play" then

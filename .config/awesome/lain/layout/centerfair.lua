@@ -64,7 +64,7 @@ function centerfair.arrange(p)
     local num_x = centerfair.nmaster or tag.getnmaster(t)
     local ncol = centerfair.ncol or tag.getncol(t)
     if num_x <= 2 then num_x = 2 end
-    
+
     local width = math.floor((wa.width - (num_x + 1)*useless_gap) / num_x)
 
     if #cls < num_x
